@@ -63,8 +63,11 @@ proc retrieve_changesets {pagenum time1 time2} {
 set t1 0
 set t2 [clock seconds]
 
+set safety 10;			# Safety counter; never retrieve more than
+;				# this many pages of changesets
+
 set pagenum 0
-while {$pagenum < 2} {
+while {$pagenum < $safety} {
 
     puts stderr "--- page $pagenum ---"
 
