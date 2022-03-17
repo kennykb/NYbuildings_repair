@@ -43,14 +43,16 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 	set url $osm_server
 	append url /api/0.6/changeset/ $changeid /download
 	puts stderr "$url -> $cachefile"
-	set f [open $cachefile w]
-	set token [http::geturl $url -channel $f]
+	set token [http::geturl $url]
 	if {[http::status $token] ne {ok}} {
 	    puts stderr "[http::status $token] [http::error $token]"
 	    return 1
 	} else {
+	    set f [open $cachefile w]
+	    puts $f [http::data $token]
 	    close $f
-	    after 2;		# Throttle requests to <= 0.5 request/second
+	    after 2000;		# Throttle requests to <= 0.5 request/second
 	}
+	http::cleanup $token
     }
 }
