@@ -5,9 +5,12 @@
 
 package require http
 package require tls
+
+source config.tcl
+
 http::config -useragent "[file tail [info script]] $build $project"
 http::register https 443 [list ::tls::socket -autoservername true]
-source config.tcl
+
 
 # Retrieves a page of changesets from local storage if available, otherwise
 # from the OSM API
