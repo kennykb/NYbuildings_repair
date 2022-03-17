@@ -23,7 +23,7 @@ proc retrieve_changesets {pagenum t1 t2} {
 
     variable osm_server
 
-    set cachefile changeset-list-${pagenum.xml}
+    set cachefile changeset-list-${pagenum}.xml
     
     if {[file exists $cachefile]} {
 	
