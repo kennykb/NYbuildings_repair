@@ -30,7 +30,7 @@ while {1} {
 	return 1
     }
 
-    set f changeset-list-${pagenum}.xml w
+    set f [open changeset-list-${pagenum}.xml w]
     puts -nonewline $f [http::data $token]
     close $f
 
