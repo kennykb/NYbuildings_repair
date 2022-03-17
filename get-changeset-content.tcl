@@ -30,7 +30,7 @@ set changeno -1
 set safety 1
 
 foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
-    if {[incr changeno] >= safety} break
+    if {[incr changeno] >= $safety} break
 
     set cachefile [file join changesets ${changeid}.xml]
 
