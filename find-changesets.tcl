@@ -86,8 +86,8 @@ while {$pagenum < 2} {
 		set changetime [$kid getAttribute created_at]
 		set t2a [clock scan $changetime -format "%Y-%m-%dT%H:%M:%S%Z"]
 		puts "$changeid,$changetime"
-		if {$changetime < $t2} {
-		    set t2 $changetime
+		if {$t2a < $t2} {
+		    set t2 $t2a
 		}
 	    }
 	}
