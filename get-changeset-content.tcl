@@ -36,7 +36,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
     set then 0
 
-    if {![file exists $cacheFile]} {
+    if {![file exists $cachefile]} {
 
 	set url $osm_server
 	append url /api/0.6/changeset/ $changeid /download
