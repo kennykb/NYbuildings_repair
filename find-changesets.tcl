@@ -4,6 +4,8 @@
 # corrupted addresses created by an import from user 'NYbuildings'.
 
 package require http
+package requre tls
+http::register https 443 [list ::tls::socket -autoservername true]
 
 source config.tcl
 
