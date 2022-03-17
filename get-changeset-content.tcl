@@ -27,9 +27,11 @@ foreach row $data {
 }
 
 set changeno -1
-set safety 1
+set safety 200
 
 foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
+
+    puts stderr "Changeset $changeid at time [clock format $t]"
     if {[incr changeno] >= $safety} break
 
     set cachefile [file join changesets ${changeid}.xml]
@@ -44,7 +46,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 	set f [open $cachefile w]
 	set token [http::geturl $url -channel $f]
 	if {[http::status $token] ne {ok}} {
-	    puts stderr [http::error $token]
+	    puts stderr "[http::status $token] [http::error $token]"
 	    return 1
 	} else {
 	    close $f
