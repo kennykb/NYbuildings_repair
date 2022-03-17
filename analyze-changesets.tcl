@@ -14,6 +14,11 @@ foreach row $data {
     lappend changesets $t [lindex $cells 0]
 }
 
+set addrkeys {}
+set objects {}
+set oneword 0
+set oneword_chsets {}
+
 foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
     puts stderr "Changeset $changeid at time [clock format $t]"
@@ -22,8 +27,53 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
     set data [read $f]
     close $f
     set doc [dom parse $data]
-    set root [$doc rootElement]
-    puts [$root nodeName]
-    break;
+    set root [$doc documentElement]
 
+    if {[$root nodeName] ne "osmChange"} {
+	puts stderr "changesets/${changeid}.xml isn't an OSM change file."
+	break
+    }
+
+    foreach block [$root childNodes] {
+
+	if {[$block nodeName] in {"create" "modify"}} {
+
+	    foreach feature [$block childNodes] {
+		if {[$feature nodeName] in {"way" "relation"}} {
+		    set osmid [$feature getAttribute id]
+		    set isBuilding 0
+		    foreach tag [$feature childNodes] {
+			if {[$tag nodeName] ne "tag"} continue
+			if {[$tag getAttribute k] eq "building"} {
+			    set isBuilding 1
+			    break
+			}
+		    }
+		    if {$isBuilding} {
+			foreach tag [$feature childNodes] {
+			    if {[$tag nodeName] ne "tag"} continue
+			    set key [$tag getAttribute k]
+			    if {[regexp {^addr:} $key]} {
+				set value [$tag getAttribute v]
+				dict incr addrkeys $key
+				dict set objects $osmid $key $value
+				if {$key eq "addr:street"
+				    && ![regexp " " $value]
+				    && $value ni {"Broadway"}} {
+				    incr oneword
+				    dict set oneword_chsets $changeid {}
+				}
+			    }
+			}
+		    }
+		}
+	    }
+	}
+    }
+}
+
+puts "$oneword objects with one-word street names"
+puts "appearing in changesets [dict keys $oneword_chsets]"
+dict for {k count} $addrkeys {
+    puts "$k: $count instances"
 }
