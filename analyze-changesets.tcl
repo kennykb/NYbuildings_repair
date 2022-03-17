@@ -1,10 +1,18 @@
 #!/usr/bin/env tclsh8.6
 
+package require tdbc::postgres
 package require tdom
 
 set f [open "changesets.csv" r]
 set data [split [read $f] \n]
 close $f
+
+tdbc::postgres::connection create db -db gis
+
+set qAddressPointId [db prepare {
+    select tags->'nysgissam:nysaddresspointid' as pointid
+    from na_osm_polygon poly
+    where poly.osm_id = :osmid}]
 
 set changesets {}
 foreach row $data {
@@ -17,6 +25,8 @@ foreach row $data {
 set addrkeys {}
 set objects {}
 set oneword 0
+set salvage 0
+set counties {}
 set oneword_chsets {}
 
 foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
@@ -62,6 +72,14 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 				    && $value ni {"Broadway"}} {
 				    incr oneword
 				    dict set oneword_chsets $changeid {}
+				    $qAddressPointId foreach row \
+					[list osmid $osmid] {
+					    if {[dict exists $row pointid]} {
+						incr salvage
+						set cty [string range [dict get $row pointid] 0 3]
+						dict set counties $cty {}
+					    }
+					}
 				}
 			    }
 			}
@@ -74,6 +92,8 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
 puts "$oneword objects with one-word street names"
 puts "appearing in changesets [dict keys $oneword_chsets]"
+puts "$salvage have associated NYSGIS SAM address points"
+puts "They are in counties: [lsort [dict keys $counties]]"
 dict for {k count} $addrkeys {
     puts "$k: $count instances"
 }
