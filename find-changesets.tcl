@@ -67,7 +67,8 @@ set safety 10;			# Safety counter; never retrieve more than
 ;				# this many pages of changesets
 
 set pagenum 0
-while {$pagenum < $safety} {
+set ok 1
+while {$ok && $pagenum < $safety} {
 
     puts stderr "--- page $pagenum ---"
 
@@ -81,9 +82,13 @@ while {$pagenum < $safety} {
 	return 1
     }
 
-    if {[$root hasChildNodes]} {
+    if {![$root hasChildNodes]} {
+	set ok 0
+    } else {
 
-	foreach kid [$root childNodes] {
+	set kids [$root childNodes]
+	
+	foreach kid $kids {
 	    if {[$kid nodeName] eq "changeset"} {
 		set changeid [$kid getAttribute id]
 		set changetime [$kid getAttribute created_at]
@@ -95,7 +100,7 @@ while {$pagenum < $safety} {
 	    }
 	}
     }
-
+	
     $doc delete
     incr pagenum
     flush stdout
