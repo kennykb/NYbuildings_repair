@@ -4,6 +4,7 @@
 # corrupted addresses created by an import from user 'NYbuildings'.
 
 package require http
+package require tdom
 package require tls
 
 source config.tcl
@@ -16,13 +17,15 @@ http::register https 443 [list ::tls::socket -autoservername true]
 # from the OSM API
 #
 #	pageNum - Sequential number of the page being retrieved
-#	t1	- Start of the time window for retrieval
-#	t2	- End of the time window for retrieval
+#	time1	- Start of the time window for retrieval
+#	time2	- End of the time window for retrieval
 
-proc retrieve_changesets {pagenum t1 t2} {
+proc retrieve_changesets {pagenum time1 time2} {
 
     variable osm_server
 
+    set t1 [clock format $time1 -format "%Y-%m-%dT%H:%M:%S%z" -gmt true]
+    set t2 [clock format $time2 -format "%Y-%m-%dT%H:%M:%S%z" -gmt true]
     set cachefile changeset-list-${pagenum}.xml
     
     if {[file exists $cachefile]} {
@@ -39,7 +42,7 @@ proc retrieve_changesets {pagenum t1 t2} {
 	    [http::formatQuery \
 		 display_name	NYbuildings \
 		 time		$t1,$t2]
-	puts $url
+	puts stderr $url
 
 	set token [http::geturl $url]
 	if {[http::status $token] ne {ok}} {
@@ -57,21 +60,41 @@ proc retrieve_changesets {pagenum t1 t2} {
     }
 }
 
-set t1 [clock format 0 -format "%Y-%m-%dT%H:%M:%S%z" -gmt true]
-set t2 [clock format [clock seconds] -format "%Y-%m-%dT%H:%M:%S%z" -gmt true]
+set t1 0
+set t2 [clock seconds]
 
 set pagenum 0
-while {1} {
+while {$pagenum < 2} {
+
+    puts stderr "--- page $pagenum ---"
 
     set data [retrieve_changesets $pagenum $t1 $t2]
 
-    break
+    set doc [dom parse $data]
+    set root [$doc documentElement]
 
+    if {[$root nodeName] ne "osm"} {
+	puts stderr "Retrieved page is not an OSM XML file!"
+	return 1
+    }
+
+    if {[$root hasChildNodes]} {
+
+	foreach kid [$root childNodes] {
+	    if {[$kid nodeName] eq "changeset"} {
+		set changeid [$kid getAttribute id]
+		set changetime [$kid getAttribute created_at]
+		set t2a [clock scan $changetime -format "%Y-%m-%dT%H:%M:%S%Z"]
+		puts "$changeid,$changetime"
+		if {$changetime < $t2} {
+		    set t2 $changetime
+		}
+	    }
+	}
+    }
+
+    $doc delete
     incr pagenum
-	
-
+    flush stdout
 }
-
-
-
 
