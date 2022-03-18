@@ -47,11 +47,15 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 	if {[http::status $token] ne {ok}} {
 	    puts stderr "[http::status $token] [http::error $token]"
 	    return 1
+	} elseif {![regexp {^[<][?]xml} [http::data $token]]} {
+	    puts "OOPS: Server thinks we're abusing it"
+	    exit
 	} else {
 	    set f [open $cachefile w]
 	    puts $f [http::data $token]
 	    close $f
-	    after 2000;		# Throttle requests to <= 0.5 request/second
+	    after 120000;		# Throttle requests to at
+	    ;				# most one every two minutes
 	}
 	http::cleanup $token
     }

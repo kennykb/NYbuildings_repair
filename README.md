@@ -24,10 +24,11 @@ than Herkimer.)
 ## What appears to have happened:
 
 A great number of building footprints appear to have been imported by
-OSM user `NYbuildings` - an import pseudonym for `mileuthi`. The import
-source is not given in the tags or changeset comments, but I suspect that
-the footprints are from either the 
-[Microsoft building footprints](https://cugir.library.cornell.edu/catalog/cugir-009053)
+OSM users `AlexCleary` and `NYbuildings` - both of which are
+pseudonyms of `mileuthi`. The import source is not given in the tags
+or changeset comments, but I suspect that the footprints are from
+either the
+[Microsoft building footprints](https://cugir.library.cornell.edu/catalog/cugir-009053) 
 or the
 [NYSERDA Building Footprints with Flood Analysis](http://fidss.ciesin.columbia.edu/building_data_adaptation).
 
@@ -121,3 +122,68 @@ it available for community review; and document the process (this
 message would be a good start toward that documentation) on the
 Wiki. Following that, I'll pull the trigger only if it appears that I
 have community buy-in.
+
+## Update 2022-07-18 03:20Z
+
+The code as now committed carries out the first two steps of this
+process, without yet creating and organizing changesets.
+
+The discovery of the `AlexCleary` user id came as something of a surprise,
+and reveals a huge additional volume of data that disagree with NYSGIS. 
+Not all the changesets have yet been successfully downloaded and analyzed.
+The ones that have been show:
+
+   * 18791 addresses with street names that differ
+   * 25622 addresses with city names that differ
+   * 102 addresses with housenumbers that differ
+   * 118 addresses with postcodes that differ
+   
+The list of affected counties has also expanded greatly.  Counties
+that are known to have imported addresses that disagree with NYSGIS
+are Cattaraugus, Cayuga, Chautauqua, Clinton, Essex, Fulton, Hamilton,
+Herkimer, Jefferson, Livingston, Montgomery, Nassau, Ontario, Oswego,
+Saint Lawrence, Saratoga, Schuyler, Steuben, Suffolk, Tioga, Tompkins,
+Warren, and Wyoming.
+
+Most of the street names in disagreement can be accounted for by the
+previously noted systemic issue of discarding prefix and suffix from
+street names, so that 'West Main Street' would become just 'Main' and
+so on.
+
+There are numerous systemic issues with cities, which appear to be
+that the city name was derived from intersecting the address with a
+political boundary, rather than looking up the postal address. In particular:
+
+   * 2281 buildings have `addr:city=St. James` which needs to be spelt
+     out `Saint James`.
+
+   * 1743 buildings have `addr:city=Setauket-East Setauket`, which
+     NYSGIS refines to `East Setauket`.
+
+   * 1709 buildings in East Northport, ZIP code 11731, are misidentified as
+     `addr:city=Commack`.
+
+   * 1271 buildings in ZIP code 11713 are identified as `addr:city=North
+     Bellport`. USPS specifically calls out "North Bellport" as an
+     unacceptable city name for that ZIP code and requires "Bellport",
+     which the city name in the NYSGIS data supplies.
+
+   * 1142 buildings in ZIP code 11772 are identified as `addr:city=North
+     Patchogue`. Here again, USPS specifically calls out "North Patchogue"
+     as an unacceptable value and requires simply "Patchogue", which NYSGIS
+     supplies.
+
+   * 1079 buildings in ZIP code 11968 have `addr:city=Shinnecock
+     Hills`. Shinnecock Hills does not have its own post office, and USPS
+     requires "Southampton," which once again NYSGIS supplies.
+
+There are a couple of dozen more cases like this, where either a
+village does not have its own post office, or else the postal service
+boundary does not follow the political boundary. In all the ones I've
+looked at, NYSGIS is right and OSM is wrong.
+
+There are also a number of one-off values that suggest memory
+corruption when one or another of the imports was conducted.  It
+is hard to explain a city name of `7733e+001 WARR01094012915`,
+`20170510JLevandowskiII`, `43` or `ek` in any other way.
+

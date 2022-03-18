@@ -3,16 +3,34 @@
 package require tdbc::postgres
 package require tdom
 
-set f [open "changesets.csv" r]
-set data [split [read $f] \n]
-close $f
-
 tdbc::postgres::connection create db -db gis
 
 set qAddressPointId [db prepare {
-    select tags->'nysgissam:nysaddresspointid' as pointid
+    select tags->'nysgissam:nysaddresspointid' as pointid,
+           tags->'addr:city' as city,
+           "addr:housenumber" as housenumber,
+           tags->'addr:postcode' as postcode,
+           tags->'addr:street' as street,
+           tags->'addr:state' as state
     from na_osm_polygon poly
-    where poly.osm_id = :osmid}]
+    where poly.osm_id = :osmid
+}]
+
+set qNYSAddr [db prepare {
+    select ST_X(wkb_geometry) as longitude,
+           ST_Y(wkb_geometry) as latitude,
+           prefixaddr, addressnum, suffixaddr,
+           completest as street,
+           zipname as city,
+           state,
+           zipcode as postcode
+    from nys_address_points
+    where nysaddress = :pid
+}]
+
+set f [open "changesets.csv" r]
+set data [split [read $f] \n]
+close $f
 
 set changesets {}
 foreach row $data {
@@ -22,18 +40,24 @@ foreach row $data {
     lappend changesets $t [lindex $cells 0]
 }
 
-set addrkeys {}
 set objects {}
-set oneword 0
+set deleted 0
+set edited 0
 set salvage 0
+
 set counties {}
-set oneword_chsets {}
+set cities {}
+set changekeys {}
+set repairs {}
 
 foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
     puts stderr "Changeset $changeid at time [clock format $t]"
 
-    set f [open changesets/${changeid}.xml r]
+    if {[catch {open changesets/${changeid}.xml r} f]} {
+	puts "$f: cannot open"
+	continue
+    }
     set data [read $f]
     close $f
     set doc [dom parse $data]
@@ -46,12 +70,16 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
     foreach block [$root childNodes] {
 
-	if {[$block nodeName] in {"create" "modify"}} {
+	# Look at all ways/relations modified in the changeset
 
+	if {[$block nodeName] in {"create" "modify"}} {
 	    foreach feature [$block childNodes] {
+
+		# Isolate only the buildings
+
+		set isBuilding 0
 		if {[$feature nodeName] in {"way" "relation"}} {
 		    set osmid [$feature getAttribute id]
-		    set isBuilding 0
 		    foreach tag [$feature childNodes] {
 			if {[$tag nodeName] ne "tag"} continue
 			if {[$tag getAttribute k] eq "building"} {
@@ -59,41 +87,187 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 			    break
 			}
 		    }
-		    if {$isBuilding} {
-			foreach tag [$feature childNodes] {
-			    if {[$tag nodeName] ne "tag"} continue
-			    set key [$tag getAttribute k]
-			    if {[regexp {^addr:} $key]} {
-				set value [$tag getAttribute v]
-				dict incr addrkeys $key
-				dict set objects $osmid $key $value
-				if {$key eq "addr:street"
-				    && ![regexp " " $value]
-				    && $value ni {"Broadway"}} {
-				    incr oneword
-				    dict set oneword_chsets $changeid {}
-				    $qAddressPointId foreach row \
-					[list osmid $osmid] {
-					    if {[dict exists $row pointid]} {
-						incr salvage
-						set cty [string range [dict get $row pointid] 0 3]
-						dict set counties $cty {}
-					    }
-					}
-				}
-			    }
+		}
+		if {!$isBuilding} continue
+
+		# Isolate only the buildings with addresses
+
+		set address {}
+		foreach tag [$feature childNodes] {
+		    if {[$tag nodeName] ne "tag"} continue
+		    set key [$tag getAttribute k]
+		    if {[regexp {^addr:(?:city|housenumber|postcode|street|state)$} $key]} {
+			dict set address $key [$tag getAttribute v]
+			if {[$tag getAttribute v] eq "Fourth"} {
+			    puts "I see Fourth: $osmid"
 			}
 		    }
 		}
+
+		if {[dict size $address] == 0} continue
+
+
+		# Get current state of a building - address and NYSGIS
+		# address point ID
+
+		set pointids {}
+		set curaddress {}
+		set exists 0
+		$qAddressPointId foreach row \
+		    [list osmid $osmid] {
+			set exists 1
+			if {[dict exists $row pointid]} {
+			    set pointids [split [dict get $row pointid] \;]
+			}
+			foreach key {city housenumber postcode street state} {
+			    if {[dict exists $row $key]} {
+				dict set curaddress addr:$key \
+				    [dict get $row $key]
+			    }
+			}
+		    }
+
+		# Has the building been deleted since the import?
+
+		if {!$exists} {
+		    incr deleted
+		    continue
+		}
+
+		if {[llength $pointids] == 0} continue
+
+		# Count address points to examine by county, to make sure
+		# that all needed counties have been loaded in NYSGIS
+
+		set pid [lindex $pointids 0]
+		dict incr counties [string range $pid 0 3]
+
+		# Find the NYSGIS addresses for the points
+
+		set newaddress {}
+		foreach pid $pointids {
+		    $qNYSAddr foreach row [list pid $pid] {
+			set comps {}
+			foreach k {prefixaddr addressnum suffixaddr} {
+			    if {[dict exists $row $k]} {
+				lappend comps [dict get $row $k]
+				dict unset row $k
+			    }
+			}
+			dict set row housenumber [join $comps {}]
+			
+			set coords [list [dict get $row longitude] \
+					[dict get $row latitude]]
+			dict unset row longitude
+			dict unset row latitude
+			dict for {k v} $row {
+			    dict set newaddress addr:$k $v {}
+			}
+		    }
+		}
+
+		# Set the ZIP code according to NYSGIS
+		
+		if {[dict exists $newaddress addr:postcode]} {
+		    set zip [lindex [dict get $newaddress addr:postcode] 0]
+		} else {
+		    set zip {}
+		}
+
+		# Develop the fixes
+		
+		set fix {}
+		dict for {key oldvalue} $address {
+
+		    # Don't fix any tag that isn't still current
+		    
+		    if {![dict exists $curaddress $key]
+			|| [dict get $curaddress $key] ne $oldvalue} continue
+
+		    # Does NYSGIS offer a different value?
+
+		    if {[dict exists $newaddress $key]} {
+			set newvalue \
+			    [join [dict keys [dict get $newaddress $key]] \;]
+
+			if {$newvalue eq $oldvalue} continue
+			if {[regexp \; $newvalue]} {
+			    puts "$osmid: ambiguous: $key: $oldvalue -> $newvalue"
+			    continue
+			}
+
+			# Override Ballston Spa 12020
+			
+			if {$oldvalue ne $newvalue} {
+			    if {$key eq "addr:city"
+				&& $zip eq "12020"
+				&& $oldvalue eq "Ballston Spa"} {
+				continue
+			    }
+			}
+			
+			# Count that this key is changed
+
+			dict incr changekeys $key
+			
+			# Record what cities have changed
+
+			if {$key eq "addr:city"} {
+			    if {![dict exists $cities $zip $oldvalue $newvalue]} {
+				set x 0
+			    } else {
+				set x [dict get $cities $zip $oldvalue $newvalue]
+			    }
+			    incr x
+			    dict set cities $zip $oldvalue $newvalue $x
+			}
+			    
+			# Record that this key needs repair on this object
+
+			dict set fix $key $newvalue
+		    }
+		}
+
+		if {[dict size $fix] == 0} continue
+
+		# Count objects to be fixed; objects to be fixed by county;
+		# record the repair for this specific object; record lists
+		# of objects by repairs required
+
+		incr salvage
+		dict set repairs $osmid $fix
+		dict lappend fixups $fix $osmid
+		    
 	    }
 	}
     }
 }
 
-puts "$oneword objects with one-word street names"
-puts "appearing in changesets [dict keys $oneword_chsets]"
-puts "$salvage have associated NYSGIS SAM address points"
-puts "They are in counties: [lsort [dict keys $counties]]"
-dict for {k count} $addrkeys {
-    puts "$k: $count instances"
+puts "$deleted buildings have been deleted since import"
+puts "$edited buildings have had their addresses change since import"
+puts "$salvage buildings have NYS address points disagreeing with imported data."
+puts "Summary by county code:"
+dict for {k count} $counties {
+    puts "  $k: $count buildings"
 }
+puts "Summary by keyword:"
+dict for {k count} $changekeys {
+    puts "  $k: $count instances may be corrected"
+}
+puts "Cities adjusted:"
+set tbl {}
+foreach {zip d1} [lsort -stride 2 -index 0 $cities] {
+    foreach {from d2} [lsort -stride 2 -index 0 $d1] {
+	foreach {to count} [lsort -stride 2 -index 0 $d2] {
+	    puts "   $zip: $from -> $to ($count instances)"
+	    lappend tbl $zip $from $to $count
+	}
+    }
+}
+set i 0
+puts "Most common city adjustments:"
+foreach {zip from to count} [lsort -stride 4 -index 3 -integer -decreasing $tbl] {
+    if {$count < 50} break
+    puts "   $zip: $from -> $to ($count instances)"
+}
+array set things_to_fix $fixups; parray things_to_fix
