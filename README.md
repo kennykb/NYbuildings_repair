@@ -170,6 +170,8 @@ Select the links in the captions to view them at a readable scale.
 [Map 1](https://live.staticflickr.com/65535/51947090309_3100eac4a1_c_d.jpg)
 City name changes in western Suffolk County
 
+![City name changes - western Suffolk County](https://live.staticflickr.com/65535/51945796197_8e076074f9_c_d.jpg)
+
 [Map 2](https://live.staticflickr.com/65535/51945796197_8e076074f9_o_d.png). 
 City name changes in eastern Suffolk County
 
