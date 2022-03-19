@@ -5,6 +5,24 @@ package require tdom
 
 tdbc::postgres::connection create db -db gis
 
+db allrows {
+    DROP TABLE nys_city_rewrites
+}
+
+db allrows {
+    CREATE TABLE nys_city_rewrites(
+        id SERIAL PRIMARY KEY,
+        zip CHAR(5),
+        fromcity TEXT,
+        tocity TEXT,
+        loc GEOMETRY(POINT, 3857)
+    )
+}
+
+db allrows {
+    CREATE INDEX nys_city_rewrites_gist ON nys_city_rewrites USING GIST(loc)
+}
+
 set qAddressPointId [db prepare {
     select tags->'nysgissam:nysaddresspointid' as pointid,
            tags->'addr:city' as city,
@@ -27,6 +45,13 @@ set qNYSAddr [db prepare {
     from nys_address_points
     where nysaddress = :pid
 }]
+
+set iCityRewrite [db prepare {
+    insert into nys_city_rewrites(zip, fromcity, tocity, loc)
+    values(:zip, :fromcity, :tocity,
+	   ST_SetSRID(ST_MakePoint(:longitude, :latitude), 3857))
+}]
+       
 
 set f [open "changesets.csv" r]
 set data [split [read $f] \n]
@@ -98,9 +123,6 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 		    set key [$tag getAttribute k]
 		    if {[regexp {^addr:(?:city|housenumber|postcode|street|state)$} $key]} {
 			dict set address $key [$tag getAttribute v]
-			if {[$tag getAttribute v] eq "Fourth"} {
-			    puts "I see Fourth: $osmid"
-			}
 		    }
 		}
 
@@ -197,6 +219,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 			}
 
 			# Override Ballston Spa 12020
+			# TODO - More overrides here?
 			
 			if {$oldvalue ne $newvalue} {
 			    if {$key eq "addr:city"
@@ -220,6 +243,11 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 			    }
 			    incr x
 			    dict set cities $zip $oldvalue $newvalue $x
+			    lassign $coords lo la
+			    $iCityRewrite allrows \
+				[list zip $zip \
+				     fromcity $oldvalue tocity $newvalue \
+				     longitude $lo latitude $la]
 			}
 			    
 			# Record that this key needs repair on this object
@@ -271,3 +299,44 @@ foreach {zip from to count} [lsort -stride 4 -index 3 -integer -decreasing $tbl]
     puts "   $zip: $from -> $to ($count instances)"
 }
 array set things_to_fix $fixups; parray things_to_fix
+
+db allrows {
+    DROP TABLE nys_city_rewrite_counts
+}
+
+db allrows {
+
+    CREATE TABLE nys_city_rewrite_counts(
+           zip CHAR(5),
+           fromcity TEXT,
+           tocity TEXT,
+           npoints INTEGER,
+           boundary GEOMETRY(MULTIPOLYGON, 32618),
+           PRIMARY KEY(zip, fromcity, tocity)
+    )
+}      
+
+db allrows {
+    INSERT INTO nys_city_rewrite_counts(zip, fromcity, tocity,
+					npoints, boundary)
+    SELECT zip, fromcity, tocity,
+           COUNT(1) as npoints,
+           ST_Simplify(
+               ST_Multi(
+                   ST_Buffer(
+                       ST_Transform(
+                           ST_Collect(loc),
+                           32618),
+                       75.)
+                   ),
+               10.) as boundary
+    FROM nys_city_rewrites
+    GROUP BY zip, fromcity, tocity
+}
+
+db allrows {
+    CREATE INDEX idx_nys_city_rewrite_counts_geo
+    ON nys_city_rewrite_counts USING GIST(boundary)
+}
+
+    
