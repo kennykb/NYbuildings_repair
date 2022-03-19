@@ -165,12 +165,12 @@ is a simple respelling of the postal city name, from 'St. James'
 OSM prefers). The following two maps show the other clusters.
 Select the links in the captions to view them at a readable scale.
 
-![City name changes - western Suffolk County](https://live.staticflickr.com/65535/51945796197_e7b9b28b3f_c_d.jpg)
+![City name changes - western Suffolk County](https://live.staticflickr.com/65535/51947090309_3100eac4a1_c_d.jpg)
 
 [Map 1](https://live.staticflickr.com/65535/51947090309_3100eac4a1_c_d.jpg)
 City name changes in western Suffolk County
 
-![City name changes - western Suffolk County](https://live.staticflickr.com/65535/51945796197_8e076074f9_c_d.jpg)
+![City name changes - eastern Suffolk County](https://live.staticflickr.com/65535/51945796197_8e076074f9_c_d.jpg)
 
 [Map 2](https://live.staticflickr.com/65535/51945796197_8e076074f9_o_d.png). 
 City name changes in eastern Suffolk County
