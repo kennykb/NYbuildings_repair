@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='42.6941411' minlon='-77.5192022' maxlat='42.6941411' maxlon='-77.5192022' origin='CGImap 0.8.6 (902698 spike-07.openstreetmap.org)' />
+  <bounds minlat='42.6941411' minlon='-77.5192022' maxlat='42.6941411' maxlon='-77.5192022' origin='OpenStreetMap server' />
+  <node id='7707257148' timestamp='2020-07-12T14:42:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.671103' lon='-77.501933' />
+  <node id='7707257149' timestamp='2020-07-12T14:42:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.671188' lon='-77.501933' />
+  <node id='7707257150' timestamp='2020-07-12T14:42:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.671188' lon='-77.502108' />
+  <node id='7707257151' timestamp='2020-07-12T14:42:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.671103' lon='-77.502108' />
+  <node id='7707259143' timestamp='2020-07-12T14:42:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.67857' lon='-77.499961' />
+  <node id='7707259144' timestamp='2020-07-12T14:42:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678577' lon='-77.500072' />
+  <node id='7707259145' timestamp='2020-07-12T14:42:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678339' lon='-77.500097' />
+  <node id='7707259146' timestamp='2020-07-12T14:42:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678333' lon='-77.499986' />
+  <node id='7707262767' timestamp='2020-07-12T14:42:06Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678239' lon='-77.498349' />
+  <node id='7707262768' timestamp='2020-07-12T14:42:06Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678248' lon='-77.498444' />
+  <node id='7707262769' timestamp='2020-07-12T14:42:06Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678066' lon='-77.498477' />
+  <node id='7707262770' timestamp='2020-07-12T14:42:06Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.678057' lon='-77.498383' />
+  <node id='7707265214' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.687262' lon='-77.540063' />
+  <node id='7707265215' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.687364' lon='-77.539894' />
+  <node id='7707265216' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.687444' lon='-77.539984' />
+  <node id='7707265217' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.687343' lon='-77.540153' />
+  <node id='7707265445' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.717116' lon='-77.515102' />
+  <node id='7707265446' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.717195' lon='-77.515126' />
+  <node id='7707265447' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.717166' lon='-77.515308' />
+  <node id='7707265448' timestamp='2020-07-12T14:42:09Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880090' lat='42.717087' lon='-77.515284' />
+  <node id='7707266087' timestamp='2020-07-12T14:42:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.675821' lon='-77.49953' />
+  <node id='7707266088' timestamp='2020-07-12T14:42:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.675822' lon='-77.49941' />
+  <node id='7707266089' timestamp='2020-07-12T14:42:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.675985' lon='-77.499412' />
+  <node id='7707266090' timestamp='2020-07-12T14:42:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.675984' lon='-77.499533' />
+  <node id='7707269235' timestamp='2020-07-12T14:42:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.672421' lon='-77.498466' />
+  <node id='7707269236' timestamp='2020-07-12T14:42:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.672484' lon='-77.498435' />
+  <node id='7707269237' timestamp='2020-07-12T14:42:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.672522' lon='-77.498576' />
+  <node id='7707269238' timestamp='2020-07-12T14:42:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.672459' lon='-77.498607' />
+  <node id='7707272090' timestamp='2020-07-12T14:42:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.679192' lon='-77.500727' />
+  <node id='7707272091' timestamp='2020-07-12T14:42:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.679153' lon='-77.500851' />
+  <node id='7707272092' timestamp='2020-07-12T14:42:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.678897' lon='-77.5007' />
+  <node id='7707272093' timestamp='2020-07-12T14:42:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.67892' lon='-77.500629' />
+  <node id='7707272094' timestamp='2020-07-12T14:42:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.678999' lon='-77.500675' />
+  <node id='7707272095' timestamp='2020-07-12T14:42:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87880095' lat='42.679015' lon='-77.500622' />
+  <way id='825419922' action='modify' timestamp='2021-06-03T23:53:17Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804516'>
+    <nd ref='7707257151' />
+    <nd ref='7707257150' />
+    <nd ref='7707257149' />
+    <nd ref='7707257148' />
+    <nd ref='7707257151' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='7075' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Old West Lake Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA043720' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825420337' action='modify' timestamp='2021-06-03T23:53:17Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804516'>
+    <nd ref='7707259146' />
+    <nd ref='7707259145' />
+    <nd ref='7707259144' />
+    <nd ref='7707259143' />
+    <nd ref='7707259146' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='6980' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Old West Lake Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA014495' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825421125' action='modify' timestamp='2021-06-03T23:53:17Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804516'>
+    <nd ref='7707262770' />
+    <nd ref='7707262769' />
+    <nd ref='7707262768' />
+    <nd ref='7707262767' />
+    <nd ref='7707262770' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='6979' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Old West Lake Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA014493' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825421640' action='modify' timestamp='2021-06-03T23:54:20Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804539'>
+    <nd ref='7707265217' />
+    <nd ref='7707265216' />
+    <nd ref='7707265215' />
+    <nd ref='7707265214' />
+    <nd ref='7707265217' />
+    <tag k='addr:city' v='Springwater' />
+    <tag k='addr:housenumber' v='6887' />
+    <tag k='addr:postcode' v='14560' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Ross Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA035187' />
+  </way>
+  <way id='825421690' action='modify' timestamp='2021-06-03T23:54:20Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804539'>
+    <nd ref='7707265448' />
+    <nd ref='7707265447' />
+    <nd ref='7707265446' />
+    <nd ref='7707265445' />
+    <nd ref='7707265448' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='6331' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='County Road 36' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA002574' />
+  </way>
+  <way id='825421830' action='modify' timestamp='2021-06-03T23:53:35Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804522'>
+    <nd ref='7707266090' />
+    <nd ref='7707266089' />
+    <nd ref='7707266088' />
+    <nd ref='7707266087' />
+    <nd ref='7707266090' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='7024' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Old West Lake Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA012668' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825422486' action='modify' timestamp='2021-06-03T23:53:35Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804522'>
+    <nd ref='7707269238' />
+    <nd ref='7707269237' />
+    <nd ref='7707269236' />
+    <nd ref='7707269235' />
+    <nd ref='7707269238' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='7095' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Old West Lake Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA012667' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825423093' action='modify' timestamp='2021-06-03T23:53:35Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804522'>
+    <nd ref='7707272095' />
+    <nd ref='7707272094' />
+    <nd ref='7707272093' />
+    <nd ref='7707272092' />
+    <nd ref='7707272091' />
+    <nd ref='7707272090' />
+    <nd ref='7707272095' />
+    <tag k='addr:city' v='Honeoye' />
+    <tag k='addr:housenumber' v='6952' />
+    <tag k='addr:postcode' v='14471' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Old West Lake Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA012670' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+</osm>

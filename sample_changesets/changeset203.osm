@@ -1,0 +1,1468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='43.2053039' minlon='-74.735025' maxlat='43.2053039' maxlon='-74.735025' origin='CGImap 0.8.6 (3627684 spike-06.openstreetmap.org)' />
+  <bounds minlat='43.2053039' minlon='-74.735025' maxlat='43.2053039' maxlon='-74.735025' origin='OpenStreetMap server' />
+  <node id='7621043353' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226198' lon='-74.732913' />
+  <node id='7621043354' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226258' lon='-74.732995' />
+  <node id='7621043355' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226161' lon='-74.733128' />
+  <node id='7621043356' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226101' lon='-74.733046' />
+  <node id='7621043361' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226142' lon='-74.734705' />
+  <node id='7621043362' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226195' lon='-74.734741' />
+  <node id='7621043363' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226165' lon='-74.734824' />
+  <node id='7621043364' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.226112' lon='-74.734787' />
+  <node id='7621043369' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.215648' lon='-74.724464' />
+  <node id='7621043370' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.215635' lon='-74.724408' />
+  <node id='7621043371' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.215739' lon='-74.724364' />
+  <node id='7621043372' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.215765' lon='-74.724482' />
+  <node id='7621043373' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.215608' lon='-74.724548' />
+  <node id='7621043374' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.215594' lon='-74.724487' />
+  <node id='7621043379' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.237174' lon='-74.706591' />
+  <node id='7621043380' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.237106' lon='-74.706591' />
+  <node id='7621043381' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.237106' lon='-74.706492' />
+  <node id='7621043382' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.237174' lon='-74.706492' />
+  <node id='7621043387' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.216143' lon='-74.715861' />
+  <node id='7621043388' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.216054' lon='-74.715903' />
+  <node id='7621043389' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.216031' lon='-74.715811' />
+  <node id='7621043390' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.21612' lon='-74.715769' />
+  <node id='7621043395' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.21728' lon='-74.715797' />
+  <node id='7621043396' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.217259' lon='-74.71592' />
+  <node id='7621043397' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.217208' lon='-74.715904' />
+  <node id='7621043398' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.217229' lon='-74.715781' />
+  <node id='7621043405' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209495' lon='-74.716148' />
+  <node id='7621043406' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209412' lon='-74.716107' />
+  <node id='7621043407' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209486' lon='-74.715823' />
+  <node id='7621043408' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209582' lon='-74.715871' />
+  <node id='7621043409' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209563' lon='-74.715942' />
+  <node id='7621043410' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209608' lon='-74.715964' />
+  <node id='7621043411' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209624' lon='-74.715904' />
+  <node id='7621043412' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209705' lon='-74.715944' />
+  <node id='7621043413' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209664' lon='-74.716098' />
+  <node id='7621043414' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209527' lon='-74.71603' />
+  <node id='7621043421' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.212933' lon='-74.716673' />
+  <node id='7621043422' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.213092' lon='-74.71662' />
+  <node id='7621043423' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.213114' lon='-74.716744' />
+  <node id='7621043424' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.212955' lon='-74.716797' />
+  <node id='7621043429' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.20648' lon='-74.721113' />
+  <node id='7621043430' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.206408' lon='-74.721216' />
+  <node id='7621043431' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.206319' lon='-74.721098' />
+  <node id='7621043432' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.206391' lon='-74.720995' />
+  <node id='7621043433' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209651' lon='-74.718804' />
+  <node id='7621043434' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209622' lon='-74.718914' />
+  <node id='7621043435' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.209512' lon='-74.71886' />
+  <node id='7621043436' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.20954' lon='-74.71875' />
+  <node id='7621043437' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204968' lon='-74.703239' />
+  <node id='7621043438' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.205001' lon='-74.703322' />
+  <node id='7621043439' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204951' lon='-74.703359' />
+  <node id='7621043440' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204918' lon='-74.703276' />
+  <node id='7621043445' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.202396' lon='-74.720134' />
+  <node id='7621043446' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.202376' lon='-74.720053' />
+  <node id='7621043447' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.202545' lon='-74.719972' />
+  <node id='7621043448' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.202565' lon='-74.720054' />
+  <node id='7621043453' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200064' lon='-74.702999' />
+  <node id='7621043454' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200224' lon='-74.70299' />
+  <node id='7621043455' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200227' lon='-74.703101' />
+  <node id='7621043456' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200067' lon='-74.703111' />
+  <node id='7621043461' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204647' lon='-74.701903' />
+  <node id='7621043462' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204633' lon='-74.701758' />
+  <node id='7621043463' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204819' lon='-74.701724' />
+  <node id='7621043464' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.204834' lon='-74.701869' />
+  <node id='7621043469' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196898' lon='-74.705532' />
+  <node id='7621043470' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196772' lon='-74.705598' />
+  <node id='7621043471' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196735' lon='-74.705464' />
+  <node id='7621043472' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19686' lon='-74.705399' />
+  <node id='7621043473' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196023' lon='-74.706292' />
+  <node id='7621043474' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196106' lon='-74.706264' />
+  <node id='7621043475' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196124' lon='-74.706365' />
+  <node id='7621043476' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.196041' lon='-74.706393' />
+  <node id='7621043477' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193856' lon='-74.709478' />
+  <node id='7621043478' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193971' lon='-74.709301' />
+  <node id='7621043479' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194037' lon='-74.709382' />
+  <node id='7621043480' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193922' lon='-74.709559' />
+  <node id='7621043481' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194603' lon='-74.707196' />
+  <node id='7621043482' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194644' lon='-74.707108' />
+  <node id='7621043483' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19473' lon='-74.707184' />
+  <node id='7621043484' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19465' lon='-74.707352' />
+  <node id='7621043485' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194587' lon='-74.707297' />
+  <node id='7621043486' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194625' lon='-74.707216' />
+  <node id='7621043487' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.192184' lon='-74.71201' />
+  <node id='7621043488' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.192322' lon='-74.711819' />
+  <node id='7621043489' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.192373' lon='-74.711888' />
+  <node id='7621043490' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.192258' lon='-74.712047' />
+  <node id='7621043491' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.192242' lon='-74.712025' />
+  <node id='7621043492' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.192219' lon='-74.712058' />
+  <node id='7621043493' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191501' lon='-74.710778' />
+  <node id='7621043494' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191495' lon='-74.710811' />
+  <node id='7621043495' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191536' lon='-74.710825' />
+  <node id='7621043496' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191517' lon='-74.710928' />
+  <node id='7621043497' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191377' lon='-74.710878' />
+  <node id='7621043498' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191396' lon='-74.710775' />
+  <node id='7621043499' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191436' lon='-74.71079' />
+  <node id='7621043500' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191442' lon='-74.710757' />
+  <node id='7621043501' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193277' lon='-74.713322' />
+  <node id='7621043502' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193233' lon='-74.713383' />
+  <node id='7621043503' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193154' lon='-74.713274' />
+  <node id='7621043504' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.193198' lon='-74.713214' />
+  <node id='7621043505' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194399' lon='-74.713091' />
+  <node id='7621043506' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194354' lon='-74.713109' />
+  <node id='7621043507' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194325' lon='-74.712969' />
+  <node id='7621043508' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194394' lon='-74.712943' />
+  <node id='7621043509' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194411' lon='-74.713024' />
+  <node id='7621043510' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194387' lon='-74.713033' />
+  <node id='7621043511' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19495' lon='-74.71455' />
+  <node id='7621043512' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194921' lon='-74.714624' />
+  <node id='7621043513' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194818' lon='-74.71455' />
+  <node id='7621043514' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194847' lon='-74.714476' />
+  <node id='7621043515' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194137' lon='-74.714221' />
+  <node id='7621043516' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194273' lon='-74.714256' />
+  <node id='7621043517' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194262' lon='-74.714336' />
+  <node id='7621043518' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.194126' lon='-74.714301' />
+  <node id='7621043519' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19729' lon='-74.71702' />
+  <node id='7621043520' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19735' lon='-74.717136' />
+  <node id='7621043521' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.197275' lon='-74.71721' />
+  <node id='7621043522' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.197214' lon='-74.717094' />
+  <node id='7621043523' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198076' lon='-74.717505' />
+  <node id='7621043524' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198183' lon='-74.717369' />
+  <node id='7621043525' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198242' lon='-74.717456' />
+  <node id='7621043526' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198136' lon='-74.717593' />
+  <node id='7621043527' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200152' lon='-74.720815' />
+  <node id='7621043528' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200215' lon='-74.72082' />
+  <node id='7621043529' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200212' lon='-74.720913' />
+  <node id='7621043530' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.200148' lon='-74.720909' />
+  <node id='7621043531' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198767' lon='-74.718361' />
+  <node id='7621043532' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.19872' lon='-74.718425' />
+  <node id='7621043533' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198616' lon='-74.718283' />
+  <node id='7621043534' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.198663' lon='-74.718219' />
+  <node id='7621043535' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184917' lon='-74.717766' />
+  <node id='7621043536' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184849' lon='-74.717772' />
+  <node id='7621043537' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184843' lon='-74.717646' />
+  <node id='7621043538' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184874' lon='-74.717643' />
+  <node id='7621043539' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184867' lon='-74.717505' />
+  <node id='7621043540' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184941' lon='-74.717498' />
+  <node id='7621043541' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184948' lon='-74.717625' />
+  <node id='7621043542' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.18491' lon='-74.717628' />
+  <node id='7621043543' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.188006' lon='-74.712144' />
+  <node id='7621043544' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.187977' lon='-74.712321' />
+  <node id='7621043545' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.187866' lon='-74.712287' />
+  <node id='7621043546' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.187895' lon='-74.71211' />
+  <node id='7621043547' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185067' lon='-74.721882' />
+  <node id='7621043548' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185068' lon='-74.721799' />
+  <node id='7621043549' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185194' lon='-74.721804' />
+  <node id='7621043550' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185192' lon='-74.721899' />
+  <node id='7621043551' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185149' lon='-74.721897' />
+  <node id='7621043552' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185143' lon='-74.722222' />
+  <node id='7621043553' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185076' lon='-74.722219' />
+  <node id='7621043554' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185082' lon='-74.721883' />
+  <node id='7621043555' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184814' lon='-74.721712' />
+  <node id='7621043556' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.1847' lon='-74.721716' />
+  <node id='7621043557' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.1847' lon='-74.721687' />
+  <node id='7621043558' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184649' lon='-74.721689' />
+  <node id='7621043559' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184647' lon='-74.721586' />
+  <node id='7621043560' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184811' lon='-74.721579' />
+  <node id='7621043561' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185237' lon='-74.728366' />
+  <node id='7621043562' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185273' lon='-74.728234' />
+  <node id='7621043563' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185367' lon='-74.728283' />
+  <node id='7621043564' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185316' lon='-74.728471' />
+  <node id='7621043565' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185254' lon='-74.728439' />
+  <node id='7621043566' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.18527' lon='-74.728383' />
+  <node id='7621043567' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185126' lon='-74.729955' />
+  <node id='7621043568' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185206' lon='-74.729975' />
+  <node id='7621043569' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185158' lon='-74.730328' />
+  <node id='7621043570' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185079' lon='-74.730308' />
+  <node id='7621043571' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184606' lon='-74.733492' />
+  <node id='7621043572' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.18456' lon='-74.733824' />
+  <node id='7621043573' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184443' lon='-74.733794' />
+  <node id='7621043574' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184489' lon='-74.733462' />
+  <node id='7621043575' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185894' lon='-74.732295' />
+  <node id='7621043576' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185972' lon='-74.732318' />
+  <node id='7621043577' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185937' lon='-74.732537' />
+  <node id='7621043578' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185859' lon='-74.732513' />
+  <node id='7621043579' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191027' lon='-74.742958' />
+  <node id='7621043580' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191069' lon='-74.742903' />
+  <node id='7621043581' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191115' lon='-74.742969' />
+  <node id='7621043582' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.191072' lon='-74.743025' />
+  <node id='7621043583' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.18514' lon='-74.733599' />
+  <node id='7621043584' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185259' lon='-74.733638' />
+  <node id='7621043585' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185229' lon='-74.733805' />
+  <node id='7621043586' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185111' lon='-74.733766' />
+  <node id='7621043587' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222652' lon='-74.732854' />
+  <node id='7621043588' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.22254' lon='-74.732917' />
+  <node id='7621043589' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222507' lon='-74.732805' />
+  <node id='7621043590' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222618' lon='-74.732743' />
+  <node id='7621043591' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214736' lon='-74.728636' />
+  <node id='7621043592' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214772' lon='-74.728565' />
+  <node id='7621043593' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214794' lon='-74.728585' />
+  <node id='7621043594' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214837' lon='-74.728498' />
+  <node id='7621043595' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214893' lon='-74.72855' />
+  <node id='7621043596' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214875' lon='-74.728587' />
+  <node id='7621043597' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214926' lon='-74.728635' />
+  <node id='7621043598' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214877' lon='-74.728733' />
+  <node id='7621043599' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214823' lon='-74.728683' />
+  <node id='7621043600' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.214811' lon='-74.728706' />
+  <node id='7621043601' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221958' lon='-74.731952' />
+  <node id='7621043602' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221981' lon='-74.732035' />
+  <node id='7621043603' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221868' lon='-74.732093' />
+  <node id='7621043604' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221845' lon='-74.73201' />
+  <node id='7621043605' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222318' lon='-74.732805' />
+  <node id='7621043606' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222318' lon='-74.73296' />
+  <node id='7621043607' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222224' lon='-74.73296' />
+  <node id='7621043608' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.222224' lon='-74.732805' />
+  <node id='7621043609' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.212851' lon='-74.755113' />
+  <node id='7621043610' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.212774' lon='-74.755173' />
+  <node id='7621043611' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.212736' lon='-74.755082' />
+  <node id='7621043612' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.212813' lon='-74.755022' />
+  <node id='7621043613' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221771' lon='-74.733807' />
+  <node id='7621043614' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221895' lon='-74.733785' />
+  <node id='7621043615' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.221904' lon='-74.733883' />
+  <node id='7621043616' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.22178' lon='-74.733904' />
+  <node id='7621043617' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180252' lon='-74.767262' />
+  <node id='7621043618' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180215' lon='-74.767373' />
+  <node id='7621043619' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180086' lon='-74.767291' />
+  <node id='7621043620' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180123' lon='-74.767181' />
+  <node id='7621043621' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180302' lon='-74.768213' />
+  <node id='7621043622' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180377' lon='-74.768245' />
+  <node id='7621043623' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180356' lon='-74.768337' />
+  <node id='7621043624' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.180281' lon='-74.768304' />
+  <node id='7621043625' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.181509' lon='-74.760821' />
+  <node id='7621043626' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.1816' lon='-74.760765' />
+  <node id='7621043627' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.181634' lon='-74.760869' />
+  <node id='7621043628' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.181543' lon='-74.760926' />
+  <node id='7621043629' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182298' lon='-74.766783' />
+  <node id='7621043630' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.18235' lon='-74.766819' />
+  <node id='7621043631' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182335' lon='-74.76686' />
+  <node id='7621043632' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182386' lon='-74.766895' />
+  <node id='7621043633' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182362' lon='-74.766961' />
+  <node id='7621043634' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182315' lon='-74.766929' />
+  <node id='7621043635' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182292' lon='-74.766991' />
+  <node id='7621043636' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.182236' lon='-74.766953' />
+  <node id='7621043637' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185205' lon='-74.735338' />
+  <node id='7621043638' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185266' lon='-74.735459' />
+  <node id='7621043639' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.18506' lon='-74.735653' />
+  <node id='7621043640' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.185' lon='-74.735532' />
+  <node id='7621043641' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184907' lon='-74.762109' />
+  <node id='7621043642' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184966' lon='-74.76207' />
+  <node id='7621043643' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184994' lon='-74.762152' />
+  <node id='7621043644' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.184935' lon='-74.762191' />
+  <node id='7621043645' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.179275' lon='-74.728055' />
+  <node id='7621043646' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.179356' lon='-74.728075' />
+  <node id='7621043647' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.179338' lon='-74.728213' />
+  <node id='7621043648' timestamp='2020-06-15T01:28:19Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638967' lat='43.179257' lon='-74.728192' />
+  <node id='7621050433' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173539' lon='-74.713232' />
+  <node id='7621050434' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173537' lon='-74.71328' />
+  <node id='7621050435' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173485' lon='-74.713275' />
+  <node id='7621050436' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173484' lon='-74.713305' />
+  <node id='7621050437' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.17342' lon='-74.7133' />
+  <node id='7621050438' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173421' lon='-74.713264' />
+  <node id='7621050439' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173359' lon='-74.713258' />
+  <node id='7621050440' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173364' lon='-74.713146' />
+  <node id='7621050441' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173476' lon='-74.713156' />
+  <node id='7621050442' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173479' lon='-74.713106' />
+  <node id='7621050443' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173572' lon='-74.713115' />
+  <node id='7621050444' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173575' lon='-74.713044' />
+  <node id='7621050445' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173654' lon='-74.713051' />
+  <node id='7621050446' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.173645' lon='-74.713241' />
+  <node id='7621050455' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.175234' lon='-74.713546' />
+  <node id='7621050456' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.175093' lon='-74.713546' />
+  <node id='7621050457' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.175093' lon='-74.713434' />
+  <node id='7621050458' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.175234' lon='-74.713434' />
+  <node id='7621050463' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.177358' lon='-74.714367' />
+  <node id='7621050464' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.17745' lon='-74.714367' />
+  <node id='7621050465' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.17745' lon='-74.714496' />
+  <node id='7621050466' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.177358' lon='-74.714496' />
+  <node id='7621050467' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.175884' lon='-74.714475' />
+  <node id='7621050468' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.176026' lon='-74.714483' />
+  <node id='7621050469' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.176022' lon='-74.714637' />
+  <node id='7621050470' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.17588' lon='-74.714629' />
+  <node id='7621050471' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179912' lon='-74.716836' />
+  <node id='7621050472' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179931' lon='-74.717012' />
+  <node id='7621050473' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179826' lon='-74.717033' />
+  <node id='7621050474' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179807' lon='-74.716857' />
+  <node id='7621050475' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180907' lon='-74.715777' />
+  <node id='7621050476' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.18101' lon='-74.715848' />
+  <node id='7621050477' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180984' lon='-74.715918' />
+  <node id='7621050478' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180881' lon='-74.715847' />
+  <node id='7621050479' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180252' lon='-74.712918' />
+  <node id='7621050480' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180141' lon='-74.712949' />
+  <node id='7621050481' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180121' lon='-74.712813' />
+  <node id='7621050482' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180161' lon='-74.712802' />
+  <node id='7621050483' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180144' lon='-74.712694' />
+  <node id='7621050484' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.180216' lon='-74.712674' />
+  <node id='7621050485' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179275' lon='-74.715253' />
+  <node id='7621050486' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179319' lon='-74.715137' />
+  <node id='7621050487' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179376' lon='-74.715177' />
+  <node id='7621050488' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.179332' lon='-74.715294' />
+  <node id='7621050489' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.18247' lon='-74.711701' />
+  <node id='7621050490' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.18249' lon='-74.711812' />
+  <node id='7621050491' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182431' lon='-74.711832' />
+  <node id='7621050492' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182436' lon='-74.71186' />
+  <node id='7621050493' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182351' lon='-74.711889' />
+  <node id='7621050494' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182327' lon='-74.711755' />
+  <node id='7621050495' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182366' lon='-74.711742' />
+  <node id='7621050496' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.18236' lon='-74.711709' />
+  <node id='7621050497' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182421' lon='-74.711688' />
+  <node id='7621050498' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.182426' lon='-74.711716' />
+  <node id='7621050499' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.17836' lon='-74.713226' />
+  <node id='7621050500' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.17829' lon='-74.713253' />
+  <node id='7621050501' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.178255' lon='-74.713079' />
+  <node id='7621050502' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.178324' lon='-74.713052' />
+  <node id='7621050503' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.183232' lon='-74.713029' />
+  <node id='7621050504' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.183167' lon='-74.713029' />
+  <node id='7621050505' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.183167' lon='-74.712887' />
+  <node id='7621050506' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.183232' lon='-74.712887' />
+  <node id='7621050511' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184132' lon='-74.715888' />
+  <node id='7621050512' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184132' lon='-74.716065' />
+  <node id='7621050513' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184026' lon='-74.716065' />
+  <node id='7621050514' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184026' lon='-74.715888' />
+  <node id='7621050515' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.181928' lon='-74.712785' />
+  <node id='7621050516' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.181944' lon='-74.712907' />
+  <node id='7621050517' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.181865' lon='-74.712926' />
+  <node id='7621050518' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.181844' lon='-74.712759' />
+  <node id='7621050519' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.181899' lon='-74.712746' />
+  <node id='7621050520' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.181905' lon='-74.71279' />
+  <node id='7621050521' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184034' lon='-74.713831' />
+  <node id='7621050522' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184114' lon='-74.713831' />
+  <node id='7621050523' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184114' lon='-74.71404' />
+  <node id='7621050524' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184034' lon='-74.71404' />
+  <node id='7621050525' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184807' lon='-74.716005' />
+  <node id='7621050526' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184808' lon='-74.715843' />
+  <node id='7621050527' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184931' lon='-74.715844' />
+  <node id='7621050528' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184931' lon='-74.716006' />
+  <node id='7621050529' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184931' lon='-74.711341' />
+  <node id='7621050530' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184962' lon='-74.711451' />
+  <node id='7621050531' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184994' lon='-74.711435' />
+  <node id='7621050532' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185019' lon='-74.711524' />
+  <node id='7621050533' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.18492' lon='-74.711575' />
+  <node id='7621050534' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184865' lon='-74.711375' />
+  <node id='7621050543' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.18551' lon='-74.711268' />
+  <node id='7621050544' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185523' lon='-74.711352' />
+  <node id='7621050545' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185344' lon='-74.711406' />
+  <node id='7621050546' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185331' lon='-74.711321' />
+  <node id='7621050547' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184048' lon='-74.710914' />
+  <node id='7621050548' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184064' lon='-74.710988' />
+  <node id='7621050549' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184039' lon='-74.710999' />
+  <node id='7621050550' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.184062' lon='-74.711102' />
+  <node id='7621050551' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.183972' lon='-74.711139' />
+  <node id='7621050552' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.183933' lon='-74.710962' />
+  <node id='7621050553' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.186591' lon='-74.710678' />
+  <node id='7621050554' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.186747' lon='-74.710631' />
+  <node id='7621050555' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.186769' lon='-74.710764' />
+  <node id='7621050556' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.186613' lon='-74.710811' />
+  <node id='7621050557' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185925' lon='-74.70989' />
+  <node id='7621050558' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185876' lon='-74.70989' />
+  <node id='7621050559' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185876' lon='-74.709786' />
+  <node id='7621050560' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.185925' lon='-74.709786' />
+  <node id='7621050567' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.188961' lon='-74.709723' />
+  <node id='7621050568' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.188889' lon='-74.709715' />
+  <node id='7621050569' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.188895' lon='-74.709595' />
+  <node id='7621050570' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.189099' lon='-74.709616' />
+  <node id='7621050571' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.189094' lon='-74.709714' />
+  <node id='7621050572' timestamp='2020-06-15T01:33:24Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86639023' lat='43.188962' lon='-74.709701' />
+  <way id='816010993' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043356' />
+    <nd ref='7621043355' />
+    <nd ref='7621043354' />
+    <nd ref='7621043353' />
+    <nd ref='7621043356' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='164' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK027288' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816010995' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043364' />
+    <nd ref='7621043363' />
+    <nd ref='7621043362' />
+    <nd ref='7621043361' />
+    <nd ref='7621043364' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='175' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bungtown Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK011788' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816010997' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043374' />
+    <nd ref='7621043373' />
+    <nd ref='7621043372' />
+    <nd ref='7621043371' />
+    <nd ref='7621043370' />
+    <nd ref='7621043369' />
+    <nd ref='7621043374' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='222' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Oak Mountain Drive' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK029355' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816010999' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043382' />
+    <nd ref='7621043381' />
+    <nd ref='7621043380' />
+    <nd ref='7621043379' />
+    <nd ref='7621043382' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='599' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Perkins Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK009736' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011001' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043390' />
+    <nd ref='7621043389' />
+    <nd ref='7621043388' />
+    <nd ref='7621043387' />
+    <nd ref='7621043390' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='183' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Perkins Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK004578' />
+  </way>
+  <way id='816011003' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043398' />
+    <nd ref='7621043397' />
+    <nd ref='7621043396' />
+    <nd ref='7621043395' />
+    <nd ref='7621043398' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='202' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Perkins Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK010118' />
+  </way>
+  <way id='816011005' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043414' />
+    <nd ref='7621043413' />
+    <nd ref='7621043412' />
+    <nd ref='7621043411' />
+    <nd ref='7621043410' />
+    <nd ref='7621043409' />
+    <nd ref='7621043408' />
+    <nd ref='7621043407' />
+    <nd ref='7621043406' />
+    <nd ref='7621043405' />
+    <nd ref='7621043414' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='562' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK020021' />
+  </way>
+  <way id='816011007' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043424' />
+    <nd ref='7621043423' />
+    <nd ref='7621043422' />
+    <nd ref='7621043421' />
+    <nd ref='7621043424' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='119' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Perkins Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK023069' />
+  </way>
+  <way id='816011009' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043432' />
+    <nd ref='7621043431' />
+    <nd ref='7621043430' />
+    <nd ref='7621043429' />
+    <nd ref='7621043432' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='363' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK009662' />
+  </way>
+  <way id='816011010' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043436' />
+    <nd ref='7621043435' />
+    <nd ref='7621043434' />
+    <nd ref='7621043433' />
+    <nd ref='7621043436' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='539' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK023065' />
+  </way>
+  <way id='816011011' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043440' />
+    <nd ref='7621043439' />
+    <nd ref='7621043438' />
+    <nd ref='7621043437' />
+    <nd ref='7621043440' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='385' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK024173' />
+  </way>
+  <way id='816011013' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043448' />
+    <nd ref='7621043447' />
+    <nd ref='7621043446' />
+    <nd ref='7621043445' />
+    <nd ref='7621043448' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='425' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK023694' />
+  </way>
+  <way id='816011015' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043456' />
+    <nd ref='7621043455' />
+    <nd ref='7621043454' />
+    <nd ref='7621043453' />
+    <nd ref='7621043456' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='292' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK010422' />
+  </way>
+  <way id='816011017' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043464' />
+    <nd ref='7621043463' />
+    <nd ref='7621043462' />
+    <nd ref='7621043461' />
+    <nd ref='7621043464' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='384' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK026524' />
+  </way>
+  <way id='816011019' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043472' />
+    <nd ref='7621043471' />
+    <nd ref='7621043470' />
+    <nd ref='7621043469' />
+    <nd ref='7621043472' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='227' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK005895' />
+  </way>
+  <way id='816011020' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043476' />
+    <nd ref='7621043475' />
+    <nd ref='7621043474' />
+    <nd ref='7621043473' />
+    <nd ref='7621043476' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='209' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK002054' />
+  </way>
+  <way id='816011021' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043480' />
+    <nd ref='7621043479' />
+    <nd ref='7621043478' />
+    <nd ref='7621043477' />
+    <nd ref='7621043480' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='143' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK010931' />
+  </way>
+  <way id='816011022' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043486' />
+    <nd ref='7621043485' />
+    <nd ref='7621043484' />
+    <nd ref='7621043483' />
+    <nd ref='7621043482' />
+    <nd ref='7621043481' />
+    <nd ref='7621043486' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='179' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Merriman Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK017768' />
+  </way>
+  <way id='816011023' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043492' />
+    <nd ref='7621043491' />
+    <nd ref='7621043490' />
+    <nd ref='7621043489' />
+    <nd ref='7621043488' />
+    <nd ref='7621043487' />
+    <nd ref='7621043492' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='203' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK015664' />
+  </way>
+  <way id='816011024' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043500' />
+    <nd ref='7621043499' />
+    <nd ref='7621043498' />
+    <nd ref='7621043497' />
+    <nd ref='7621043496' />
+    <nd ref='7621043495' />
+    <nd ref='7621043494' />
+    <nd ref='7621043493' />
+    <nd ref='7621043500' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='185' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK007620' />
+  </way>
+  <way id='816011025' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043504' />
+    <nd ref='7621043503' />
+    <nd ref='7621043502' />
+    <nd ref='7621043501' />
+    <nd ref='7621043504' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='229' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK006675' />
+  </way>
+  <way id='816011026' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043510' />
+    <nd ref='7621043509' />
+    <nd ref='7621043508' />
+    <nd ref='7621043507' />
+    <nd ref='7621043506' />
+    <nd ref='7621043505' />
+    <nd ref='7621043510' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='252' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK003938' />
+  </way>
+  <way id='816011027' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043514' />
+    <nd ref='7621043513' />
+    <nd ref='7621043512' />
+    <nd ref='7621043511' />
+    <nd ref='7621043514' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='255' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK029225' />
+  </way>
+  <way id='816011028' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043518' />
+    <nd ref='7621043517' />
+    <nd ref='7621043516' />
+    <nd ref='7621043515' />
+    <nd ref='7621043518' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='249' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK000640' />
+  </way>
+  <way id='816011029' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043522' />
+    <nd ref='7621043521' />
+    <nd ref='7621043520' />
+    <nd ref='7621043519' />
+    <nd ref='7621043522' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='315' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK012062' />
+  </way>
+  <way id='816011030' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043526' />
+    <nd ref='7621043525' />
+    <nd ref='7621043524' />
+    <nd ref='7621043523' />
+    <nd ref='7621043526' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='332' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK021146' />
+  </way>
+  <way id='816011031' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043530' />
+    <nd ref='7621043529' />
+    <nd ref='7621043528' />
+    <nd ref='7621043527' />
+    <nd ref='7621043530' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='120' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Radley Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK007116' />
+  </way>
+  <way id='816011032' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043534' />
+    <nd ref='7621043533' />
+    <nd ref='7621043532' />
+    <nd ref='7621043531' />
+    <nd ref='7621043534' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='346' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK026958' />
+  </way>
+  <way id='816011033' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043542' />
+    <nd ref='7621043541' />
+    <nd ref='7621043540' />
+    <nd ref='7621043539' />
+    <nd ref='7621043538' />
+    <nd ref='7621043537' />
+    <nd ref='7621043536' />
+    <nd ref='7621043535' />
+    <nd ref='7621043542' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='353' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK026347' />
+  </way>
+  <way id='816011034' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043546' />
+    <nd ref='7621043545' />
+    <nd ref='7621043544' />
+    <nd ref='7621043543' />
+    <nd ref='7621043546' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='383' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK035745' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011035' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043554' />
+    <nd ref='7621043553' />
+    <nd ref='7621043552' />
+    <nd ref='7621043551' />
+    <nd ref='7621043550' />
+    <nd ref='7621043549' />
+    <nd ref='7621043548' />
+    <nd ref='7621043547' />
+    <nd ref='7621043554' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='297' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK018645' />
+  </way>
+  <way id='816011036' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043560' />
+    <nd ref='7621043559' />
+    <nd ref='7621043558' />
+    <nd ref='7621043557' />
+    <nd ref='7621043556' />
+    <nd ref='7621043555' />
+    <nd ref='7621043560' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='300' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK013157' />
+  </way>
+  <way id='816011037' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043566' />
+    <nd ref='7621043565' />
+    <nd ref='7621043564' />
+    <nd ref='7621043563' />
+    <nd ref='7621043562' />
+    <nd ref='7621043561' />
+    <nd ref='7621043566' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='204' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK014619' />
+  </way>
+  <way id='816011038' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043570' />
+    <nd ref='7621043569' />
+    <nd ref='7621043568' />
+    <nd ref='7621043567' />
+    <nd ref='7621043570' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='182' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK011301' />
+  </way>
+  <way id='816011039' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043574' />
+    <nd ref='7621043573' />
+    <nd ref='7621043572' />
+    <nd ref='7621043571' />
+    <nd ref='7621043574' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='132' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK017131' />
+  </way>
+  <way id='816011040' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043578' />
+    <nd ref='7621043577' />
+    <nd ref='7621043576' />
+    <nd ref='7621043575' />
+    <nd ref='7621043578' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='157' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK029525' />
+  </way>
+  <way id='816011041' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043582' />
+    <nd ref='7621043581' />
+    <nd ref='7621043580' />
+    <nd ref='7621043579' />
+    <nd ref='7621043582' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='53' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Donavan Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK016407' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011042' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043586' />
+    <nd ref='7621043585' />
+    <nd ref='7621043584' />
+    <nd ref='7621043583' />
+    <nd ref='7621043586' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='137' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK027007' />
+  </way>
+  <way id='816011043' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043590' />
+    <nd ref='7621043589' />
+    <nd ref='7621043588' />
+    <nd ref='7621043587' />
+    <nd ref='7621043590' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='110' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bungtown Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK021748' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011044' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043600' />
+    <nd ref='7621043599' />
+    <nd ref='7621043598' />
+    <nd ref='7621043597' />
+    <nd ref='7621043596' />
+    <nd ref='7621043595' />
+    <nd ref='7621043594' />
+    <nd ref='7621043593' />
+    <nd ref='7621043592' />
+    <nd ref='7621043591' />
+    <nd ref='7621043600' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='233' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Oak Mountain Drive' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK009585' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011045' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043604' />
+    <nd ref='7621043603' />
+    <nd ref='7621043602' />
+    <nd ref='7621043601' />
+    <nd ref='7621043604' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='393' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Oak Mountain Drive' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK003335' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011046' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043608' />
+    <nd ref='7621043607' />
+    <nd ref='7621043606' />
+    <nd ref='7621043605' />
+    <nd ref='7621043608' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='287' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Oak Mountain Drive' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK012177' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011047' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043612' />
+    <nd ref='7621043611' />
+    <nd ref='7621043610' />
+    <nd ref='7621043609' />
+    <nd ref='7621043612' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='699' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='James Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK000202' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011048' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043616' />
+    <nd ref='7621043615' />
+    <nd ref='7621043614' />
+    <nd ref='7621043613' />
+    <nd ref='7621043616' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='107' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Oak Mountain Drive' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK023583' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011049' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043620' />
+    <nd ref='7621043619' />
+    <nd ref='7621043618' />
+    <nd ref='7621043617' />
+    <nd ref='7621043620' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='284' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='James Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK009563' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011050' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621043624' />
+    <nd ref='7621043623' />
+    <nd ref='7621043622' />
+    <nd ref='7621043621' />
+    <nd ref='7621043624' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='291' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='James Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK025196' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011051' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043628' />
+    <nd ref='7621043627' />
+    <nd ref='7621043626' />
+    <nd ref='7621043625' />
+    <nd ref='7621043628' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='110' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Donavan Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK029247' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011052' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043636' />
+    <nd ref='7621043635' />
+    <nd ref='7621043634' />
+    <nd ref='7621043633' />
+    <nd ref='7621043632' />
+    <nd ref='7621043631' />
+    <nd ref='7621043630' />
+    <nd ref='7621043629' />
+    <nd ref='7621043636' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='370' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Donavan Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK010067' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011053' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043640' />
+    <nd ref='7621043639' />
+    <nd ref='7621043638' />
+    <nd ref='7621043637' />
+    <nd ref='7621043640' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='115' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK011125' />
+  </way>
+  <way id='816011054' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621043644' />
+    <nd ref='7621043643' />
+    <nd ref='7621043642' />
+    <nd ref='7621043641' />
+    <nd ref='7621043644' />
+    <tag k='addr:city' v='Salisbury Center' />
+    <tag k='addr:housenumber' v='168' />
+    <tag k='addr:postcode' v='13454' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Donavan Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK027853' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011055' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621043648' />
+    <nd ref='7621043647' />
+    <nd ref='7621043646' />
+    <nd ref='7621043645' />
+    <nd ref='7621043648' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='203' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Ukrainian Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK012613' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011454' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621050446' />
+    <nd ref='7621050445' />
+    <nd ref='7621050444' />
+    <nd ref='7621050443' />
+    <nd ref='7621050442' />
+    <nd ref='7621050441' />
+    <nd ref='7621050440' />
+    <nd ref='7621050439' />
+    <nd ref='7621050438' />
+    <nd ref='7621050437' />
+    <nd ref='7621050436' />
+    <nd ref='7621050435' />
+    <nd ref='7621050434' />
+    <nd ref='7621050433' />
+    <nd ref='7621050446' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='114' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK023371' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011457' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050458' />
+    <nd ref='7621050457' />
+    <nd ref='7621050456' />
+    <nd ref='7621050455' />
+    <nd ref='7621050458' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='148' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK004442' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011459' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050466' />
+    <nd ref='7621050465' />
+    <nd ref='7621050464' />
+    <nd ref='7621050463' />
+    <nd ref='7621050466' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='189' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK003560' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011460' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050470' />
+    <nd ref='7621050469' />
+    <nd ref='7621050468' />
+    <nd ref='7621050467' />
+    <nd ref='7621050470' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='161' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK004656' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011461' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621050474' />
+    <nd ref='7621050473' />
+    <nd ref='7621050472' />
+    <nd ref='7621050471' />
+    <nd ref='7621050474' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='350' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Ukrainian Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK007241' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011462' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050478' />
+    <nd ref='7621050477' />
+    <nd ref='7621050476' />
+    <nd ref='7621050475' />
+    <nd ref='7621050478' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='325' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Ukrainian Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK021976' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011463' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050484' />
+    <nd ref='7621050483' />
+    <nd ref='7621050482' />
+    <nd ref='7621050481' />
+    <nd ref='7621050480' />
+    <nd ref='7621050479' />
+    <nd ref='7621050484' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='240' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK009525' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011464' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050488' />
+    <nd ref='7621050487' />
+    <nd ref='7621050486' />
+    <nd ref='7621050485' />
+    <nd ref='7621050488' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='376' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Ukrainian Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK003900' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011465' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050498' />
+    <nd ref='7621050497' />
+    <nd ref='7621050496' />
+    <nd ref='7621050495' />
+    <nd ref='7621050494' />
+    <nd ref='7621050493' />
+    <nd ref='7621050492' />
+    <nd ref='7621050491' />
+    <nd ref='7621050490' />
+    <nd ref='7621050489' />
+    <nd ref='7621050498' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='280' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK009919' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011466' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050502' />
+    <nd ref='7621050501' />
+    <nd ref='7621050500' />
+    <nd ref='7621050499' />
+    <nd ref='7621050502' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='206' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK023542' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011467' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621050506' />
+    <nd ref='7621050505' />
+    <nd ref='7621050504' />
+    <nd ref='7621050503' />
+    <nd ref='7621050506' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='293' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK003542' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011469' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621050514' />
+    <nd ref='7621050513' />
+    <nd ref='7621050512' />
+    <nd ref='7621050511' />
+    <nd ref='7621050514' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='376' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK014300' />
+  </way>
+  <way id='816011470' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621050520' />
+    <nd ref='7621050519' />
+    <nd ref='7621050518' />
+    <nd ref='7621050517' />
+    <nd ref='7621050516' />
+    <nd ref='7621050515' />
+    <nd ref='7621050520' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='271' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK029336' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011471' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050524' />
+    <nd ref='7621050523' />
+    <nd ref='7621050522' />
+    <nd ref='7621050521' />
+    <nd ref='7621050524' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='408' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK026598' />
+  </way>
+  <way id='816011472' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050528' />
+    <nd ref='7621050527' />
+    <nd ref='7621050526' />
+    <nd ref='7621050525' />
+    <nd ref='7621050528' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='379' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Barnes Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK002110' />
+  </way>
+  <way id='816011473' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050534' />
+    <nd ref='7621050533' />
+    <nd ref='7621050532' />
+    <nd ref='7621050531' />
+    <nd ref='7621050530' />
+    <nd ref='7621050529' />
+    <nd ref='7621050534' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='329' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK029006' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011476' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050546' />
+    <nd ref='7621050545' />
+    <nd ref='7621050544' />
+    <nd ref='7621050543' />
+    <nd ref='7621050546' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='339' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK014781' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011477' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621050552' />
+    <nd ref='7621050551' />
+    <nd ref='7621050550' />
+    <nd ref='7621050549' />
+    <nd ref='7621050548' />
+    <nd ref='7621050547' />
+    <nd ref='7621050552' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='312' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK024105' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011478' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050556' />
+    <nd ref='7621050555' />
+    <nd ref='7621050554' />
+    <nd ref='7621050553' />
+    <nd ref='7621050556' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='361' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK002242' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011479' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050560' />
+    <nd ref='7621050559' />
+    <nd ref='7621050558' />
+    <nd ref='7621050557' />
+    <nd ref='7621050560' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='350' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='McClure Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK001261' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='816011481' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621050572' />
+    <nd ref='7621050571' />
+    <nd ref='7621050570' />
+    <nd ref='7621050569' />
+    <nd ref='7621050568' />
+    <nd ref='7621050567' />
+    <nd ref='7621050572' />
+    <tag k='addr:city' v='Stratford' />
+    <tag k='addr:housenumber' v='127' />
+    <tag k='addr:postcode' v='13470' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Bingham Mill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK001614' />
+  </way>
+</osm>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='42.3035708' minlon='-79.0981233' maxlat='42.3035708' maxlon='-79.0981233' origin='CGImap 0.8.6 (1612203 spike-07.openstreetmap.org)' />
+  <bounds minlat='42.3035708' minlon='-79.0981233' maxlat='42.3035708' maxlon='-79.0981233' origin='OpenStreetMap server' />
+  <node id='7657839266' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303701' lon='-79.098372' />
+  <node id='7657839267' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303594' lon='-79.098405' />
+  <node id='7657839268' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303583' lon='-79.098344' />
+  <node id='7657839269' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303546' lon='-79.098355' />
+  <node id='7657839270' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303483' lon='-79.097983' />
+  <node id='7657839271' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303523' lon='-79.097971' />
+  <node id='7657839272' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303505' lon='-79.097864' />
+  <node id='7657839273' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303566' lon='-79.097845' />
+  <node id='7657839274' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303582' lon='-79.09794' />
+  <node id='7657839275' timestamp='2020-06-27T04:23:06Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87217676' lat='42.303627' lon='-79.097927' />
+  <way id='820073753' action='modify' timestamp='2021-06-03T13:03:00Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105780642'>
+    <nd ref='7657839275' />
+    <nd ref='7657839274' />
+    <nd ref='7657839273' />
+    <nd ref='7657839272' />
+    <nd ref='7657839271' />
+    <nd ref='7657839270' />
+    <nd ref='7657839269' />
+    <nd ref='7657839268' />
+    <nd ref='7657839267' />
+    <nd ref='7657839266' />
+    <nd ref='7657839275' />
+    <tag k='addr:city' v='Cherry Creek' />
+    <tag k='addr:housenumber' v='544' />
+    <tag k='addr:postcode' v='14723' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Kent Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='CHAU035161' />
+  </way>
+</osm>

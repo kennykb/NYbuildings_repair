@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='43.0330281' minlon='-73.9910848' maxlat='43.0330281' maxlon='-73.9910848' origin='CGImap 0.8.6 (105135 spike-08.openstreetmap.org)' />
+  <bounds minlat='43.0330281' minlon='-73.9910848' maxlat='43.0330281' maxlon='-73.9910848' origin='OpenStreetMap server' />
+  <node id='7633840447' timestamp='2020-06-19T01:38:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86847364' lat='43.03312' lon='-73.991105' />
+  <node id='7633840448' timestamp='2020-06-19T01:38:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86847364' lat='43.033102' lon='-73.991199' />
+  <node id='7633840449' timestamp='2020-06-19T01:38:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86847364' lat='43.032956' lon='-73.991145' />
+  <node id='7633840450' timestamp='2020-06-19T01:38:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='86847364' lat='43.032975' lon='-73.991052' />
+  <way id='817401899' action='modify' timestamp='2021-02-08T13:01:48Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98911903'>
+    <nd ref='7633840450' />
+    <nd ref='7633840449' />
+    <nd ref='7633840448' />
+    <nd ref='7633840447' />
+    <nd ref='7633840450' />
+    <tag k='addr:city' v='Galway' />
+    <tag k='addr:housenumber' v='2399' />
+    <tag k='addr:postcode' v='12074' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Parkis Mills Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='SARA020972' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS Clearinghouse OpenData &amp; ESRI Clarity Sat Imagery' />
+  </way>
+</osm>

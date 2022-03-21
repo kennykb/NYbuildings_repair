@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='43.2252961' minlon='-74.9617207' maxlat='43.2252961' maxlon='-74.9617207' origin='CGImap 0.8.6 (2570258 spike-06.openstreetmap.org)' />
+  <bounds minlat='43.2252961' minlon='-74.9617207' maxlat='43.2252961' maxlon='-74.9617207' origin='OpenStreetMap server' />
+  <node id='7621013160' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.235059' lon='-74.970221' />
+  <node id='7621013161' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.234912' lon='-74.970118' />
+  <node id='7621013162' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.234951' lon='-74.970016' />
+  <node id='7621013163' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.23509' lon='-74.970114' />
+  <node id='7621013164' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.235111' lon='-74.970057' />
+  <node id='7621013165' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.23516' lon='-74.970091' />
+  <node id='7621013166' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.235135' lon='-74.970159' />
+  <node id='7621013167' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.235094' lon='-74.97013' />
+  <node id='7621033402' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215414' lon='-74.95451' />
+  <node id='7621033403' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.21543' lon='-74.954327' />
+  <node id='7621033404' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215588' lon='-74.954353' />
+  <node id='7621033405' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215593' lon='-74.9543' />
+  <node id='7621033406' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215652' lon='-74.95431' />
+  <node id='7621033407' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215656' lon='-74.954265' />
+  <node id='7621033408' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215747' lon='-74.95428' />
+  <node id='7621033409' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215735' lon='-74.954418' />
+  <node id='7621033410' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215833' lon='-74.954434' />
+  <node id='7621033411' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215821' lon='-74.954577' />
+  <node id='7621033416' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215875' lon='-74.9534' />
+  <node id='7621033417' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.215875' lon='-74.953277' />
+  <node id='7621033418' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.21601' lon='-74.953277' />
+  <node id='7621033419' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.21601' lon='-74.9534' />
+  <node id='7621033420' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.218812' lon='-74.953282' />
+  <node id='7621033421' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.21879' lon='-74.953405' />
+  <node id='7621033422' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.21866' lon='-74.95336' />
+  <node id='7621033423' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.218683' lon='-74.953237' />
+  <node id='7621033430' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.22222' lon='-74.957265' />
+  <node id='7621033431' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.222325' lon='-74.957265' />
+  <node id='7621033432' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.222325' lon='-74.957453' />
+  <node id='7621033433' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.22222' lon='-74.957453' />
+  <node id='7621033434' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.223004' lon='-74.954509' />
+  <node id='7621033435' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.223056' lon='-74.954814' />
+  <node id='7621033436' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.222967' lon='-74.954842' />
+  <node id='7621033437' timestamp='2020-06-15T01:28:10Z' uid='5022931' user='Saratoga Springs' visible='true' version='1' changeset='86638965' lat='43.222915' lon='-74.954537' />
+  <way id='816009024' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621013167' />
+    <nd ref='7621013166' />
+    <nd ref='7621013165' />
+    <nd ref='7621013164' />
+    <nd ref='7621013163' />
+    <nd ref='7621013162' />
+    <nd ref='7621013161' />
+    <nd ref='7621013160' />
+    <nd ref='7621013167' />
+    <tag k='addr:city' v='Cold Brook' />
+    <tag k='addr:housenumber' v='606' />
+    <tag k='addr:postcode' v='13324' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Sulphur Springs Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK012093' />
+  </way>
+  <way id='816009072' action='modify' timestamp='2021-06-04T18:16:47Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854805'>
+    <nd ref='7621033411' />
+    <nd ref='7621033410' />
+    <nd ref='7621033409' />
+    <nd ref='7621033408' />
+    <nd ref='7621033407' />
+    <nd ref='7621033406' />
+    <nd ref='7621033405' />
+    <nd ref='7621033404' />
+    <nd ref='7621033403' />
+    <nd ref='7621033402' />
+    <nd ref='7621033411' />
+    <tag k='addr:city' v='Newport' />
+    <tag k='addr:housenumber' v='119' />
+    <tag k='addr:postcode' v='13416' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Sulphur Springs Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK007034' />
+  </way>
+  <way id='816009074' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621033419' />
+    <nd ref='7621033418' />
+    <nd ref='7621033417' />
+    <nd ref='7621033416' />
+    <nd ref='7621033419' />
+    <tag k='addr:city' v='Newport' />
+    <tag k='addr:housenumber' v='114' />
+    <tag k='addr:postcode' v='13416' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Sulphur Springs Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK005749' />
+  </way>
+  <way id='816009075' action='modify' timestamp='2021-06-04T17:55:14Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854027'>
+    <nd ref='7621033423' />
+    <nd ref='7621033422' />
+    <nd ref='7621033421' />
+    <nd ref='7621033420' />
+    <nd ref='7621033423' />
+    <tag k='addr:city' v='Newport' />
+    <tag k='addr:housenumber' v='162' />
+    <tag k='addr:postcode' v='13416' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Sulphur Springs Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK007073' />
+  </way>
+  <way id='816009077' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621033433' />
+    <nd ref='7621033432' />
+    <nd ref='7621033431' />
+    <nd ref='7621033430' />
+    <nd ref='7621033433' />
+    <tag k='addr:city' v='Newport' />
+    <tag k='addr:housenumber' v='270' />
+    <tag k='addr:postcode' v='13416' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Sulphur Springs Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK025042' />
+  </way>
+  <way id='816009078' action='modify' timestamp='2021-06-04T17:55:28Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105854032'>
+    <nd ref='7621033437' />
+    <nd ref='7621033436' />
+    <nd ref='7621033435' />
+    <nd ref='7621033434' />
+    <nd ref='7621033437' />
+    <tag k='addr:city' v='Newport' />
+    <tag k='addr:housenumber' v='236' />
+    <tag k='addr:postcode' v='13416' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Sulphur Springs Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='HERK015076' />
+  </way>
+</osm>

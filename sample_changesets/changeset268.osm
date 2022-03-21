@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='42.1827367' minlon='-78.3093197' maxlat='42.1827367' maxlon='-78.3093197' origin='CGImap 0.8.6 (2186638 spike-07.openstreetmap.org)' />
+  <bounds minlat='42.1827367' minlon='-78.3093197' maxlat='42.1827367' maxlon='-78.3093197' origin='OpenStreetMap server' />
+  <node id='7661573952' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182822' lon='-78.309605' />
+  <node id='7661573953' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182823' lon='-78.309521' />
+  <node id='7661573954' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182954' lon='-78.309524' />
+  <node id='7661573955' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182951' lon='-78.309705' />
+  <node id='7661573956' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.18289' lon='-78.309703' />
+  <node id='7661573957' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182891' lon='-78.309607' />
+  <node id='7661573986' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.18256' lon='-78.309152' />
+  <node id='7661573987' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182493' lon='-78.309152' />
+  <node id='7661573988' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182493' lon='-78.309104' />
+  <node id='7661573989' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182578' lon='-78.309104' />
+  <node id='7661573990' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.182578' lon='-78.309085' />
+  <node id='7661573991' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.18264' lon='-78.309085' />
+  <node id='7661573992' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.18264' lon='-78.309214' />
+  <node id='7661573993' timestamp='2020-06-28T19:13:56Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87258987' lat='42.18256' lon='-78.309214' />
+  <way id='820503578' action='modify' timestamp='2021-06-04T13:58:15Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105843632'>
+    <nd ref='7661573957' />
+    <nd ref='7661573956' />
+    <nd ref='7661573955' />
+    <nd ref='7661573954' />
+    <nd ref='7661573953' />
+    <nd ref='7661573952' />
+    <nd ref='7661573957' />
+    <tag k='addr:city' v='Cuba' />
+    <tag k='addr:housenumber' v='4277' />
+    <tag k='addr:postcode' v='14727' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Town Line Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='CATT038232' />
+  </way>
+  <way id='820503585' action='modify' timestamp='2021-06-04T13:57:20Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105843593'>
+    <nd ref='7661573993' />
+    <nd ref='7661573992' />
+    <nd ref='7661573991' />
+    <nd ref='7661573990' />
+    <nd ref='7661573989' />
+    <nd ref='7661573988' />
+    <nd ref='7661573987' />
+    <nd ref='7661573986' />
+    <nd ref='7661573993' />
+    <tag k='addr:city' v='Cuba' />
+    <tag k='addr:housenumber' v='4265' />
+    <tag k='addr:postcode' v='14727' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Town Line Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='CATT038147' />
+  </way>
+</osm>

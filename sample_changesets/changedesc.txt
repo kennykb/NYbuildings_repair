@@ -1,0 +1,145 @@
+Changeset 17: 500 ways
+
+addr:street=Second Avenue Extension: 45
+addr:street=Fourth Avenue: 41
+addr:street=Mary Street: 36
+addr:street=Joseph Street: 35
+addr:street=Fifth Avenue: 33
+addr:street=East Main Street: 31
++36 more tags
+
+    This is a typical changeset in an area where the original import
+    was truncating street names ("East Main Street"->"Main").  It
+    is simply putting the correct street name back onto 500 buildings
+    among 42 streets.
+
+Changeset 35: 495 ways
+
+addr:city=Saint James: 491
+addr:street=Old Portion Road: 4
+
+    This changeset spells out the city name "St. James"->"Saint James"
+    and corrects one misspelt street name.
+
+Changeset 38: 459 ways
+
+addr:city=Saint James: 331
+addr:city=Ronkonkoma: 49
+addr:street=Express Drive North: 35
+addr:street=Lake Promenade: 23
+addr:street=North 2nd Street: 11
+addr:city=Lake Ronkonkoma: 9
+addr:city=Holbrook: 2
++7 more tags
+
+    This changeset spells out "Saint James", moves a bunch of other
+    buildings into the correct postal cities, and corrects about a dozen
+    street names.
+
+Changeset 44: 373 ways
+
+addr:city=Smithtown: 367
+addr:street=Express Drive North: 6
+
+    Move 367 buildings to the ccorrect postal city, and add a missing
+    "North" on the street address of 6.
+
+Changeset 97: 6 ways
+
+addr:street=Mt Washington Road: 5
+addr:street=East William Street: 1
+
+    Add missing prefixes and suffixes. 'Mount' should of course
+    be spelt out, but the source data didn't have it that way.
+    Missing that wouldn't be a tragedy.
+
+Changeset 105: 499 ways
+
+addr:city=Babylon: 173
+addr:street=Little East Neck Road South: 78
+addr:street=South Bay Drive: 53
+addr:street=The Crescent: 30
+addr:street=Harrison Avenue West: 20
+addr:street=North Briarwood Avenue: 20
++14 more tags
+
+Changeset 150: 146 ways
+
+addr:street=Burrell Road: 16
+addr:street=Military Road: 16
+addr:street=Fairview Road: 15
+addr:street=Mang Road: 14
+addr:street=Plant Road: 13
+addr:street=Moore Road: 11
+addr:street=Spencer Road: 10
++11 more tags
+
+Changeset 157: 48 ways
+
+addr:street=Fourth Street: 17
+addr:street=South Third Street: 11
+addr:street=Marion Avenue: 5
+addr:street=North First Street: 5
+addr:street=South First Street: 4
+addr:street=North Third Street: 2
++3 more tags
+
+Changeset 197: 6 ways
+
+addr:street=Sulphur Springs Road: 6
+
+Changeset 203: 72 ways
+
+addr:street=Bingham Mill Road: 15
+addr:street=McClure Road: 15
+addr:street=Barnes Road: 12
+addr:street=Merriman Road: 7
+addr:street=Oak Mountain Drive: 5
+addr:street=Perkins Mill Road: 4
++5 more tags
+
+Changeset 248: 1 way
+
+addr:street=Parkis Mills Road: 1
+
+    The first actual error I found.  The street name 'Parks Mill Road'
+    was a misspelling of a nearby 'Parkis Mills Road' - but both
+    are incorrect for the building, which is on Old Mill Road.
+    At least it's no worse.
+
+Changeset 262: 1 way
+
+addr:housenumber=544: 1
+
+Changeset 268: 2 ways
+
+addr:housenumber=4277: 1
+addr:housenumber=4265: 1
+
+Changeset 272: 8 ways
+addr:housenumber=8952: 1
+addr:housenumber=8962: 1
+addr:housenumber=2870: 1
+addr:city=Angelica: 1
+addr:postcode=14709: 1
+addr:housenumber=2843: 1
+addr:street=Fitch Hill Road: 1
+addr:housenumber=9216: 1
++2 more tags
+
+    A mixed bag, but it mostly looks right.
+
+Changeset 296: 8 ways
+
+addr:street=South Old West Lake Road: 6
+addr:housenumber=6887: 1
+addr:housenumber=6331: 1
+
+Changeset 301: 7 ways
+
+addr:street=Carter Road Extension: 5
+addr:street=Pre Emption Street: 2
+
+    Nobody knows how "Preemption" should be spelt. "Pre-emption"
+    might be correct, but the upstream data disallows punctuation
+    in street names.

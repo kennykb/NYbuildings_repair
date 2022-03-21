@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='42.4018963' minlon='-77.9210611' maxlat='42.4018963' maxlon='-77.9210611' origin='CGImap 0.8.6 (2061575 spike-06.openstreetmap.org)' />
+  <bounds minlat='42.4018963' minlon='-77.9210611' maxlat='42.4018963' maxlon='-77.9210611' origin='OpenStreetMap server' />
+  <node id='7672131595' timestamp='2020-07-01T00:57:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390295' lon='-77.920533' />
+  <node id='7672131596' timestamp='2020-07-01T00:57:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390411' lon='-77.920519' />
+  <node id='7672131597' timestamp='2020-07-01T00:57:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.39042' lon='-77.920641' />
+  <node id='7672131598' timestamp='2020-07-01T00:57:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390304' lon='-77.920655' />
+  <node id='7672134033' timestamp='2020-07-01T00:57:03Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390891' lon='-77.920597' />
+  <node id='7672134034' timestamp='2020-07-01T00:57:03Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390775' lon='-77.920606' />
+  <node id='7672134035' timestamp='2020-07-01T00:57:03Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.39077' lon='-77.920493' />
+  <node id='7672134036' timestamp='2020-07-01T00:57:03Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390887' lon='-77.920485' />
+  <node id='7672136873' timestamp='2020-07-01T00:57:05Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.431974' lon='-77.889173' />
+  <node id='7672136874' timestamp='2020-07-01T00:57:05Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.431936' lon='-77.889201' />
+  <node id='7672136875' timestamp='2020-07-01T00:57:05Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.431856' lon='-77.889008' />
+  <node id='7672136876' timestamp='2020-07-01T00:57:05Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.431894' lon='-77.888979' />
+  <node id='7672138652' timestamp='2020-07-01T00:57:07Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390949' lon='-77.947097' />
+  <node id='7672138653' timestamp='2020-07-01T00:57:07Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390949' lon='-77.947188' />
+  <node id='7672138654' timestamp='2020-07-01T00:57:07Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390824' lon='-77.947188' />
+  <node id='7672138655' timestamp='2020-07-01T00:57:07Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370208' lat='42.390824' lon='-77.947097' />
+  <node id='7672142078' timestamp='2020-07-01T00:57:10Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370210' lat='42.403713' lon='-77.888576' />
+  <node id='7672142079' timestamp='2020-07-01T00:57:10Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370210' lat='42.403713' lon='-77.888464' />
+  <node id='7672142080' timestamp='2020-07-01T00:57:10Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370210' lat='42.403814' lon='-77.888464' />
+  <node id='7672142081' timestamp='2020-07-01T00:57:10Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370210' lat='42.403814' lon='-77.888622' />
+  <node id='7672142082' timestamp='2020-07-01T00:57:10Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370210' lat='42.403755' lon='-77.888622' />
+  <node id='7672142083' timestamp='2020-07-01T00:57:10Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370210' lat='42.403755' lon='-77.888576' />
+  <node id='7672151899' timestamp='2020-07-01T00:57:20Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.399813' lon='-77.953529' />
+  <node id='7672151900' timestamp='2020-07-01T00:57:20Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.399905' lon='-77.953529' />
+  <node id='7672151901' timestamp='2020-07-01T00:57:20Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.399905' lon='-77.953652' />
+  <node id='7672151902' timestamp='2020-07-01T00:57:20Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.399813' lon='-77.953652' />
+  <node id='7672153608' timestamp='2020-07-01T00:57:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.371917' lon='-77.919584' />
+  <node id='7672153609' timestamp='2020-07-01T00:57:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.371951' lon='-77.919734' />
+  <node id='7672153610' timestamp='2020-07-01T00:57:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.371845' lon='-77.919779' />
+  <node id='7672153611' timestamp='2020-07-01T00:57:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370213' lat='42.37181' lon='-77.919629' />
+  <node id='7672160047' timestamp='2020-07-01T00:57:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370215' lat='42.407665' lon='-77.927223' />
+  <node id='7672160048' timestamp='2020-07-01T00:57:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370215' lat='42.407648' lon='-77.927178' />
+  <node id='7672160049' timestamp='2020-07-01T00:57:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370215' lat='42.40771' lon='-77.927136' />
+  <node id='7672160050' timestamp='2020-07-01T00:57:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370215' lat='42.407772' lon='-77.927303' />
+  <node id='7672160051' timestamp='2020-07-01T00:57:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370215' lat='42.407686' lon='-77.927361' />
+  <node id='7672160052' timestamp='2020-07-01T00:57:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='87370215' lat='42.407641' lon='-77.927239' />
+  <way id='821674063' action='modify' timestamp='2021-05-28T04:37:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460022'>
+    <nd ref='7672131598' />
+    <nd ref='7672131597' />
+    <nd ref='7672131596' />
+    <nd ref='7672131595' />
+    <nd ref='7672131598' />
+    <tag k='addr:city' v='Angelica' />
+    <tag k='addr:housenumber' v='8952' />
+    <tag k='addr:postcode' v='14709' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='County Road 16' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE018799' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821674585' action='modify' timestamp='2021-05-28T04:37:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460022'>
+    <nd ref='7672134036' />
+    <nd ref='7672134035' />
+    <nd ref='7672134034' />
+    <nd ref='7672134033' />
+    <nd ref='7672134036' />
+    <tag k='addr:city' v='Angelica' />
+    <tag k='addr:housenumber' v='8962' />
+    <tag k='addr:postcode' v='14709' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='County Road 16' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE018802' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821675181' action='modify' timestamp='2021-05-28T04:37:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460022'>
+    <nd ref='7672136876' />
+    <nd ref='7672136875' />
+    <nd ref='7672136874' />
+    <nd ref='7672136873' />
+    <nd ref='7672136876' />
+    <tag k='addr:city' v='Canaseraga' />
+    <tag k='addr:housenumber' v='2870' />
+    <tag k='addr:postcode' v='14822' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='County Road 15A' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE001571' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821675557' action='modify' timestamp='2021-05-28T04:37:19Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460034'>
+    <nd ref='7672138655' />
+    <nd ref='7672138654' />
+    <nd ref='7672138653' />
+    <nd ref='7672138652' />
+    <nd ref='7672138655' />
+    <tag k='addr:city' v='Angelica' />
+    <tag k='addr:housenumber' v='8939' />
+    <tag k='addr:postcode' v='14709' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Number One Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE020159' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821676264' action='modify' timestamp='2021-05-28T04:37:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460022'>
+    <nd ref='7672142083' />
+    <nd ref='7672142082' />
+    <nd ref='7672142081' />
+    <nd ref='7672142080' />
+    <nd ref='7672142079' />
+    <nd ref='7672142078' />
+    <nd ref='7672142083' />
+    <tag k='addr:city' v='Canaseraga' />
+    <tag k='addr:housenumber' v='2843' />
+    <tag k='addr:postcode' v='14822' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fitch Hill Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE001558' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821678303' action='modify' timestamp='2021-05-28T04:37:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460022'>
+    <nd ref='7672151902' />
+    <nd ref='7672151901' />
+    <nd ref='7672151900' />
+    <nd ref='7672151899' />
+    <nd ref='7672151902' />
+    <tag k='addr:city' v='Canaseraga' />
+    <tag k='addr:housenumber' v='9216' />
+    <tag k='addr:postcode' v='14822' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Allen Birdsall Townline Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE025295' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821678659' action='modify' timestamp='2021-05-28T04:37:19Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460034'>
+    <nd ref='7672153611' />
+    <nd ref='7672153610' />
+    <nd ref='7672153609' />
+    <nd ref='7672153608' />
+    <nd ref='7672153611' />
+    <tag k='addr:city' v='Angelica' />
+    <tag k='addr:housenumber' v='3363' />
+    <tag k='addr:postcode' v='14709' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Hamilton Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE013153' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='821679992' action='modify' timestamp='2021-05-28T04:37:19Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105460034'>
+    <nd ref='7672160052' />
+    <nd ref='7672160051' />
+    <nd ref='7672160050' />
+    <nd ref='7672160049' />
+    <nd ref='7672160048' />
+    <nd ref='7672160047' />
+    <nd ref='7672160052' />
+    <tag k='addr:city' v='Canaseraga' />
+    <tag k='addr:housenumber' v='3530' />
+    <tag k='addr:postcode' v='14822' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Worden Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ALLE020152' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+</osm>

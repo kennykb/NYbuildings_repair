@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='42.3468129' minlon='-77.2980703' maxlat='42.3468129' maxlon='-77.2980703' origin='CGImap 0.8.6 (352189 spike-06.openstreetmap.org)' />
+  <bounds minlat='42.3468129' minlon='-77.2980703' maxlat='42.3468129' maxlon='-77.2980703' origin='OpenStreetMap server' />
+  <node id='5335267424' timestamp='2018-01-12T16:57:11Z' uid='2703819' user='OSM4277' visible='true' version='1' changeset='55385621' lat='42.3353492' lon='-77.3176822' />
+  <node id='5335267427' timestamp='2018-01-12T16:57:11Z' uid='2703819' user='OSM4277' visible='true' version='1' changeset='55385621' lat='42.3353387' lon='-77.3174893' />
+  <node id='5335267428' timestamp='2018-01-12T16:57:11Z' uid='2703819' user='OSM4277' visible='true' version='1' changeset='55385621' lat='42.335446' lon='-77.3174769' />
+  <node id='5335267429' timestamp='2018-01-12T16:57:11Z' uid='2703819' user='OSM4277' visible='true' version='1' changeset='55385621' lat='42.3354578' lon='-77.3176707' />
+  <node id='7681883634' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354716' lon='-77.282486' />
+  <node id='7681883635' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354523' lon='-77.282552' />
+  <node id='7681883636' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354506' lon='-77.28246' />
+  <node id='7681883637' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354566' lon='-77.282439' />
+  <node id='7681883638' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354559' lon='-77.282405' />
+  <node id='7681883639' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354623' lon='-77.282383' />
+  <node id='7681883640' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354629' lon='-77.282416' />
+  <node id='7681883641' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.35477' lon='-77.282368' />
+  <node id='7681883642' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354796' lon='-77.282504' />
+  <node id='7681883643' timestamp='2020-07-04T02:14:16Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521007' lat='42.354724' lon='-77.282528' />
+  <node id='7681894114' timestamp='2020-07-04T02:14:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521010' lat='42.351298' lon='-77.284698' />
+  <node id='7681894115' timestamp='2020-07-04T02:14:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521010' lat='42.351319' lon='-77.284813' />
+  <node id='7681894116' timestamp='2020-07-04T02:14:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521010' lat='42.351083' lon='-77.284891' />
+  <node id='7681894117' timestamp='2020-07-04T02:14:25Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521010' lat='42.351062' lon='-77.284775' />
+  <node id='7681902822' timestamp='2020-07-04T02:14:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521013' lat='42.356017' lon='-77.281508' />
+  <node id='7681902823' timestamp='2020-07-04T02:14:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521013' lat='42.355944' lon='-77.281538' />
+  <node id='7681902824' timestamp='2020-07-04T02:14:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521013' lat='42.355942' lon='-77.281525' />
+  <node id='7681902825' timestamp='2020-07-04T02:14:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521013' lat='42.355743' lon='-77.281605' />
+  <node id='7681902826' timestamp='2020-07-04T02:14:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521013' lat='42.35572' lon='-77.281502' />
+  <node id='7681902827' timestamp='2020-07-04T02:14:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521013' lat='42.355992' lon='-77.281392' />
+  <node id='7681913472' timestamp='2020-07-04T02:14:42Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521014' lat='42.356127' lon='-77.28263' />
+  <node id='7681913473' timestamp='2020-07-04T02:14:42Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521014' lat='42.356049' lon='-77.282695' />
+  <node id='7681913474' timestamp='2020-07-04T02:14:42Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521014' lat='42.356023' lon='-77.282637' />
+  <node id='7681913475' timestamp='2020-07-04T02:14:42Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521014' lat='42.355921' lon='-77.282722' />
+  <node id='7681913476' timestamp='2020-07-04T02:14:42Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521014' lat='42.355873' lon='-77.282618' />
+  <node id='7681913477' timestamp='2020-07-04T02:14:42Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521014' lat='42.356052' lon='-77.282468' />
+  <node id='7681922398' timestamp='2020-07-04T02:14:50Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521015' lat='42.358162' lon='-77.278483' />
+  <node id='7681922399' timestamp='2020-07-04T02:14:50Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521015' lat='42.35832' lon='-77.278373' />
+  <node id='7681922400' timestamp='2020-07-04T02:14:50Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521015' lat='42.358384' lon='-77.27854' />
+  <node id='7681922401' timestamp='2020-07-04T02:14:50Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521015' lat='42.358298' lon='-77.2786' />
+  <node id='7681922402' timestamp='2020-07-04T02:14:50Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521015' lat='42.358286' lon='-77.278568' />
+  <node id='7681922403' timestamp='2020-07-04T02:14:50Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87521015' lat='42.358214' lon='-77.278618' />
+  <way id='552631964' action='modify' timestamp='2021-06-03T16:01:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='3' changeset='105789056'>
+    <nd ref='5335267424' />
+    <nd ref='5335267427' />
+    <nd ref='5335267428' />
+    <nd ref='5335267429' />
+    <nd ref='5335267424' />
+    <tag k='addr:city' v='Bath' />
+    <tag k='addr:housenumber' v='5' />
+    <tag k='addr:postcode' v='14810' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='East William Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='STEU041034' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='822739437' action='modify' timestamp='2021-06-03T16:01:27Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105789073'>
+    <nd ref='7681883643' />
+    <nd ref='7681883642' />
+    <nd ref='7681883641' />
+    <nd ref='7681883640' />
+    <nd ref='7681883639' />
+    <nd ref='7681883638' />
+    <nd ref='7681883637' />
+    <nd ref='7681883636' />
+    <nd ref='7681883635' />
+    <nd ref='7681883634' />
+    <nd ref='7681883643' />
+    <tag k='addr:city' v='Bath' />
+    <tag k='addr:housenumber' v='7304' />
+    <tag k='addr:postcode' v='14810' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Mt Washington Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='STEU001774' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='822741566' action='modify' timestamp='2021-06-03T16:01:04Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105789056'>
+    <nd ref='7681894117' />
+    <nd ref='7681894116' />
+    <nd ref='7681894115' />
+    <nd ref='7681894114' />
+    <nd ref='7681894117' />
+    <tag k='addr:city' v='Bath' />
+    <tag k='addr:housenumber' v='7221' />
+    <tag k='addr:postcode' v='14810' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Mt Washington Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='STEU005413' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='822743330' action='modify' timestamp='2021-06-03T16:00:42Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105789039'>
+    <nd ref='7681902827' />
+    <nd ref='7681902826' />
+    <nd ref='7681902825' />
+    <nd ref='7681902824' />
+    <nd ref='7681902823' />
+    <nd ref='7681902822' />
+    <nd ref='7681902827' />
+    <tag k='addr:city' v='Bath' />
+    <tag k='addr:housenumber' v='7344' />
+    <tag k='addr:postcode' v='14810' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Mt Washington Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='STEU039328' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='822745474' action='modify' timestamp='2021-06-03T16:00:21Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105789026'>
+    <nd ref='7681913477' />
+    <nd ref='7681913476' />
+    <nd ref='7681913475' />
+    <nd ref='7681913474' />
+    <nd ref='7681913473' />
+    <nd ref='7681913472' />
+    <nd ref='7681913477' />
+    <tag k='addr:city' v='Bath' />
+    <tag k='addr:housenumber' v='7355' />
+    <tag k='addr:postcode' v='14810' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Mt Washington Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='STEU012682' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+  <way id='822747291' action='modify' timestamp='2021-06-03T16:00:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105789018'>
+    <nd ref='7681922403' />
+    <nd ref='7681922402' />
+    <nd ref='7681922401' />
+    <nd ref='7681922400' />
+    <nd ref='7681922399' />
+    <nd ref='7681922398' />
+    <nd ref='7681922403' />
+    <tag k='addr:city' v='Bath' />
+    <tag k='addr:housenumber' v='7394' />
+    <tag k='addr:postcode' v='14810' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Mt Washington Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='STEU007054' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse &amp; MS Footprints (both OpenData) &amp; ESRI Sat Imagery' />
+  </way>
+</osm>

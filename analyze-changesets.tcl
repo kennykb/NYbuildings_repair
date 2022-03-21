@@ -1,7 +1,14 @@
 #!/usr/bin/env tclsh8.6
 
+set maxextent 0.067;		# Max extent in X and Y in degrees
+set maxcluster 500;		# Max number of changes in a cluster
+
+namespace path {::tcl::mathfunc ::tcl::mathop}
+
 package require tdbc::postgres
 package require tdom
+
+source geocluster.tcl
 
 tdbc::postgres::connection create db -db gis
 
@@ -15,7 +22,7 @@ db allrows {
         zip CHAR(5),
         fromcity TEXT,
         tocity TEXT,
-        loc GEOMETRY(POINT, 3857)
+        loc GEOMETRY(POINT, 4326)
     )
 }
 
@@ -35,8 +42,8 @@ set qAddressPointId [db prepare {
 }]
 
 set qNYSAddr [db prepare {
-    select ST_X(wkb_geometry) as longitude,
-           ST_Y(wkb_geometry) as latitude,
+    select ST_X(ST_Transform(wkb_geometry, 4326)) as longitude,
+           ST_Y(ST_Transform(wkb_geometry, 4326)) as latitude,
            prefixaddr, addressnum, suffixaddr,
            completest as street,
            zipname as city,
@@ -49,7 +56,7 @@ set qNYSAddr [db prepare {
 set iCityRewrite [db prepare {
     insert into nys_city_rewrites(zip, fromcity, tocity, loc)
     values(:zip, :fromcity, :tocity,
-	   ST_SetSRID(ST_MakePoint(:longitude, :latitude), 3857))
+	   ST_SetSRID(ST_MakePoint(:longitude, :latitude), 4326))
 }]
        
 
@@ -187,6 +194,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 			}
 		    }
 		}
+		lassign $coords longitude latitude
 
 		# Set the ZIP code according to NYSGIS
 		
@@ -243,11 +251,10 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 			    }
 			    incr x
 			    dict set cities $zip $oldvalue $newvalue $x
-			    lassign $coords lo la
 			    $iCityRewrite allrows \
 				[list zip $zip \
 				     fromcity $oldvalue tocity $newvalue \
-				     longitude $lo latitude $la]
+				     longitude $longitude latitude $latitude]
 			}
 			    
 			# Record that this key needs repair on this object
@@ -264,7 +271,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
 		incr salvage
 		dict set repairs $osmid $fix
-		dict lappend fixups $fix $osmid
+		dict lappend fixups $fix $longitude $latitude $osmid
 		    
 	    }
 	}
@@ -298,7 +305,68 @@ foreach {zip from to count} [lsort -stride 4 -index 3 -integer -decreasing $tbl]
     if {$count < 50} break
     puts "   $zip: $from -> $to ($count instances)"
 }
-array set things_to_fix $fixups; parray things_to_fix
+
+# Changetable will have groups of seven objects:
+# {minx miny maxx maxy npoints {actionlist}}
+# Each action list will have alternating {set of changes to make}
+# {set of points to make them on}.
+
+set changetable {}
+dict for {changes objects} $fixups {
+    foreach cluster [geocluster::clusters $objects $maxextent $maxcluster] {
+	set n2 [expr {[llength $cluster] / 3}]
+	lassign [geocluster::bbox $cluster] minx2 miny2 maxx2 maxy2
+
+	set found 0
+	set i -1
+	foreach tuple $changetable {
+	    incr i
+	    lassign $tuple minx1 miny1 maxx1 maxy1 n1 actions1
+	    set n [expr {$n1 + $n2}]
+	    set minx [min $minx1 $minx2]
+	    set miny [min $miny1 $miny2]
+	    set maxx [max $maxx1 $maxx2]
+	    set maxy [max $maxy1 $maxy2]
+	    if {$n <= $maxcluster
+		&& $maxx-$minx <= $maxextent
+		&& $maxy-$miny <= $maxextent} {
+		set found 1
+		break
+	    }
+	}
+	if {$found} {
+	    lset changetable $i {}
+	    set tuple {}
+	    lappend actions1 $changes $cluster
+	    lset changetable $i [list $minx $miny $maxx $maxy $n $actions1]
+	} else {
+	    lappend changetable [list $minx2 $miny2 $maxx2 $maxy2 $n2 [list $changes $cluster]]
+	}
+    }
+}
+
+puts "[llength $changetable] changesets could go into JOSM"
+
+set f [open changetable.txt w]
+puts $f [llength $changetable]
+foreach tuple $changetable {
+    lassign $tuple minx miny maxx maxy n actions
+    puts $f "[dict size $actions] $n $minx $miny $maxx $maxy"
+    dict for {changes points} $actions {
+	puts $f [dict size $changes]
+	dict for {key value} $changes {
+	    puts $f "$key=$value"
+	}
+	puts $f [expr [llength $points] / 3]
+	foreach {x y osmid} $points {
+	    puts $f $osmid
+	}
+    }
+}
+close $f
+
+
+# Create a PostGIS table to report on the postal city-municipality mismatch.
 
 db allrows {
     DROP TABLE nys_city_rewrite_counts
@@ -338,5 +406,3 @@ db allrows {
     CREATE INDEX idx_nys_city_rewrite_counts_geo
     ON nys_city_rewrite_counts USING GIST(boundary)
 }
-
-    

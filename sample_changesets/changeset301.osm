@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='42.8798206' minlon='-76.9810115' maxlat='42.8798206' maxlon='-76.9810115' origin='CGImap 0.8.6 (294239 spike-07.openstreetmap.org)' />
+  <bounds minlat='42.8798206' minlon='-76.9810115' maxlat='42.8798206' maxlon='-76.9810115' origin='OpenStreetMap server' />
+  <node id='7711358148' timestamp='2020-07-13T17:16:38Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.878938' lon='-76.963802' />
+  <node id='7711358149' timestamp='2020-07-13T17:16:38Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.878938' lon='-76.963614' />
+  <node id='7711358150' timestamp='2020-07-13T17:16:38Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.879005' lon='-76.963614' />
+  <node id='7711358151' timestamp='2020-07-13T17:16:38Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.879005' lon='-76.963802' />
+  <node id='7711363362' timestamp='2020-07-13T17:16:27Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880255' lon='-76.994199' />
+  <node id='7711363363' timestamp='2020-07-13T17:16:27Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880255' lon='-76.993947' />
+  <node id='7711363364' timestamp='2020-07-13T17:16:27Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880339' lon='-76.993947' />
+  <node id='7711363365' timestamp='2020-07-13T17:16:27Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880339' lon='-76.994199' />
+  <node id='7711367356' timestamp='2020-07-13T17:16:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.87882' lon='-76.963622' />
+  <node id='7711367357' timestamp='2020-07-13T17:16:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.878885' lon='-76.963622' />
+  <node id='7711367358' timestamp='2020-07-13T17:16:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.878885' lon='-76.963786' />
+  <node id='7711367359' timestamp='2020-07-13T17:16:33Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.87882' lon='-76.963786' />
+  <node id='7711367867' timestamp='2020-07-13T17:16:34Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880287' lon='-76.998144' />
+  <node id='7711367868' timestamp='2020-07-13T17:16:34Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880286' lon='-76.998502' />
+  <node id='7711367869' timestamp='2020-07-13T17:16:34Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880205' lon='-76.998501' />
+  <node id='7711367870' timestamp='2020-07-13T17:16:34Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880206' lon='-76.998143' />
+  <node id='7711369014' timestamp='2020-07-13T17:16:35Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880298' lon='-76.997096' />
+  <node id='7711369015' timestamp='2020-07-13T17:16:35Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880298' lon='-76.997461' />
+  <node id='7711369016' timestamp='2020-07-13T17:16:35Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880223' lon='-76.997461' />
+  <node id='7711369017' timestamp='2020-07-13T17:16:35Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935642' lat='42.880223' lon='-76.997096' />
+  <node id='7711373048' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880764' lon='-76.995007' />
+  <node id='7711373049' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880764' lon='-76.994821' />
+  <node id='7711373050' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880837' lon='-76.994821' />
+  <node id='7711373051' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880837' lon='-76.995007' />
+  <node id='7711373742' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880361' lon='-76.996066' />
+  <node id='7711373743' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880361' lon='-76.996203' />
+  <node id='7711373744' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880259' lon='-76.996203' />
+  <node id='7711373745' timestamp='2020-07-13T17:16:43Z' uid='5026594' user='NYbuildings' visible='true' version='1' changeset='87935646' lat='42.880259' lon='-76.996066' />
+  <way id='825919877' action='modify' timestamp='2021-06-03T23:54:01Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804525'>
+    <nd ref='7711363365' />
+    <nd ref='7711363364' />
+    <nd ref='7711363363' />
+    <nd ref='7711363362' />
+    <nd ref='7711363365' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:flats' v='1-3' />
+    <tag k='addr:housenumber' v='118' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Carter Road Extension' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA047139;ONTA047140;ONTA031939;ONTA047138' />
+  </way>
+  <way id='825920733' action='modify' timestamp='2021-06-03T23:53:17Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804516'>
+    <nd ref='7711367359' />
+    <nd ref='7711367358' />
+    <nd ref='7711367357' />
+    <nd ref='7711367356' />
+    <nd ref='7711367359' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:housenumber' v='3' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Pre Emption Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA031989' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825920841' action='modify' timestamp='2021-06-03T23:54:20Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804539'>
+    <nd ref='7711367870' />
+    <nd ref='7711367869' />
+    <nd ref='7711367868' />
+    <nd ref='7711367867' />
+    <nd ref='7711367870' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:housenumber' v='124' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Carter Road Extension' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA031937' />
+  </way>
+  <way id='825921078' action='modify' timestamp='2021-06-03T23:54:01Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804525'>
+    <nd ref='7711369017' />
+    <nd ref='7711369016' />
+    <nd ref='7711369015' />
+    <nd ref='7711369014' />
+    <nd ref='7711369017' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:housenumber' v='122' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Carter Road Extension' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA031938' />
+  </way>
+  <way id='825921456' action='modify' timestamp='2021-06-03T23:54:20Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804539'>
+    <nd ref='7711358151' />
+    <nd ref='7711358150' />
+    <nd ref='7711358149' />
+    <nd ref='7711358148' />
+    <nd ref='7711358151' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:housenumber' v='5' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Pre Emption Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA031988' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+  </way>
+  <way id='825921916' action='modify' timestamp='2021-06-03T23:54:20Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804539'>
+    <nd ref='7711373051' />
+    <nd ref='7711373050' />
+    <nd ref='7711373049' />
+    <nd ref='7711373048' />
+    <nd ref='7711373051' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:housenumber' v='126' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Carter Road Extension' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA033705' />
+  </way>
+  <way id='825922058' action='modify' timestamp='2021-06-03T23:54:01Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='105804525'>
+    <nd ref='7711373745' />
+    <nd ref='7711373744' />
+    <nd ref='7711373743' />
+    <nd ref='7711373742' />
+    <nd ref='7711373745' />
+    <tag k='addr:city' v='Geneva' />
+    <tag k='addr:housenumber' v='120' />
+    <tag k='addr:postcode' v='14456' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Carter Road Extension' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='ONTA044039' />
+  </way>
+</osm>

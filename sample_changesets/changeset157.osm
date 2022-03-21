@@ -1,0 +1,1180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='43.2084716' minlon='-74.1737523' maxlat='43.2084716' maxlon='-74.1737523' origin='CGImap 0.8.6 (940915 spike-07.openstreetmap.org)' />
+  <bounds minlat='43.2084716' minlon='-74.1737523' maxlat='43.2084716' maxlon='-74.1737523' origin='OpenStreetMap server' />
+  <node id='2461581730' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2247639' lon='-74.1759532' />
+  <node id='2461581731' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2245333' lon='-74.1758486' />
+  <node id='2461581732' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2245822' lon='-74.1756528' />
+  <node id='2461581733' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243867' lon='-74.1755589' />
+  <node id='2461581734' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243398' lon='-74.1757574' />
+  <node id='2461581736' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242304' lon='-74.1756984' />
+  <node id='2461581738' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242089' lon='-74.1756796' />
+  <node id='2461581740' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2241854' lon='-74.1756662' />
+  <node id='2461581742' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.224162' lon='-74.1756635' />
+  <node id='2461581744' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2241463' lon='-74.1756635' />
+  <node id='2461581746' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2240476' lon='-74.1756126' />
+  <node id='2461581748' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2240955' lon='-74.1754195' />
+  <node id='2461581750' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.223902' lon='-74.1753202' />
+  <node id='2461581752' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238808' lon='-74.1754002' />
+  <node id='2461581754' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2239059' lon='-74.1754114' />
+  <node id='2461581756' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238532' lon='-74.1756153' />
+  <node id='2461581758' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238115' lon='-74.1755919' />
+  <node id='2461581760' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2237945' lon='-74.1756555' />
+  <node id='2461581762' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238375' lon='-74.1756823' />
+  <node id='2461581764' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238102' lon='-74.1757816' />
+  <node id='2461581766' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238688' lon='-74.1758111' />
+  <node id='2461581769' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2238023' lon='-74.1761007' />
+  <node id='2461581770' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2239587' lon='-74.1761812' />
+  <node id='2461581771' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2240408' lon='-74.1758701' />
+  <node id='2461581772' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244102' lon='-74.1760498' />
+  <node id='2461581773' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243848' lon='-74.176141' />
+  <node id='2461581774' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243279' lon='-74.1761145' />
+  <node id='2461581775' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242655' lon='-74.1763314' />
+  <node id='2461581776' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242745' lon='-74.1763381' />
+  <node id='2461581777' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242655' lon='-74.1763712' />
+  <node id='2461581778' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242514' lon='-74.1763657' />
+  <node id='2461581779' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242444' lon='-74.176396' />
+  <node id='2461581780' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242273' lon='-74.1764236' />
+  <node id='2461581781' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242343' lon='-74.1764484' />
+  <node id='2461581782' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242454' lon='-74.1764746' />
+  <node id='2461581783' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242584' lon='-74.1765022' />
+  <node id='2461581784' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242715' lon='-74.1765284' />
+  <node id='2461581785' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2242896' lon='-74.176549' />
+  <node id='2461581786' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243097' lon='-74.176567' />
+  <node id='2461581787' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243318' lon='-74.1765807' />
+  <node id='2461581788' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2243559' lon='-74.1765918' />
+  <node id='2461581789' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.224379' lon='-74.1765945' />
+  <node id='2461581790' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244061' lon='-74.1765932' />
+  <node id='2461581791' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244302' lon='-74.1765821' />
+  <node id='2461581792' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244554' lon='-74.1765656' />
+  <node id='2461581793' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244674' lon='-74.1765546' />
+  <node id='2461581794' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244634' lon='-74.1765201' />
+  <node id='2461581795' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244714' lon='-74.1764953' />
+  <node id='2461581796' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244624' lon='-74.1764925' />
+  <node id='2461581797' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244765' lon='-74.1764456' />
+  <node id='2461581798' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244865' lon='-74.1764498' />
+  <node id='2461581799' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2245439' lon='-74.1762234' />
+  <node id='2461581800' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2244947' lon='-74.1762013' />
+  <node id='2461581801' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2245168' lon='-74.1761089' />
+  <node id='2461581802' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2247357' lon='-74.1762098' />
+  <node id='2461581803' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2246945' lon='-74.1763822' />
+  <node id='2461581804' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2247477' lon='-74.1765146' />
+  <node id='2461581805' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2249195' lon='-74.1765932' />
+  <node id='2461581806' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2249316' lon='-74.1765449' />
+  <node id='2461581807' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2250511' lon='-74.1766028' />
+  <node id='2461581808' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2250722' lon='-74.1765159' />
+  <node id='2461581809' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2250574' lon='-74.1765096' />
+  <node id='2461581810' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2251335' lon='-74.176214' />
+  <node id='2461581811' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.225018' lon='-74.1761561' />
+  <node id='2461581812' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.225023' lon='-74.1761382' />
+  <node id='2461581813' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2249959' lon='-74.1761257' />
+  <node id='2461581814' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2249919' lon='-74.1761437' />
+  <node id='2461581815' timestamp='2020-06-22T02:26:26Z' uid='4965615' user='AlexCleary' visible='true' version='2' changeset='86951120' lat='43.2247387' lon='-74.1760361' />
+  <node id='7641683959' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227962' lon='-74.177847' />
+  <node id='7641683960' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227923' lon='-74.178059' />
+  <node id='7641683961' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227852' lon='-74.178035' />
+  <node id='7641683962' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227873' lon='-74.177919' />
+  <node id='7641683963' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227842' lon='-74.177908' />
+  <node id='7641683964' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227859' lon='-74.177812' />
+  <node id='7641693580' timestamp='2020-06-22T02:25:49Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.227751' lon='-74.178277' />
+  <node id='7641693581' timestamp='2020-06-22T02:25:49Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.227712' lon='-74.178431' />
+  <node id='7641693582' timestamp='2020-06-22T02:25:49Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.227605' lon='-74.17838' />
+  <node id='7641693583' timestamp='2020-06-22T02:25:49Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.227644' lon='-74.178226' />
+  <node id='7641719834' timestamp='2020-06-22T02:25:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.220637' lon='-74.173928' />
+  <node id='7641719835' timestamp='2020-06-22T02:25:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.220404' lon='-74.173852' />
+  <node id='7641719836' timestamp='2020-06-22T02:25:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.22043' lon='-74.1737' />
+  <node id='7641719837' timestamp='2020-06-22T02:25:11Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.220664' lon='-74.173775' />
+  <node id='7641722307' timestamp='2020-06-22T02:25:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.223466' lon='-74.177834' />
+  <node id='7641722308' timestamp='2020-06-22T02:25:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.223511' lon='-74.177704' />
+  <node id='7641722309' timestamp='2020-06-22T02:25:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.223623' lon='-74.177776' />
+  <node id='7641722310' timestamp='2020-06-22T02:25:13Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.223579' lon='-74.177906' />
+  <node id='7641724869' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226869' lon='-74.177531' />
+  <node id='7641724870' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226898' lon='-74.177411' />
+  <node id='7641724871' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227104' lon='-74.177504' />
+  <node id='7641724872' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227075' lon='-74.177625' />
+  <node id='7641725205' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.20164' lon='-74.1779' />
+  <node id='7641725206' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.201656' lon='-74.178041' />
+  <node id='7641725207' timestamp='2020-06-22T02:25:15Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.201486' lon='-74.178076' />
+  <node id='7641726304' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226678' lon='-74.177812' />
+  <node id='7641726305' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226796' lon='-74.177839' />
+  <node id='7641726306' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.22678' lon='-74.177973' />
+  <node id='7641726307' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226662' lon='-74.177946' />
+  <node id='7641726328' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227617' lon='-74.174425' />
+  <node id='7641726329' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227602' lon='-74.174586' />
+  <node id='7641726330' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227545' lon='-74.174576' />
+  <node id='7641726331' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227538' lon='-74.174652' />
+  <node id='7641726332' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227483' lon='-74.174642' />
+  <node id='7641726333' timestamp='2020-06-22T02:25:16Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227505' lon='-74.174405' />
+  <node id='7641727218' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227807' lon='-74.174508' />
+  <node id='7641727219' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.22776' lon='-74.174701' />
+  <node id='7641727220' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227773' lon='-74.174707' />
+  <node id='7641727221' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.22774' lon='-74.174842' />
+  <node id='7641727222' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227638' lon='-74.174796' />
+  <node id='7641727223' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227674' lon='-74.174646' />
+  <node id='7641727224' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227653' lon='-74.174637' />
+  <node id='7641727225' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227667' lon='-74.174579' />
+  <node id='7641727226' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227692' lon='-74.17459' />
+  <node id='7641727227' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.227721' lon='-74.174469' />
+  <node id='7641727588' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226287' lon='-74.176357' />
+  <node id='7641727589' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226243' lon='-74.176567' />
+  <node id='7641727590' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226162' lon='-74.176535' />
+  <node id='7641727591' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226181' lon='-74.176446' />
+  <node id='7641727592' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226152' lon='-74.176434' />
+  <node id='7641727593' timestamp='2020-06-22T02:25:17Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951087' lat='43.226177' lon='-74.176313' />
+  <node id='7641729469' timestamp='2020-06-22T02:25:19Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.224788' lon='-74.175249' />
+  <node id='7641729470' timestamp='2020-06-22T02:25:19Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.224818' lon='-74.175128' />
+  <node id='7641729471' timestamp='2020-06-22T02:25:19Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.22494' lon='-74.175186' />
+  <node id='7641729472' timestamp='2020-06-22T02:25:19Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.22491' lon='-74.175307' />
+  <node id='7641731488' timestamp='2020-06-22T02:25:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.22535' lon='-74.172837' />
+  <node id='7641731489' timestamp='2020-06-22T02:25:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.225306' lon='-74.173007' />
+  <node id='7641731490' timestamp='2020-06-22T02:25:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.225249' lon='-74.17298' />
+  <node id='7641731491' timestamp='2020-06-22T02:25:21Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.225292' lon='-74.17281' />
+  <node id='7641732029' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.221549' lon='-74.175077' />
+  <node id='7641732030' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.22148' lon='-74.175336' />
+  <node id='7641732031' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.221395' lon='-74.175294' />
+  <node id='7641732032' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.221464' lon='-74.175034' />
+  <node id='7641732962' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.18836' lon='-74.14176' />
+  <node id='7641732963' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.18839' lon='-74.141719' />
+  <node id='7641732964' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.188451' lon='-74.141801' />
+  <node id='7641732965' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.188382' lon='-74.141899' />
+  <node id='7641732966' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.188304' lon='-74.141795' />
+  <node id='7641732967' timestamp='2020-06-22T02:25:22Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.188344' lon='-74.141739' />
+  <node id='7641735005' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227761' lon='-74.178882' />
+  <node id='7641735006' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227861' lon='-74.178923' />
+  <node id='7641735007' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227815' lon='-74.179131' />
+  <node id='7641735008' timestamp='2020-06-22T02:25:24Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227715' lon='-74.179089' />
+  <node id='7641736465' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227659' lon='-74.177813' />
+  <node id='7641736466' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227669' lon='-74.177765' />
+  <node id='7641736467' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227752' lon='-74.177798' />
+  <node id='7641736468' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227722' lon='-74.177943' />
+  <node id='7641736469' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227525' lon='-74.177866' />
+  <node id='7641736470' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227546' lon='-74.177768' />
+  <node id='7641736603' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.225913' lon='-74.177608' />
+  <node id='7641736604' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.225856' lon='-74.177577' />
+  <node id='7641736605' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.225913' lon='-74.177379' />
+  <node id='7641736606' timestamp='2020-06-22T02:25:26Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.22597' lon='-74.17741' />
+  <node id='7641737376' timestamp='2020-06-22T02:25:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.226929' lon='-74.177894' />
+  <node id='7641737377' timestamp='2020-06-22T02:25:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.227023' lon='-74.177979' />
+  <node id='7641737378' timestamp='2020-06-22T02:25:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.226976' lon='-74.178077' />
+  <node id='7641737379' timestamp='2020-06-22T02:25:27Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.226882' lon='-74.177992' />
+  <node id='7641738245' timestamp='2020-06-22T02:25:28Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.211383' lon='-74.204693' />
+  <node id='7641738246' timestamp='2020-06-22T02:25:28Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.21138' lon='-74.204817' />
+  <node id='7641738247' timestamp='2020-06-22T02:25:28Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.21123' lon='-74.204812' />
+  <node id='7641738248' timestamp='2020-06-22T02:25:28Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951092' lat='43.211232' lon='-74.204688' />
+  <node id='7641740676' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228416' lon='-74.17439' />
+  <node id='7641740677' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228392' lon='-74.174504' />
+  <node id='7641740678' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228331' lon='-74.17448' />
+  <node id='7641740679' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228354' lon='-74.174366' />
+  <node id='7641740752' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.220816' lon='-74.173899' />
+  <node id='7641740753' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.22084' lon='-74.173708' />
+  <node id='7641740754' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.220922' lon='-74.173727' />
+  <node id='7641740755' timestamp='2020-06-22T02:25:31Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.220898' lon='-74.173918' />
+  <node id='7641744305' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.2227' lon='-74.175111' />
+  <node id='7641744306' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.222709' lon='-74.175039' />
+  <node id='7641744307' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.222763' lon='-74.175052' />
+  <node id='7641744308' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.222749' lon='-74.175166' />
+  <node id='7641744309' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.22266' lon='-74.175146' />
+  <node id='7641744310' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.222665' lon='-74.175103' />
+  <node id='7641745135' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.220005' lon='-74.173712' />
+  <node id='7641745136' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.219807' lon='-74.173589' />
+  <node id='7641745137' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.219851' lon='-74.173455' />
+  <node id='7641745138' timestamp='2020-06-22T02:25:34Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.220049' lon='-74.173578' />
+  <node id='7641746893' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.224925' lon='-74.175716' />
+  <node id='7641746894' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.224884' lon='-74.175899' />
+  <node id='7641746895' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.224796' lon='-74.175861' />
+  <node id='7641746896' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.224838' lon='-74.175678' />
+  <node id='7641747175' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228056' lon='-74.17815' />
+  <node id='7641747176' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228085' lon='-74.178053' />
+  <node id='7641747177' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228184' lon='-74.178108' />
+  <node id='7641747178' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228168' lon='-74.178162' />
+  <node id='7641747179' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228136' lon='-74.178144' />
+  <node id='7641747180' timestamp='2020-06-22T02:25:35Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.228123' lon='-74.178188' />
+  <node id='7641748586' timestamp='2020-06-22T02:25:37Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.225796' lon='-74.177562' />
+  <node id='7641748587' timestamp='2020-06-22T02:25:37Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.225725' lon='-74.177531' />
+  <node id='7641748588' timestamp='2020-06-22T02:25:37Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.225778' lon='-74.177304' />
+  <node id='7641748589' timestamp='2020-06-22T02:25:37Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951099' lat='43.225849' lon='-74.177335' />
+  <node id='7641750272' timestamp='2020-06-22T02:25:39Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.212688' lon='-74.205582' />
+  <node id='7641750273' timestamp='2020-06-22T02:25:39Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.212731' lon='-74.205496' />
+  <node id='7641750274' timestamp='2020-06-22T02:25:39Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.212852' lon='-74.20561' />
+  <node id='7641750275' timestamp='2020-06-22T02:25:39Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.212809' lon='-74.205695' />
+  <node id='7641751127' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.227414' lon='-74.176515' />
+  <node id='7641751128' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.227453' lon='-74.176344' />
+  <node id='7641751129' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.227539' lon='-74.17638' />
+  <node id='7641751130' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.2275' lon='-74.176551' />
+  <node id='7641751932' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.201786' lon='-74.177819' />
+  <node id='7641751933' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.201789' lon='-74.178047' />
+  <node id='7641751934' timestamp='2020-06-22T02:25:40Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.201742' lon='-74.178048' />
+  <node id='7641756699' timestamp='2020-06-22T02:25:44Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.224945' lon='-74.172845' />
+  <node id='7641756700' timestamp='2020-06-22T02:25:44Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.224975' lon='-74.172693' />
+  <node id='7641756701' timestamp='2020-06-22T02:25:44Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.225004' lon='-74.172703' />
+  <node id='7641756702' timestamp='2020-06-22T02:25:44Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.22501' lon='-74.172671' />
+  <node id='7641756703' timestamp='2020-06-22T02:25:44Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.225046' lon='-74.172684' />
+  <node id='7641756704' timestamp='2020-06-22T02:25:44Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.22501' lon='-74.172869' />
+  <node id='7641758334' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228401' lon='-74.178202' />
+  <node id='7641758335' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.22837' lon='-74.17833' />
+  <node id='7641758336' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228305' lon='-74.178301' />
+  <node id='7641758337' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228336' lon='-74.178173' />
+  <node id='7641758731' timestamp='2020-06-22T02:25:46Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.228024' lon='-74.179049' />
+  <node id='7641758732' timestamp='2020-06-22T02:25:46Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.227988' lon='-74.179219' />
+  <node id='7641758733' timestamp='2020-06-22T02:25:46Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.227872' lon='-74.179172' />
+  <node id='7641758734' timestamp='2020-06-22T02:25:46Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951103' lat='43.227908' lon='-74.179002' />
+  <node id='7641760122' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.225928' lon='-74.176954' />
+  <node id='7641760123' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.225952' lon='-74.176845' />
+  <node id='7641760124' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.226016' lon='-74.176873' />
+  <node id='7641760125' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.225959' lon='-74.17713' />
+  <node id='7641760126' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.225875' lon='-74.177095' />
+  <node id='7641760127' timestamp='2020-06-22T02:25:48Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.225909' lon='-74.176946' />
+  <node id='7641762948' timestamp='2020-06-22T02:25:50Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.201603' lon='-74.178418' />
+  <node id='7641762949' timestamp='2020-06-22T02:25:50Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.201638' lon='-74.178598' />
+  <node id='7641762950' timestamp='2020-06-22T02:25:50Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.201509' lon='-74.178646' />
+  <node id='7641762951' timestamp='2020-06-22T02:25:50Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.201489' lon='-74.178546' />
+  <node id='7641762952' timestamp='2020-06-22T02:25:50Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.201527' lon='-74.178532' />
+  <node id='7641764051' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.22831' lon='-74.174747' />
+  <node id='7641764052' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228278' lon='-74.17488' />
+  <node id='7641764053' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228125' lon='-74.174811' />
+  <node id='7641764054' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228157' lon='-74.174678' />
+  <node id='7641764145' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.226225' lon='-74.177513' />
+  <node id='7641764146' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.226192' lon='-74.17765' />
+  <node id='7641764147' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.226106' lon='-74.177611' />
+  <node id='7641764148' timestamp='2020-06-22T02:25:51Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.226139' lon='-74.177474' />
+  <node id='7641764893' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228331' lon='-74.174923' />
+  <node id='7641764894' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228372' lon='-74.174785' />
+  <node id='7641764895' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228432' lon='-74.174818' />
+  <node id='7641764896' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.228392' lon='-74.174957' />
+  <node id='7641764991' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.22177' lon='-74.174222' />
+  <node id='7641764992' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.221706' lon='-74.174502' />
+  <node id='7641764993' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.221627' lon='-74.174469' />
+  <node id='7641764994' timestamp='2020-06-22T02:25:52Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.221692' lon='-74.174188' />
+  <node id='7641769143' timestamp='2020-06-22T02:25:55Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.224867' lon='-74.172788' />
+  <node id='7641769144' timestamp='2020-06-22T02:25:55Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.224744' lon='-74.17274' />
+  <node id='7641769145' timestamp='2020-06-22T02:25:55Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.224778' lon='-74.172576' />
+  <node id='7641769146' timestamp='2020-06-22T02:25:55Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951107' lat='43.2249' lon='-74.172624' />
+  <node id='7641770010' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.22506' lon='-74.172901' />
+  <node id='7641770011' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.225076' lon='-74.172809' />
+  <node id='7641770012' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.225143' lon='-74.172831' />
+  <node id='7641770013' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.225162' lon='-74.172716' />
+  <node id='7641770014' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.22514' lon='-74.172709' />
+  <node id='7641770015' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.225161' lon='-74.172582' />
+  <node id='7641770016' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.225238' lon='-74.172606' />
+  <node id='7641770017' timestamp='2020-06-22T02:25:57Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.225182' lon='-74.17294' />
+  <node id='7641771738' timestamp='2020-06-22T02:25:58Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.228493' lon='-74.178898' />
+  <node id='7641771739' timestamp='2020-06-22T02:25:58Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.228557' lon='-74.178673' />
+  <node id='7641771740' timestamp='2020-06-22T02:25:58Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.228622' lon='-74.178708' />
+  <node id='7641771741' timestamp='2020-06-22T02:25:58Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.228557' lon='-74.178933' />
+  <node id='7641773851' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227378' lon='-74.178307' />
+  <node id='7641773852' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227394' lon='-74.178238' />
+  <node id='7641773853' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227428' lon='-74.178253' />
+  <node id='7641773854' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227453' lon='-74.178141' />
+  <node id='7641773855' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227585' lon='-74.178198' />
+  <node id='7641773856' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227552' lon='-74.178341' />
+  <node id='7641773857' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227481' lon='-74.178311' />
+  <node id='7641773858' timestamp='2020-06-22T02:26:00Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.227473' lon='-74.178347' />
+  <node id='7641775080' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.201384' lon='-74.178155' />
+  <node id='7641775081' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.201298' lon='-74.178187' />
+  <node id='7641775082' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.201253' lon='-74.177967' />
+  <node id='7641776254' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.226533' lon='-74.177692' />
+  <node id='7641776255' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.226502' lon='-74.177856' />
+  <node id='7641776256' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.22639' lon='-74.177816' />
+  <node id='7641776257' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.226421' lon='-74.177653' />
+  <node id='7641776400' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.201728' lon='-74.178421' />
+  <node id='7641776401' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.201761' lon='-74.178614' />
+  <node id='7641776402' timestamp='2020-06-22T02:26:01Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.201681' lon='-74.17864' />
+  <node id='7641777105' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221516' lon='-74.174124' />
+  <node id='7641777106' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221544' lon='-74.174141' />
+  <node id='7641777107' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221503' lon='-74.17427' />
+  <node id='7641777108' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221393' lon='-74.174204' />
+  <node id='7641777109' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221419' lon='-74.174121' />
+  <node id='7641777110' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221439' lon='-74.174133' />
+  <node id='7641777111' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221462' lon='-74.174059' />
+  <node id='7641777112' timestamp='2020-06-22T02:26:02Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221525' lon='-74.174096' />
+  <node id='7641778955' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221048' lon='-74.173242' />
+  <node id='7641778956' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221136' lon='-74.173277' />
+  <node id='7641778957' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221113' lon='-74.173386' />
+  <node id='7641778958' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.220996' lon='-74.173339' />
+  <node id='7641778959' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221007' lon='-74.173289' />
+  <node id='7641778960' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.220946' lon='-74.173265' />
+  <node id='7641778961' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.220969' lon='-74.173157' />
+  <node id='7641778962' timestamp='2020-06-22T02:26:04Z' uid='4965615' user='AlexCleary' visible='true' version='1' changeset='86951114' lat='43.221059' lon='-74.173192' />
+  <node id='8409706719' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360' lat='43.20147' lon='-74.177935' />
+  <node id='8409706756' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360' lat='43.20134' lon='-74.177934' />
+  <node id='8409707003' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360' lat='43.201739' lon='-74.17782' />
+  <node id='8409707070' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360' lat='43.201512' lon='-74.178452' />
+  <node id='8409707098' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360' lat='43.201648' lon='-74.178447' />
+  <way id='238312275' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='4' changeset='98996658'>
+    <nd ref='2461581730' />
+    <nd ref='2461581731' />
+    <nd ref='2461581732' />
+    <nd ref='2461581733' />
+    <nd ref='2461581734' />
+    <nd ref='2461581736' />
+    <nd ref='2461581738' />
+    <nd ref='2461581740' />
+    <nd ref='2461581742' />
+    <nd ref='2461581744' />
+    <nd ref='2461581746' />
+    <nd ref='2461581748' />
+    <nd ref='2461581750' />
+    <nd ref='2461581752' />
+    <nd ref='2461581754' />
+    <nd ref='2461581756' />
+    <nd ref='2461581758' />
+    <nd ref='2461581760' />
+    <nd ref='2461581762' />
+    <nd ref='2461581764' />
+    <nd ref='2461581766' />
+    <nd ref='2461581769' />
+    <nd ref='2461581770' />
+    <nd ref='2461581771' />
+    <nd ref='2461581772' />
+    <nd ref='2461581773' />
+    <nd ref='2461581774' />
+    <nd ref='2461581775' />
+    <nd ref='2461581776' />
+    <nd ref='2461581777' />
+    <nd ref='2461581778' />
+    <nd ref='2461581779' />
+    <nd ref='2461581780' />
+    <nd ref='2461581781' />
+    <nd ref='2461581782' />
+    <nd ref='2461581783' />
+    <nd ref='2461581784' />
+    <nd ref='2461581785' />
+    <nd ref='2461581786' />
+    <nd ref='2461581787' />
+    <nd ref='2461581788' />
+    <nd ref='2461581789' />
+    <nd ref='2461581790' />
+    <nd ref='2461581791' />
+    <nd ref='2461581792' />
+    <nd ref='2461581793' />
+    <nd ref='2461581794' />
+    <nd ref='2461581795' />
+    <nd ref='2461581796' />
+    <nd ref='2461581797' />
+    <nd ref='2461581798' />
+    <nd ref='2461581799' />
+    <nd ref='2461581800' />
+    <nd ref='2461581801' />
+    <nd ref='2461581802' />
+    <nd ref='2461581803' />
+    <nd ref='2461581804' />
+    <nd ref='2461581805' />
+    <nd ref='2461581806' />
+    <nd ref='2461581807' />
+    <nd ref='2461581808' />
+    <nd ref='2461581809' />
+    <nd ref='2461581810' />
+    <nd ref='2461581811' />
+    <nd ref='2461581812' />
+    <nd ref='2461581813' />
+    <nd ref='2461581814' />
+    <nd ref='2461581815' />
+    <nd ref='2461581730' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='131' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='school' />
+    <tag k='name' v='Northville Central School' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT000027' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='phone' v='+1 518 863 7000' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+    <tag k='website' v='http://northvillecsd.org' />
+  </way>
+  <way id='818235290' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641719837' />
+    <nd ref='7641719836' />
+    <nd ref='7641719835' />
+    <nd ref='7641719834' />
+    <nd ref='7641719837' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='385' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT016600' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818235795' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641722310' />
+    <nd ref='7641722309' />
+    <nd ref='7641722308' />
+    <nd ref='7641722307' />
+    <nd ref='7641722310' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='121' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Fifth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT001229' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818236319' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641724872' />
+    <nd ref='7641724871' />
+    <nd ref='7641724870' />
+    <nd ref='7641724869' />
+    <nd ref='7641724872' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='202' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT013911' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818236388' action='modify' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360'>
+    <nd ref='8409706719' />
+    <nd ref='7641725207' />
+    <nd ref='7641725206' />
+    <nd ref='7641725205' />
+    <nd ref='8409706719' />
+    <tag k='addr:city' v='Mayfield' />
+    <tag k='addr:housenumber' v='150' />
+    <tag k='addr:postcode' v='12117' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Marion Avenue' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT009446' />
+    <tag k='nysgissam:review' v='existing element&apos;s addr:street has different addr:street' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818236625' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641726307' />
+    <nd ref='7641726306' />
+    <nd ref='7641726305' />
+    <nd ref='7641726304' />
+    <nd ref='7641726307' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='211' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT000162' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818236630' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641726333' />
+    <nd ref='7641726332' />
+    <nd ref='7641726331' />
+    <nd ref='7641726330' />
+    <nd ref='7641726329' />
+    <nd ref='7641726328' />
+    <nd ref='7641726333' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='211' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT009769' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818236778' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641727227' />
+    <nd ref='7641727226' />
+    <nd ref='7641727225' />
+    <nd ref='7641727224' />
+    <nd ref='7641727223' />
+    <nd ref='7641727222' />
+    <nd ref='7641727221' />
+    <nd ref='7641727220' />
+    <nd ref='7641727219' />
+    <nd ref='7641727218' />
+    <nd ref='7641727227' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='221' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT007916' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818236855' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641727593' />
+    <nd ref='7641727592' />
+    <nd ref='7641727591' />
+    <nd ref='7641727590' />
+    <nd ref='7641727589' />
+    <nd ref='7641727588' />
+    <nd ref='7641727593' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='101' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT009975' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818237243' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641729472' />
+    <nd ref='7641729471' />
+    <nd ref='7641729470' />
+    <nd ref='7641729469' />
+    <nd ref='7641729472' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='120' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT001556' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818237649' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641731491' />
+    <nd ref='7641731490' />
+    <nd ref='7641731489' />
+    <nd ref='7641731488' />
+    <nd ref='7641731491' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='102' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT020694' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818237770' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641732032' />
+    <nd ref='7641732031' />
+    <nd ref='7641732030' />
+    <nd ref='7641732029' />
+    <nd ref='7641732032' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='349' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT023622' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818237943' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641732967' />
+    <nd ref='7641732966' />
+    <nd ref='7641732965' />
+    <nd ref='7641732964' />
+    <nd ref='7641732963' />
+    <nd ref='7641732962' />
+    <nd ref='7641732967' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='139' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Lakeview Drive' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT018163' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818238330' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641683964' />
+    <nd ref='7641683963' />
+    <nd ref='7641683962' />
+    <nd ref='7641683961' />
+    <nd ref='7641683960' />
+    <nd ref='7641683959' />
+    <nd ref='7641683964' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='322' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT002004' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818238358' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641735008' />
+    <nd ref='7641735007' />
+    <nd ref='7641735006' />
+    <nd ref='7641735005' />
+    <nd ref='7641735008' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='321' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT024126' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818238609' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641736470' />
+    <nd ref='7641736469' />
+    <nd ref='7641736468' />
+    <nd ref='7641736467' />
+    <nd ref='7641736466' />
+    <nd ref='7641736465' />
+    <nd ref='7641736470' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='312' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT004657' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818238638' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641736606' />
+    <nd ref='7641736605' />
+    <nd ref='7641736604' />
+    <nd ref='7641736603' />
+    <nd ref='7641736606' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='111' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT006976' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818238789' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641737379' />
+    <nd ref='7641737378' />
+    <nd ref='7641737377' />
+    <nd ref='7641737376' />
+    <nd ref='7641737379' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='221' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT013266' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818238961' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641738248' />
+    <nd ref='7641738247' />
+    <nd ref='7641738246' />
+    <nd ref='7641738245' />
+    <nd ref='7641738248' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='599' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Collins Gifford Valley Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT014625' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818239442' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641740679' />
+    <nd ref='7641740678' />
+    <nd ref='7641740677' />
+    <nd ref='7641740676' />
+    <nd ref='7641740679' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='252' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT010539' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818239458' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641740755' />
+    <nd ref='7641740754' />
+    <nd ref='7641740753' />
+    <nd ref='7641740752' />
+    <nd ref='7641740755' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='381' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT004334' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818240196' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641744310' />
+    <nd ref='7641744309' />
+    <nd ref='7641744308' />
+    <nd ref='7641744307' />
+    <nd ref='7641744306' />
+    <nd ref='7641744305' />
+    <nd ref='7641744310' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='221' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT013216' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818240370' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641745138' />
+    <nd ref='7641745137' />
+    <nd ref='7641745136' />
+    <nd ref='7641745135' />
+    <nd ref='7641745138' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='410' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT001167' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818240734' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641746896' />
+    <nd ref='7641746895' />
+    <nd ref='7641746894' />
+    <nd ref='7641746893' />
+    <nd ref='7641746896' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='121' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT018913' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818240793' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641747180' />
+    <nd ref='7641747179' />
+    <nd ref='7641747178' />
+    <nd ref='7641747177' />
+    <nd ref='7641747176' />
+    <nd ref='7641747175' />
+    <nd ref='7641747180' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='332' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT023996' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818241104' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641748589' />
+    <nd ref='7641748588' />
+    <nd ref='7641748587' />
+    <nd ref='7641748586' />
+    <nd ref='7641748589' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='101' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT017002' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818241411' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641750275' />
+    <nd ref='7641750274' />
+    <nd ref='7641750273' />
+    <nd ref='7641750272' />
+    <nd ref='7641750275' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='570' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Collins Gifford Valley Road' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT005402' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818241595' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641751130' />
+    <nd ref='7641751129' />
+    <nd ref='7641751128' />
+    <nd ref='7641751127' />
+    <nd ref='7641751130' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='232' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT011567' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818241757' action='modify' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360'>
+    <nd ref='8409707003' />
+    <nd ref='7641751934' />
+    <nd ref='7641751933' />
+    <nd ref='7641751932' />
+    <nd ref='8409707003' />
+    <tag k='addr:city' v='Mayfield' />
+    <tag k='addr:housenumber' v='152' />
+    <tag k='addr:postcode' v='12117' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Marion Avenue' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT009338' />
+    <tag k='nysgissam:review' v='existing element&apos;s addr:street has different addr:street' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818242744' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641756704' />
+    <nd ref='7641756703' />
+    <nd ref='7641756702' />
+    <nd ref='7641756701' />
+    <nd ref='7641756700' />
+    <nd ref='7641756699' />
+    <nd ref='7641756704' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='122' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT011470' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818243106' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641758734' />
+    <nd ref='7641758733' />
+    <nd ref='7641758732' />
+    <nd ref='7641758731' />
+    <nd ref='7641758734' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='323' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT002834' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818243274' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641758337' />
+    <nd ref='7641758336' />
+    <nd ref='7641758335' />
+    <nd ref='7641758334' />
+    <nd ref='7641758337' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='342' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT018487' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818243378' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641760127' />
+    <nd ref='7641760126' />
+    <nd ref='7641760125' />
+    <nd ref='7641760124' />
+    <nd ref='7641760123' />
+    <nd ref='7641760122' />
+    <nd ref='7641760127' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='112' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT008213' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818243692' action='modify' timestamp='2021-02-09T19:28:18Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996607'>
+    <nd ref='7641693583' />
+    <nd ref='7641693582' />
+    <nd ref='7641693581' />
+    <nd ref='7641693580' />
+    <nd ref='7641693583' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='311' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT022215' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818243955' action='modify' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360'>
+    <nd ref='8409707070' />
+    <nd ref='7641762952' />
+    <nd ref='7641762951' />
+    <nd ref='7641762950' />
+    <nd ref='7641762949' />
+    <nd ref='7641762948' />
+    <nd ref='8409707070' />
+    <tag k='addr:city' v='Mayfield' />
+    <tag k='addr:housenumber' v='147' />
+    <tag k='addr:postcode' v='12117' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Marion Avenue' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT000465' />
+    <tag k='nysgissam:review' v='existing element&apos;s addr:street has different addr:street' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818244170' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641764054' />
+    <nd ref='7641764053' />
+    <nd ref='7641764052' />
+    <nd ref='7641764051' />
+    <nd ref='7641764054' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='241' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT004750' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818244191' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641764148' />
+    <nd ref='7641764147' />
+    <nd ref='7641764146' />
+    <nd ref='7641764145' />
+    <nd ref='7641764148' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='131' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT012306' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818244362' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641764896' />
+    <nd ref='7641764895' />
+    <nd ref='7641764894' />
+    <nd ref='7641764893' />
+    <nd ref='7641764896' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='251' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='North First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT017938' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818244381' action='modify' timestamp='2021-02-09T19:29:02Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996626'>
+    <nd ref='7641764994' />
+    <nd ref='7641764993' />
+    <nd ref='7641764992' />
+    <nd ref='7641764991' />
+    <nd ref='7641764994' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='351' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT019420' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818245228' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641769146' />
+    <nd ref='7641769145' />
+    <nd ref='7641769144' />
+    <nd ref='7641769143' />
+    <nd ref='7641769146' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='132' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT000707' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818245408' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641770017' />
+    <nd ref='7641770016' />
+    <nd ref='7641770015' />
+    <nd ref='7641770014' />
+    <nd ref='7641770013' />
+    <nd ref='7641770012' />
+    <nd ref='7641770011' />
+    <nd ref='7641770010' />
+    <nd ref='7641770017' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='112' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South First Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT014700' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818245749' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641771741' />
+    <nd ref='7641771740' />
+    <nd ref='7641771739' />
+    <nd ref='7641771738' />
+    <nd ref='7641771741' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='331' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT013589' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818246165' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641773858' />
+    <nd ref='7641773857' />
+    <nd ref='7641773856' />
+    <nd ref='7641773855' />
+    <nd ref='7641773854' />
+    <nd ref='7641773853' />
+    <nd ref='7641773852' />
+    <nd ref='7641773851' />
+    <nd ref='7641773858' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='301' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT015404' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818246413' action='modify' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360'>
+    <nd ref='8409706756' />
+    <nd ref='7641775082' />
+    <nd ref='7641775081' />
+    <nd ref='7641775080' />
+    <nd ref='8409706756' />
+    <tag k='addr:city' v='Mayfield' />
+    <tag k='addr:housenumber' v='146' />
+    <tag k='addr:postcode' v='12117' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Marion Avenue' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT020687' />
+    <tag k='nysgissam:review' v='existing element&apos;s addr:street has different addr:street' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818246649' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641776257' />
+    <nd ref='7641776256' />
+    <nd ref='7641776255' />
+    <nd ref='7641776254' />
+    <nd ref='7641776257' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='201' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Fourth Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT001455' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818246679' action='modify' timestamp='2021-11-13T23:28:11Z' uid='11107901' user='bardny' visible='true' version='2' changeset='113748360'>
+    <nd ref='8409707098' />
+    <nd ref='7641776402' />
+    <nd ref='7641776401' />
+    <nd ref='7641776400' />
+    <nd ref='8409707098' />
+    <tag k='addr:city' v='Mayfield' />
+    <tag k='addr:housenumber' v='149' />
+    <tag k='addr:postcode' v='12117' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='Marion Avenue' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT019388' />
+    <tag k='nysgissam:review' v='existing element&apos;s addr:street has different addr:street' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818246819' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641777112' />
+    <nd ref='7641777111' />
+    <nd ref='7641777110' />
+    <nd ref='7641777109' />
+    <nd ref='7641777108' />
+    <nd ref='7641777107' />
+    <nd ref='7641777106' />
+    <nd ref='7641777105' />
+    <nd ref='7641777112' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='361' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT011947' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+  <way id='818247205' action='modify' timestamp='2021-02-09T19:29:41Z' uid='12470629' user='nysgissam_dead10ck' visible='true' version='2' changeset='98996658'>
+    <nd ref='7641778962' />
+    <nd ref='7641778961' />
+    <nd ref='7641778960' />
+    <nd ref='7641778959' />
+    <nd ref='7641778958' />
+    <nd ref='7641778957' />
+    <nd ref='7641778956' />
+    <nd ref='7641778955' />
+    <nd ref='7641778962' />
+    <tag k='addr:city' v='Northville' />
+    <tag k='addr:housenumber' v='360' />
+    <tag k='addr:postcode' v='12134' />
+    <tag k='addr:state' v='NY' />
+    <tag k='addr:street' v='South Third Street' />
+    <tag k='building' v='yes' />
+    <tag k='nysgissam:nysaddresspointid' v='FULT004320' />
+    <tag k='nysgissam:review' v='no matching street nearby' />
+    <tag k='source' v='NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery' />
+  </way>
+</osm>
