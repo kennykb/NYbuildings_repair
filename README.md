@@ -25,7 +25,7 @@ than Herkimer.)
 
 A great number of building footprints appear to have been imported by
 OSM users `AlexCleary` and `NYbuildings` - both of which are
-pseudonyms of `mileuthi`. The import source is not given in the tags
+pseudonyms of `miluethi`. The import source is not given in the tags
 or changeset comments, but I suspect that the footprints are from
 either the
 [Microsoft building footprints](https://cugir.library.cornell.edu/catalog/cugir-009053) 
@@ -100,7 +100,7 @@ A sketch of the process might be.
 
    * For any remaining building that _contains_ one or more address
      points from NYS GIS SAM, if all of the contained points agree
-     on `addr:state`, `addr:city`, `addr:postcode`, 'addr:housenumber`
+     on `addr:state`, `addr:city`, `addr:postcode`, `addr:housenumber`
      or `addr:street`, replace any `addr:*` key for which all the
      contained points agreed with the agreed-on value.
 
@@ -222,3 +222,26 @@ If `addr:city` is to represent the postal city, then I don't see any
 changes on Long Island that I disagree with, particularly in light of
 the fact that the building addresses arrived on an import to begin
 with.
+
+## Update 2022-03-22 00:01Z
+
+I just pushed commits that appear to make the entire pipeline work.
+
+The directory, `sample_changesets`, now contains a bunch of randomly-selected
+changesets from the process, for peer review. It also has a file,
+`changedesc.txt`, which is a machine-generated description of the
+sample changesets, together with a few notes of mine about what's
+going on.
+
+My personal assessment of the sample changes is that they're surely no
+worse than what's there, and generally much better. Only a handful of
+changes appear questionable, and they generally relate to address
+normalisation. 'Mt. Washington' should be spelt out, as possibly should
+names like '2nd Street' or '4th Avenue' (the latter is questioned:
+surely spelliing out One Hundred Ninety-Sixth street in New York City
+would be silly, but where do whe draw the line?). I noticed one
+house with an address on the wrong street - but it was wrong in both
+datasets, and all that the repair program did was to change to the
+correct spelling of the wrong street.
+
+Obviously, more eyeballs are needed before going forward.
