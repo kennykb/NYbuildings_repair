@@ -245,3 +245,252 @@ datasets, and all that the repair program did was to change to the
 correct spelling of the wrong street.
 
 Obviously, more eyeballs are needed before going forward.
+
+## Update 2022-03-28 20:21Z
+
+Having heard no complaints about the proposed edit, I carefully vetted
+and uploaded ten changesets, and will put the project on pause for another
+week to await any changeset comments that may appear.
+
+A detailed summary of what has been uploaded:
+
+### [Changeset 119033831](https://www.openstreetmap.org/changeset/119033831):
+
+ - `addr:street=West Water Street` (11 buildings)
+
+     Buildings appear to front on a street with a matching name and
+     have housenumbers running in sequence with ones that are
+	 unaffected by the changeset. The changeset adds the 'West'
+	 direction prefix.
+   
+ - `addr:city=Sag Harbor` (291 buildings)
+
+      All buildings have `addr:postcode=11963` and are located in the
+	  municipality of North Haven. USPS shows 'North Haven' as an
+	  _unacceptable_ city for ZIP code 11963.
+
+ - `addr:street=South Memantic Road` (16 buildings)
+
+     Buildings appear to front on a street with a matching name and
+     have housenumbers running in sequence with ones that are
+	 unaffected by the changeset. Changeset adds the 'South'
+	 direction prefix.
+
+ - `addr:street=Simpson Road` (1 building)
+
+     Building at 1 Simpson Road is adjacent to an unchanged
+     building at 3 Simpson Road. Changeset alters the street name
+	 from 'Gibbs Road', a nearby street that the house is not
+	 adjacent to.
+	 
+ - `addr:street=Gibbs Avenue` (1 building)
+
+     Changeset changes house number 4 from 'Gibbs Road' to 'Gibbs
+     Avenue'.  The adjacent street in OSM is 'Gibbs Road' and
+	 there is one other address point on it. NYSGIS shows the
+	 street name for that address point also altered to Gibbs Avenue.
+	 The associated building, if there is one, is not mapped.
+	 
+ - `addr:street=Bay Avenue` (8 buildings)
+
+     OSM shows the adjacent street as 'Bay Avenue', matching the former
+     value of `addr:street`, but NYSGIS shows it as 'Bay Road' in
+	 both street segments and E911 addresses. The street name should
+	 probably be changed in OSM, but that's out of scope for the
+	 mechanical edit.
+	 
+ - `addr:street=South Ferry Road` (1 building)
+ - `addr:street=Sunshine Road` (1 building)
+ - `addr:street=Cove Drive` (1 building)
+ - `addr:street=Whalers Walk`(1 building)
+ - `addr:street=Ridge Drive` (2 buildings)
+ - `addr:street=Cliff Drive` (1 building)
+ - `addr:street=Windermere Drive` (1 building)
+ - `addr:street=Sunset Drive` (1 building)
+ - `addr:street=Harbor Drive` (3 buildings)
+ 
+     Changeset alters the street name of corner lots. All changes make
+     the housenumber run in correct sequence on the cross street, so
+	 appear correct.
+
+ - `addr:street=Bay View Drive East` (21 buildings)
+ 
+   : Changeset adds a correct direction suffix.
+
+
+### [Changeset 119035063](https://www.openstreetmap.org/changeset/119035063)
+
+  - `addr:city=Shelter Island` (59 buildings)
+  
+    OSM had had 'Greenport' for the city name. These address points
+	are easily identified as being on Shelter Island, which 
+    matches the `addr:postcode`.
+	
+  - `addr:city=Shelter Island Heights` (196 buildings)
+  
+    These address points are in Shelter Island Heights, with the
+	correct ZIP code. Previous OSM data had had the adjacent
+	community, `Shelter Island`.
+	
+  - `addr:street=Wiggins Street` (14 buildings)
+  
+    Assigns the correct cross street to a corner lot.
+	
+_Note_: The OSM data for the buildings at the north end of Shelter
+Island also bears the tag `addr:place=Dering Harbor`.  This tag is not
+present in the later NYSGIS import. It is the name of a nearby
+village, but the buildings in question are not in that village. The
+tag probably ought to be removed, but I consider that out of scope for
+the mechanical edit.
+
+### [Changeset 119035973](https://www.openstreetmap.org/changeset/119035973)
+
+  - `addr:city=Lake Grove` (329 buildings)
+  
+     Clusters of addresses in the neighbouring communities of Centereach,
+	 Lake Ronkonkoma, and Saint James that are served from the Lake Grove
+	 post office. Here, I have local knowledge that 'Lake Grove'
+	 is the correct postal city.
+	
+  - `addr:street=Coates Avenue North` (84 buildings)
+ 
+     Change spells out the 'North' suffix, which previously
+	 appeared as just 'N' in the OSM data.
+	 
+   - `addr:city=Holbrook` + `addr:street=All Points Terrace` (19 buildings)
+   
+     Change unabbreviates 'All Points Ter' to 'All Points Terrace'
+	 and assignes the correct city of 'Holtsville' in place of
+	 'Holbrook'.
+	 
+   - `addr:city-Holbrook + addr:street=Expressway Drive North` (1 building)
+	 
+     Change unabbrviates 'Expressway Drive N' and assigns the postal
+	 city of Holbrook in place of Holtsville. The postal city and
+	 ZIP code match the adjacent buildings.
+
+### [Changeset 119036136](https://www.openstreetmap.org/changeset/119036136)
+
+   - `addr:city=Greenlawn` (206 buildings)
+   
+      Clusters of buildings in adacent communities of Huntington, Elwood
+	  and East Northport served from the Greenlawn post office.
+	  Postal city and ZIP code appear correct.
+	  
+### [Changeset 119037200](https://www.openstreetmap.org/changeset/119037200)
+
+  - `addr:street=Main Street` (64 buildings)
+   
+     63 buildings had previously been just 'Main' and one had been '28'.
+	 'Main Street' appears correct.
+	 
+  - `addr:street=Park Avenue` (13 buildings)
+  
+    Previously had been just 'Park'. Change appears correct
+	
+  - `addr:street=State Route 28` (23 buildings)
+
+	Previously, 22 buildings had been just '28' and one, peculiarly,
+	was 'West Canada Valley Central School'. Change appears correct.
+	
+I begin to abberviate here, since all the changes in the changeset 
+follow the same pattern. All the names match facing streets in
+OSM, except for the one exception noted
+.
+
+| From                    | To                      | Count | Notes |
+| ----------------------- | ----------------------- | ----- | ----- |
+| School                  | School Street           | 8     | |
+| Cole                    | Cole Road               | 5     | |
+| Main                    | South Main Street       | 32    | |
+| Twin Ponds              | Twin Ponds Drive        | 1     | |
+| East                    | East Street             | 31    | |
+| West                    | West Street             | 37    | |
+| Main                    | North Main Street       | 37    | |
+| Newport                 | Newport Road            | 9     | |
+| Gould                   | Gould Road              | 8     | |
+| White Creek             | White Creek Road        | 41    | |
+| Mechanic                | Mechanic Street         | 21    | |
+| Hillside Terrace        | Hillside Terrace Drive  | 1     | |
+| Norway                  | Norway Street           | 9     | |
+| Bridge                  | Bridge Street           | 4     | |
+| Harris                  | Harris Avenue           | 8     | |
+| First                   | First Street            | 3     | (a)   |
+| North                   | North Street            | 23    | |
+| Woodchuck Hill          | Woodchuck Hill Road     | 11    | |
+| Summit                  | Summit Road             | 29    | |
+| Fishing Rock            | Fishing Rock Road       | 22    | |
+| Farrington              | Farrington Road         | 4     | |
+| City                    | Old City Road           | 4     | |
+| Huyck                   | Huyck Avenue            | 18    | |
+| Herkimer                | Herkimer Street         | 18    | |
+| Kanata                  | Kanata Street           | 11    | |
+| Farrington              | Farrington Road North   | 1     | |
+
+(a) OSM has '1st Street' as the name of the facing street. I
+am unaware of a uniform consensus about when a numbered street
+should have its name spelt out.  Abbreviating 'Fifth Avenue'
+is possibly wrong, but spelling out '261st Street' also appears
+to be undesirable. I suspect that data consumers already implement
+some sort of normalization process for these.
+
+### [Changeset 119037705](https://www.openstreetmap.org/changeset/119037705)
+
+  - `addr:city=Southampton` (500 buildings) 
+  
+     Buildings in the communities of Hampton Bays, Shinnecock Hills, 
+	 and Tuckahoe that are served from the Southampton post office.
+
+Among these 500 buildings are the following street name corrections, all
+of which match the facing street:
+
+| From                    | To                      | Count | Notes |
+| ----------------------- | ----------------------- | ----- | ----- |
+| Neck Lane               | West Neck Lane          | 2     | |
+| Neck Cir                | West Neck Circle        | 13    | |
+| Neck Point Road         | West Neck Point Road    | 10    | |
+| Parrish Pond Court W    | Parrish Pond Court West | 2     | |
+| Parrish Pond Court E    | Parrish Pond Court East | 6     | |
+| Inlet Road W            | Inlet Road West         | 2     | |
+| North Highway           | Old North Highway       | 1     | |
+	 
+### [Changeset 119038042](https://www.openstreetmap.org/changeset/119038042)
+
+  - `addr:city=Sagaponack` (253 buildings)
+  
+    Cluster of buildings in Bridgehampton served from the Sagaponack
+	post office. Postal city matches the ZIP code.
+	 
+plus the following street name corrections, all of which match
+facing streets in OSM:
+
+| From                    | To                      | Count | Notes |
+| ----------------------- | ----------------------- | ----- | ----- |
+| Narrow Lane E           | Narrow Lane East        | 14    | |
+| Gibson Lane             | Row Off Gibson Lane     | 3     | |
+| Highland Ter            | Highland Terrace        | 18    | |
+
+### [Changeset 119038244](https://www.openstreetmap.org/changeset/119038244)
+
+Just a handful of street name corrections:
+
+| From                    | To                      | Count | Notes |
+| ----------------------- | ----------------------- | ----- | ----- |
+| Snyder                  | Snyder Road             | 5     | |
+| Black Creek             | Black Creek Road        | 16    | |
+| Dairy Hill              | Dairy Hill Road         | 18    | |
+| Guideboard              | Guideboard Road         | 5     | |
+
+### [Changeset 119038500](https://www.openstreetmap.org/changeset/119038500)
+
+Housenumbers 4265 and 4277 are transposed from the way they appear in
+OSM data. This change appears to make them run out of sequence. I
+suspect that may have something to do with the fact that both
+buildings are off the highway on a service way named 'Rixs Lane' but
+have addresses on 'Town Line Road', so they may be numbered in order
+of construction or something.
+
+### [Changeset 119038596](https://www.openstreetmap.org/changeset/119038596)
+
+Three housenumber changes. All appear to have been typos in an earlier
+version of the NYSGIS data.
