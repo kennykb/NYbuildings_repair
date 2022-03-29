@@ -25,22 +25,26 @@ than Herkimer.)
 
 A great number of building footprints appear to have been imported by
 OSM users `AlexCleary` and `NYbuildings` - both of which are
-pseudonyms of `miluethi`. The import source is not given in the tags
-or changeset comments, but I suspect that the footprints are from
-either the
+pseudonyms of `miluethi`. 
+
+(_Update 2022-03-29:_ The users `miluethi`, `BobKelly`, `RobertReynolds`,
+`Nia-gara`, and `RickMaldonado` were also aliases of the same importer.
+These users have been added to the list to examine. The changesets
+will take some time to retrieve and analyze, but it is anticipated that
+the same data processing pipeline will apply to all of them.)
+
+The import source is not given in the tags
+or changeset comments, but Michael Luethi reports that the footprints
+were derived from 
+[Lewis County building footprints](https://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1343)
+That is one possible data source, but the problem extends far beyond
+Lewis County.
+I suspect that some of the remaining footprints are from either the
 [Microsoft building footprints](https://cugir.library.cornell.edu/catalog/cugir-009053) 
 or the
 [NYSERDA Building Footprints with Flood Analysis](http://fidss.ciesin.columbia.edu/building_data_adaptation).
-
-As far as I can tell from searching the 'imports', 'imports-us',
-'talk-us' and 'talk-us-newyork' mailing lists for a few months prior
-to the import, the import was not discussed on the mailing lists.
-I know that talk of the MS Building Footprints was in the air, though,
-so I may well have missed something in my search.
-
-Neither of these data sets has address point information, so the
-street addresses of the imported buildings must have come from
-another source, likely [NYS Address Points](https://gis.ny.gov/streets/).
+The address points are reported to have derived from 
+[NYS Address Points](https://gis.ny.gov/streets/).
 There appears
 to have been a systemic error in the conversion of street names
 from whatever source gave the importer the street addresses.
@@ -78,6 +82,10 @@ of affected polygons.  I've not heard back further.
 
 The problem affects a large number of ways - I'm guessing at least
 ten thousand. 
+(_Update 2022-03-29_: In excess of sixty thousand. How far in excess
+remains to be determined, since the discovery of additional aliases
+that the importer used.)
+
 [Changeset 86639030](https://www.openstreetmap.org/changeset/86639030)
 alone contains about 7200 corrupted street addresses. I don't
 think a total revert is appropriate; some amount of the bad data
@@ -93,6 +101,10 @@ A sketch of the process might be.
      the building ways with `addr:*` values.  Discard at this point
      any buildings that have had their addresses modified since the
      import by any user other than the NYS GIS SAM import.
+	 (_Update 2022-03-29:_The various users have nearly four thousand
+	 changesets among them. Many relate to other projects than the
+	 NY building import, but all must be examined at least mechanically.
+	 The process of retrieving them alone will likely take several days.)
 
    * For any building that has been conflated with an address point
      from NYS GIS SAM, replace all `addr:*` fields with the ones from
@@ -107,7 +119,9 @@ A sketch of the process might be.
    * Flag any remaining building in a local database for manual analysis.
      It is possble that the manual analysis will reveal more
      opportunities for streamlining the remaining recovery with
-     further mechanical edits.
+     further mechanical edits. (_Update 2022-03-29:_ This step is on
+	 indefinite hold - the project has simply grown bigger than I can
+	 handle with manual review of this material.)
 
    * Group modified buildings into batches, clustered
      geographically. Push the key changes into JOSM using the remote

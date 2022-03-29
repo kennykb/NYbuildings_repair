@@ -61,12 +61,16 @@ proc retrieve_changesets {username pagenum time1 time2} {
     }
 }
 
-set safety 20;			# Safety counter; never retrieve more than
+set safety 200;			# Safety counter; never retrieve more than
 ;				# this many pages of changesets
 
 set pagenum 0
 
-foreach user {NYbuildings AlexCleary} {
+foreach user {
+    miluethi
+    NYbuildings AlexCleary
+    BobKelly RobertReynolds Nia-gara RickMaldonado
+} {
 
     set t1 0
     set t2 [clock seconds]
