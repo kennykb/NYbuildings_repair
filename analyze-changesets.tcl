@@ -42,15 +42,17 @@ set qAddressPointId [db prepare {
 }]
 
 set qNYSAddr [db prepare {
-    select ST_X(ST_Transform(wkb_geometry, 4326)) as longitude,
-           ST_Y(ST_Transform(wkb_geometry, 4326)) as latitude,
-           prefixaddr, addressnum, suffixaddr,
-           completest as street,
-           zipname as city,
-           state,
-           zipcode as postcode
-    from nys_address_points
-    where nysaddress = :pid
+    select ST_X(shape)         as longitude,
+           ST_Y(shape)         as latitude,
+           prefixaddressnumber as prefixaddr,
+           addressnumber       as addressnum,
+           suffixaddressnumber as suffixaddr,
+           completestreetname  as street,
+           zipname             as city,
+           state               as state,
+           zipcode             as postcode
+    from nys_sam_address_points
+    where nysaddresspointid = :pid
 }]
 
 set iCityRewrite [db prepare {
