@@ -27,7 +27,7 @@ foreach row $data {
 }
 
 set changeno -1
-set safety 1000
+set safety 10000
 
 foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
@@ -54,8 +54,8 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 	    set f [open $cachefile w]
 	    puts $f [http::data $token]
 	    close $f
-	    after 30000;		# Throttle requests to at
-	    ;				# most one every half minute
+	    after 15000;		# Throttle requests to at
+	    ;				# most 4 per minute
 	}
 	http::cleanup $token
     }

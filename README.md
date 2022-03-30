@@ -143,7 +143,8 @@ process, without yet creating and organizing changesets.
 
 The discovery of the `AlexCleary` user id came as something of a surprise,
 and reveals a huge additional volume of data that disagree with
-NYSGIS - a total of 59,980 ways.
+NYSGIS - a total of 59,980 ways. (_Update 2022-03-29:_ and there are
+four more aliases in play.)
 
 The analysis reveals:
 
@@ -151,6 +152,10 @@ The analysis reveals:
    * 32,465 addresses with city names that differ
    * 152 addresses with housenumbers that differ
    * 120 addresses with postcodes that differ
+
+_Update 2022-03-29:_ There will be considerably more even than this!
+One round of corrections has already been run, so further counts will
+not include the buildings that are already fixed.
    
 The list of affected counties has also expanded greatly.  Counties
 that are known to have imported addresses that disagree with NYSGIS
@@ -158,6 +163,11 @@ are Allegany, Cattaraugus, Cayuga, Chautauqua, Clinton, Cortland,
 Essex, Fulton, Hamilton, Herkimer, Jefferson, Livingston, Montgomery,
 Nassau, Ontario, Oswego, Saint Lawrence, Saratoga, Schuyler, Steuben,
 Suffolk, Tioga, Tompkins, Warren, and Wyoming.
+
+_Update 2022-03-29:_ Since Lewis County is known to have been
+imported, and was absent from the list above, I suspect that the
+whole state is involved. In any case, the analysis scripts are capable
+of working with whole-state data. 
 
 Most of the street names in disagreement can be accounted for by the
 previously noted systemic issue of discarding prefix and suffix from
