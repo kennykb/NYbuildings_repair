@@ -152,17 +152,36 @@ The analysis reveals:
    * 32,465 addresses with city names that differ
    * 152 addresses with housenumbers that differ
    * 120 addresses with postcodes that differ
-
+   
 _Update 2022-03-29:_ There will be considerably more even than this!
 One round of corrections has already been run, so further counts will
 not include the buildings that are already fixed.
    
+_Update 2022-03-30:_ The changesets made by the additional users have
+now been anlyzed. Fortunately, the additional users made relatively
+few bad edits - 'only' about ten thousand more. In addition to the
+2,631 addresses already uploaded in ten sample changesets, there are
+67,052 ways that disagree with NYSGIS, for a total of 69,683 bad
+addresses to be fixed. The breakdown for the changes (except for the
+2,631 addresses already updated) is:
+
+   * 37,883 buildings with city names that differ
+   * 32,694 buildings with street names that differ
+   * 290 buildings with housenumbers that differ
+   * 135 buildings with ZIP codes that differ.
+
+The total adds up to more than 67,052 because some buildings have more than
+one problem field.
+
 The list of affected counties has also expanded greatly.  Counties
 that are known to have imported addresses that disagree with NYSGIS
-are Allegany, Cattaraugus, Cayuga, Chautauqua, Clinton, Cortland,
-Essex, Fulton, Hamilton, Herkimer, Jefferson, Livingston, Montgomery,
-Nassau, Ontario, Oswego, Saint Lawrence, Saratoga, Schuyler, Steuben,
-Suffolk, Tioga, Tompkins, Warren, and Wyoming.
+are Albany, Allegany, Cattaraugus, Cayuga, Chautauqua, Chemung,
+Clinton, Cortland, Delaware, Erie, Essex, Franklin, Fulton, Genesee,
+Hamilton, Herkimer, Jefferson, Lewis, Livingston, Monroe, Montgomery,
+Nassau, Niagara, Oneida, Onondaga, Ontario, Orange, Orleans, Oswego,
+Queens, Rensselaer, Saint Lawrence, Saratoga, Schuyler, Seneca,
+Steuben, Suffolk, Tioga, Tompkins, Warren, Westchester, Wyoming, and
+Yates. (list current as of 2022-03-30)
 
 _Update 2022-03-29:_ Since Lewis County is known to have been
 imported, and was absent from the list above, I suspect that the

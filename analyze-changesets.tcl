@@ -291,21 +291,23 @@ puts "Summary by keyword:"
 dict for {k count} $changekeys {
     puts "  $k: $count instances may be corrected"
 }
-puts "Cities adjusted:"
+
+if 0 {
 set tbl {}
 foreach {zip d1} [lsort -stride 2 -index 0 $cities] {
     foreach {from d2} [lsort -stride 2 -index 0 $d1] {
 	foreach {to count} [lsort -stride 2 -index 0 $d2] {
-	    puts "   $zip: $from -> $to ($count instances)"
 	    lappend tbl $zip $from $to $count
 	}
     }
 }
+
 set i 0
 puts "Most common city adjustments:"
 foreach {zip from to count} [lsort -stride 4 -index 3 -integer -decreasing $tbl] {
     if {$count < 50} break
     puts "   $zip: $from -> $to ($count instances)"
+}
 }
 
 # Changetable will have groups of seven objects:

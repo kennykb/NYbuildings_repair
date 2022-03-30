@@ -116,8 +116,6 @@ proc geocluster::clusters {points maxdelta maxsize} {
 	set axis 1
     }
 
-    puts "$minx <= x <= $maxx; $miny <= y <= $maxy; split on axis $axis"
-
     # Sort points along the given axis
 
     set sorted [lsort -real -index $axis -stride 3 $points]
