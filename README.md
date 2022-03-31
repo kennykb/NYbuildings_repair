@@ -24,14 +24,16 @@ than Herkimer.)
 ## What appears to have happened:
 
 A great number of building footprints appear to have been imported by
-OSM users `AlexCleary` and `NYbuildings` - both of which are
-pseudonyms of `miluethi`. 
+numerous OSM accounts, all of which appear to be pseudonyms of `miluethi`. 
 
-(_Update 2022-03-29:_ The users `miluethi`, `BobKelly`, `RobertReynolds`,
-`Nia-gara`, and `RickMaldonado` were also aliases of the same importer.
-These users have been added to the list to examine. The changesets
-will take some time to retrieve and analyze, but it is anticipated that
-the same data processing pipeline will apply to all of them.)
+As of 2022-03-31, the OSM accounts known to be involved in the import
+include:
+```
+    AlexCleary    JoelManagua   Nia-gara     RI-Improve
+	BrianDillman  JOetlikers    NYbuildings  RickMaldonado
+	BobKelly      JoseDeSilva   Northfork    RobertReynolds
+	JimTracy      miluethi      PeterKing
+```
 
 The import source is not given in the tags
 or changeset comments, but Michael Luethi reports that the footprints
@@ -45,10 +47,12 @@ or the
 [NYSERDA Building Footprints with Flood Analysis](http://fidss.ciesin.columbia.edu/building_data_adaptation).
 The address points are reported to have derived from 
 [NYS Address Points](https://gis.ny.gov/streets/).
+
 There appears
 to have been a systemic error in the conversion of street names
 from whatever source gave the importer the street addresses.
-Further confusion ensued because the [NYS GIS SAM import](https://wiki.openstreetmap.org/wiki/New_York_(state)/NYS_GIS_SAM_Address_Points_Import)
+Further confusion ensued because the
+[NYS GIS SAM import](https://wiki.openstreetmap.org/wiki/New_York_(state)/NYS_GIS_SAM_Address_Points_Import)
 added tagging to the buildings in the area.  It was (responsibly!)
 coded in such a way that it would not overwrite any address tagging
 that an earlier mapper had added, so buildings likely bear corrupted
@@ -70,30 +74,18 @@ changeset 88885072.
 I personally raised the issue (without having done the full research
 needed to make this report) on 2022-03-13, in comments on 
 (changeset 86639030)[https://www.openstreetmap.org/changeset/86639030].
-I did get a reply,
-asking for specific examples, and I responded with Overpass Turbo links
-demonstrating the extent of the problem - there appear to be thousands
-of affected polygons.  I've not heard back further.
+I did finally get a reply, and there has been further conversation
+indicating that the importer is at least aware that there is a
+genuine problem here.
 
+## So, where do we go from here?
 
-* So, where do we go from here?
-
-(First, give `NYBuildings` a few days more to respond...)
-
-The problem affects a large number of ways - I'm guessing at least
-ten thousand. 
-(_Update 2022-03-29_: In excess of sixty thousand. How far in excess
-remains to be determined, since the discovery of additional aliases
-that the importer used.)
-
-[Changeset 86639030](https://www.openstreetmap.org/changeset/86639030)
-alone contains about 7200 corrupted street addresses. I don't
-think a total revert is appropriate; some amount of the bad data
-has already been fixed by other mappers, and the MS building footprints,
-while of pretty sketchy data quality, are most likely better than
-nothing.  For this reason, I think that some clever programming and
-a mechanical edit are probably the best approach to recovering
-the situation.
+The problem affects a large number of ways - roughly 130,000 at last count.
+2,631 are repaired in OSM by the sample changesets described below.
+While the MS building footprints are pretty sketchy, I think that
+rolling forward with address corrections is still the best way to
+go, rather than the collateral damage that will inevitably result
+from attempting to revert an import that's been in place for two years.
 
 A sketch of the process might be.
 
@@ -127,6 +119,14 @@ A sketch of the process might be.
      geographically. Push the key changes into JOSM using the remote
      control API one batch at a time and upload.  (I have code to do
      the clustering, which I used on earlier import work.)
+	 
+There's committed code in the repositoryy that carries out the first
+two steps and forms the changesets (the last step). This code should
+be enough to 'stop the bleeding', and the process will likely take
+several weeks. Following that, we can go back and assess how much
+we can harvest from the rest of the botched import. Manual review
+of the remaining imported addresses may be easy (there may, in fact,
+be none!), onerous, or not worth doing.
 
 Obviously, I'll follow the mechanical edit guidelines when doing this:
 announce the edit in advance on `imports-us` and `talk-us`; prepare
@@ -136,70 +136,60 @@ message would be a good start toward that documentation) on the
 Wiki. Following that, I'll pull the trigger only if it appears that I
 have community buy-in.
 
-## Update 2022-03-19 02:00Z
+## Current status 2022-03-31
 
-The code as now committed carries out the first two steps of this
-process, without yet creating and organizing changesets.
+Beyond the 2,631 building addresses that have been repaired by the
+sample changesets, 127,559 remain. They are not distributed
+geographically in anything like a homogeneous fashion. New York City has
+only one affected address, for instance.  The hardest-hit areas are the
+suburban counties of Nassau and Suffolk, while the equally suburban
+Westchester County has only a handful, In general, the lower Hudson
+Valley was spared, with Washington, Columbia, Albany, Rensselaer,
+Greene, Ulster, Dutchess, Rockland, Sullivan and Delaware Counties
+needing only a few sporadic corrections. (Orange County, by contrast,
+needs thousands.)  The Adirondacks, Southern Tier and Niagara Frontier
+are all in need of considerable work.
 
-The discovery of the `AlexCleary` user id came as something of a surprise,
-and reveals a huge additional volume of data that disagree with
-NYSGIS - a total of 59,980 ways. (_Update 2022-03-29:_ and there are
-four more aliases in play.)
+The changes fall into two main categories, plus about 1,110 sporadic
+changes. The counts of changes (the 2.601 changes already applied are
+not counted here) are:
 
-The analysis reveals:
+   * 78,270 cases where `addr:city` is incorrect.  These all appear
+     to be cases where a building is served by a post office whose
+	 name differs from the surrounding municipality. These might be
+	 villages without a post office of their own, unincorporated
+	 Hamlets that do have their own post offices, or simply buildings
+	 that are served by a post office in a neighbouring community. They
+	 also include a few thousand changes that are respellings of the
+	 city name, in all cases to a version that OSM would prefer, for
+	 example, expanding 'St. James' to 'Saint James'.
+	 
+   * 56,159 cases where `addr:street` is changed. Virtually all of these
+     result from inappropriate discarding of name qualifiers.
+	 The source data had separate columns for the proper noun in a
+	 street name and the prefix and suffix qualifiers, which in turn
+	 were grouped into categories: directions, common nouns such as
+	 'Street' and adjectival words such as 'Old' or 'Extension'
+	 are all broken out separtely.  Thus, an address such as
+	 '37 Old State Route 29 West'  would show up incorrectly as
+	 `addr:housenumber=37 addr:street=29`. 
+	 
+The 611 changes to `addr:housenumber` and 510 changes to `addr:postcode`
+all appear to be changes related to the fact that I'm using a newer
+version of the NYS address point data to do the repair. Updating
+imported data to the current version should be mostly harmless. There
+appear to be perhaps 200 addresses that also lost a qualifier in the
+original import: '122A Main Street' and '122B Main Street' could
+both show up as just `122`.
 
-   * 30,825 addresses with street names that differ
-   * 32,465 addresses with city names that differ
-   * 152 addresses with housenumbers that differ
-   * 120 addresses with postcodes that differ
-   
-_Update 2022-03-29:_ There will be considerably more even than this!
-One round of corrections has already been run, so further counts will
-not include the buildings that are already fixed.
-   
-_Update 2022-03-30:_ The changesets made by the additional users have
-now been anlyzed. Fortunately, the additional users made relatively
-few bad edits - 'only' about ten thousand more. In addition to the
-2,631 addresses already uploaded in ten sample changesets, there are
-67,052 ways that disagree with NYSGIS, for a total of 69,683 bad
-addresses to be fixed. The breakdown for the changes (except for the
-2,631 addresses already updated) is:
+These numbers add up to more than the total of 127,559 remaining
+affected buildings, because many buildings have more than one problem.
 
-   * 37,883 buildings with city names that differ
-   * 32,694 buildings with street names that differ
-   * 290 buildings with housenumbers that differ
-   * 135 buildings with ZIP codes that differ.
+## Early study on changed city names - Suffolk County
 
-The total adds up to more than 67,052 because some buildings have more than
-one problem field.
-
-The list of affected counties has also expanded greatly.  Counties
-that are known to have imported addresses that disagree with NYSGIS
-are Albany, Allegany, Cattaraugus, Cayuga, Chautauqua, Chemung,
-Clinton, Cortland, Delaware, Erie, Essex, Franklin, Fulton, Genesee,
-Hamilton, Herkimer, Jefferson, Lewis, Livingston, Monroe, Montgomery,
-Nassau, Niagara, Oneida, Onondaga, Ontario, Orange, Orleans, Oswego,
-Queens, Rensselaer, Saint Lawrence, Saratoga, Schuyler, Seneca,
-Steuben, Suffolk, Tioga, Tompkins, Warren, Westchester, Wyoming, and
-Yates. (list current as of 2022-03-30)
-
-_Update 2022-03-29:_ Since Lewis County is known to have been
-imported, and was absent from the list above, I suspect that the
-whole state is involved. In any case, the analysis scripts are capable
-of working with whole-state data. 
-
-Most of the street names in disagreement can be accounted for by the
-previously noted systemic issue of discarding prefix and suffix from
-street names, so that 'West Main Street' would become just 'Main' and
-so on.
-
-There are numerous systemic issues with cities, which appear to be
-that the city name was derived from intersecting the address with a
-political boundary, rather than looking up the postal address. All of
-these appear to be in Suffolk County. The remainder of changed city
-names - no more than a handful - are accounted for by the possible
-memory corruption mentioned above, or else by changes to geocoding
-between the imports.
+(This commentary is out of date, because a much larger tranche
+of questionable edits was discovered since this study. It should give
+a good view, though, of the process used to analyze the data.)
 
 The changed city names in Suffolk County fall into specific, dense
 geographic clusters.  The largest single cluster, of 2281 points,
@@ -266,12 +256,15 @@ changes on Long Island that I disagree with, particularly in light of
 the fact that the building addresses arrived on an import to begin
 with.
 
-## Update 2022-03-22 00:01Z
+## History
 
-I just pushed commits that appear to make the entire pipeline work.
+### Completion of the first-round code
 
-The directory, `sample_changesets`, now contains a bunch of randomly-selected
-changesets from the process, for peer review. It also has a file,
+On 2022-03-21, I pushed commits that appear to make the entire pipeline work,
+and announced on `imports-us`, `talk-us`, and `talk-us-newyork` that
+the import was ready for peer review. I uploaded a directory,
+`sample_changesets`, that contains a bunch of randomly-selected
+changesets from the process in support of the review. It also has a file,
 `changedesc.txt`, which is a machine-generated description of the
 sample changesets, together with a few notes of mine about what's
 going on.
@@ -289,15 +282,17 @@ correct spelling of the wrong street.
 
 Obviously, more eyeballs are needed before going forward.
 
-## Update 2022-03-28 20:21Z
+### Application of sample changesets
 
-Having heard no complaints about the proposed edit, I carefully vetted
-and uploaded ten changesets, and will put the project on pause for another
-week to await any changeset comments that may appear.
+Having heard no complaints about the proposed edit, on 2022-03-28 I
+carefully vetted and uploaded ten changesets, and put the project
+on pause for another week to await any changeset comments that might
+appear, with a plan to commence the full repair two weeks later
+on 2022-04-09.
 
-A detailed summary of what has been uploaded:
+A detailed summary of what has been uploaded so far:
 
-### [Changeset 119033831](https://www.openstreetmap.org/changeset/119033831):
+#### [Changeset 119033831](https://www.openstreetmap.org/changeset/119033831):
 
  - `addr:street=West Water Street` (11 buildings)
 
@@ -361,7 +356,7 @@ A detailed summary of what has been uploaded:
    : Changeset adds a correct direction suffix.
 
 
-### [Changeset 119035063](https://www.openstreetmap.org/changeset/119035063)
+#### [Changeset 119035063](https://www.openstreetmap.org/changeset/119035063)
 
   - `addr:city=Shelter Island` (59 buildings)
   
@@ -386,7 +381,7 @@ village, but the buildings in question are not in that village. The
 tag probably ought to be removed, but I consider that out of scope for
 the mechanical edit.
 
-### [Changeset 119035973](https://www.openstreetmap.org/changeset/119035973)
+#### [Changeset 119035973](https://www.openstreetmap.org/changeset/119035973)
 
   - `addr:city=Lake Grove` (329 buildings)
   
@@ -412,7 +407,7 @@ the mechanical edit.
 	 city of Holbrook in place of Holtsville. The postal city and
 	 ZIP code match the adjacent buildings.
 
-### [Changeset 119036136](https://www.openstreetmap.org/changeset/119036136)
+#### [Changeset 119036136](https://www.openstreetmap.org/changeset/119036136)
 
    - `addr:city=Greenlawn` (206 buildings)
    
@@ -420,7 +415,7 @@ the mechanical edit.
 	  and East Northport served from the Greenlawn post office.
 	  Postal city and ZIP code appear correct.
 	  
-### [Changeset 119037200](https://www.openstreetmap.org/changeset/119037200)
+#### [Changeset 119037200](https://www.openstreetmap.org/changeset/119037200)
 
   - `addr:street=Main Street` (64 buildings)
    
@@ -477,7 +472,7 @@ is possibly wrong, but spelling out '261st Street' also appears
 to be undesirable. I suspect that data consumers already implement
 some sort of normalization process for these.
 
-### [Changeset 119037705](https://www.openstreetmap.org/changeset/119037705)
+#### [Changeset 119037705](https://www.openstreetmap.org/changeset/119037705)
 
   - `addr:city=Southampton` (500 buildings) 
   
@@ -497,7 +492,7 @@ of which match the facing street:
 | Inlet Road W            | Inlet Road West         | 2     | |
 | North Highway           | Old North Highway       | 1     | |
 	 
-### [Changeset 119038042](https://www.openstreetmap.org/changeset/119038042)
+#### [Changeset 119038042](https://www.openstreetmap.org/changeset/119038042)
 
   - `addr:city=Sagaponack` (253 buildings)
   
@@ -513,7 +508,7 @@ facing streets in OSM:
 | Gibson Lane             | Row Off Gibson Lane     | 3     | |
 | Highland Ter            | Highland Terrace        | 18    | |
 
-### [Changeset 119038244](https://www.openstreetmap.org/changeset/119038244)
+#### [Changeset 119038244](https://www.openstreetmap.org/changeset/119038244)
 
 Just a handful of street name corrections:
 
@@ -524,7 +519,7 @@ Just a handful of street name corrections:
 | Dairy Hill              | Dairy Hill Road         | 18    | |
 | Guideboard              | Guideboard Road         | 5     | |
 
-### [Changeset 119038500](https://www.openstreetmap.org/changeset/119038500)
+#### [Changeset 119038500](https://www.openstreetmap.org/changeset/119038500)
 
 Housenumbers 4265 and 4277 are transposed from the way they appear in
 OSM data. This change appears to make them run out of sequence. I
@@ -533,7 +528,7 @@ buildings are off the highway on a service way named 'Rixs Lane' but
 have addresses on 'Town Line Road', so they may be numbered in order
 of construction or something.
 
-### [Changeset 119038596](https://www.openstreetmap.org/changeset/119038596)
+#### [Changeset 119038596](https://www.openstreetmap.org/changeset/119038596)
 
 Three housenumber changes. All appear to have been typos in an earlier
 version of the NYSGIS data.
