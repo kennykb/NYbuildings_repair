@@ -99,6 +99,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 
     if {[$root nodeName] ne "osmChange"} {
 	puts stderr "changesets/${changeid}.xml isn't an OSM change file."
+	$doc delete
 	break
     }
 
@@ -278,6 +279,7 @@ foreach {t changeid} [lsort -integer -index 1 -stride 2 $changesets] {
 	    }
 	}
     }
+    $doc delete
 }
 
 puts "$deleted buildings have been deleted since import"
