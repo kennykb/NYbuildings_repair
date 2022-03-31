@@ -70,7 +70,11 @@ foreach user {
     miluethi
     NYbuildings AlexCleary
     BobKelly RobertReynolds Nia-gara RickMaldonado
+    Northfork JoelManagua JoseDeSilva PeterKing RI-Improve JimTracy
+    BrianDillman JOetlikers
 } {
+
+    puts stderr "Retrieve changesets for $user"
 
     set t1 0
     set t2 [clock seconds]
