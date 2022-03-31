@@ -30,9 +30,9 @@ As of 2022-03-31, the OSM accounts known to be involved in the import
 include:
 ```
     AlexCleary    JoelManagua   Nia-gara     RI-Improve
-	BrianDillman  JOetlikers    NYbuildings  RickMaldonado
-	BobKelly      JoseDeSilva   Northfork    RobertReynolds
-	JimTracy      miluethi      PeterKing
+    BrianDillman  JOetlikers    NYbuildings  RickMaldonado
+    BobKelly      JoseDeSilva   Northfork    RobertReynolds
+    JimTracy      miluethi      PeterKing
 ```
 
 The import source is not given in the tags
@@ -93,10 +93,10 @@ A sketch of the process might be.
      the building ways with `addr:*` values.  Discard at this point
      any buildings that have had their addresses modified since the
      import by any user other than the NYS GIS SAM import.
-	 (_Update 2022-03-29:_The various users have nearly four thousand
-	 changesets among them. Many relate to other projects than the
-	 NY building import, but all must be examined at least mechanically.
-	 The process of retrieving them alone will likely take several days.)
+     (_Update 2022-03-29:_The various users have nearly four thousand
+     changesets among them. Many relate to other projects than the
+     NY building import, but all must be examined at least mechanically.
+     The process of retrieving them alone will likely take several days.)
 
    * For any building that has been conflated with an address point
      from NYS GIS SAM, replace all `addr:*` fields with the ones from
@@ -112,14 +112,14 @@ A sketch of the process might be.
      It is possble that the manual analysis will reveal more
      opportunities for streamlining the remaining recovery with
      further mechanical edits. (_Update 2022-03-29:_ This step is on
-	 indefinite hold - the project has simply grown bigger than I can
-	 handle with manual review of this material.)
+     indefinite hold - the project has simply grown bigger than I can
+     handle with manual review of this material.)
 
    * Group modified buildings into batches, clustered
      geographically. Push the key changes into JOSM using the remote
      control API one batch at a time and upload.  (I have code to do
      the clustering, which I used on earlier import work.)
-	 
+     
 There's committed code in the repositoryy that carries out the first
 two steps and forms the changesets (the last step). This code should
 be enough to 'stop the bleeding', and the process will likely take
@@ -156,24 +156,24 @@ not counted here) are:
 
    * 78,270 cases where `addr:city` is incorrect.  These all appear
      to be cases where a building is served by a post office whose
-	 name differs from the surrounding municipality. These might be
-	 villages without a post office of their own, unincorporated
-	 Hamlets that do have their own post offices, or simply buildings
-	 that are served by a post office in a neighbouring community. They
-	 also include a few thousand changes that are respellings of the
-	 city name, in all cases to a version that OSM would prefer, for
-	 example, expanding 'St. James' to 'Saint James'.
-	 
+     name differs from the surrounding municipality. These might be
+     villages without a post office of their own, unincorporated
+     Hamlets that do have their own post offices, or simply buildings
+     that are served by a post office in a neighbouring community. They
+     also include a few thousand changes that are respellings of the
+     city name, in all cases to a version that OSM would prefer, for
+     example, expanding 'St. James' to 'Saint James'.
+     
    * 56,159 cases where `addr:street` is changed. Virtually all of these
      result from inappropriate discarding of name qualifiers.
-	 The source data had separate columns for the proper noun in a
-	 street name and the prefix and suffix qualifiers, which in turn
-	 were grouped into categories: directions, common nouns such as
-	 'Street' and adjectival words such as 'Old' or 'Extension'
-	 are all broken out separtely.  Thus, an address such as
-	 '37 Old State Route 29 West'  would show up incorrectly as
-	 `addr:housenumber=37 addr:street=29`. 
-	 
+     The source data had separate columns for the proper noun in a
+     street name and the prefix and suffix qualifiers, which in turn
+     were grouped into categories: directions, common nouns such as
+     'Street' and adjectival words such as 'Old' or 'Extension'
+     are all broken out separtely.  Thus, an address such as
+     '37 Old State Route 29 West'  would show up incorrectly as
+     `addr:housenumber=37 addr:street=29`. 
+     
 The 611 changes to `addr:housenumber` and 510 changes to `addr:postcode`
 all appear to be changes related to the fact that I'm using a newer
 version of the NYS address point data to do the repair. Updating
@@ -298,45 +298,45 @@ A detailed summary of what has been uploaded so far:
 
      Buildings appear to front on a street with a matching name and
      have housenumbers running in sequence with ones that are
-	 unaffected by the changeset. The changeset adds the 'West'
-	 direction prefix.
+     unaffected by the changeset. The changeset adds the 'West'
+     direction prefix.
    
  - `addr:city=Sag Harbor` (291 buildings)
 
       All buildings have `addr:postcode=11963` and are located in the
-	  municipality of North Haven. USPS shows 'North Haven' as an
-	  _unacceptable_ city for ZIP code 11963.
+      municipality of North Haven. USPS shows 'North Haven' as an
+      _unacceptable_ city for ZIP code 11963.
 
  - `addr:street=South Memantic Road` (16 buildings)
 
      Buildings appear to front on a street with a matching name and
      have housenumbers running in sequence with ones that are
-	 unaffected by the changeset. Changeset adds the 'South'
-	 direction prefix.
+     unaffected by the changeset. Changeset adds the 'South'
+     direction prefix.
 
  - `addr:street=Simpson Road` (1 building)
 
      Building at 1 Simpson Road is adjacent to an unchanged
      building at 3 Simpson Road. Changeset alters the street name
-	 from 'Gibbs Road', a nearby street that the house is not
-	 adjacent to.
-	 
+     from 'Gibbs Road', a nearby street that the house is not
+     adjacent to.
+     
  - `addr:street=Gibbs Avenue` (1 building)
 
      Changeset changes house number 4 from 'Gibbs Road' to 'Gibbs
      Avenue'.  The adjacent street in OSM is 'Gibbs Road' and
-	 there is one other address point on it. NYSGIS shows the
-	 street name for that address point also altered to Gibbs Avenue.
-	 The associated building, if there is one, is not mapped.
-	 
+     there is one other address point on it. NYSGIS shows the
+     street name for that address point also altered to Gibbs Avenue.
+     The associated building, if there is one, is not mapped.
+     
  - `addr:street=Bay Avenue` (8 buildings)
 
      OSM shows the adjacent street as 'Bay Avenue', matching the former
      value of `addr:street`, but NYSGIS shows it as 'Bay Road' in
-	 both street segments and E911 addresses. The street name should
-	 probably be changed in OSM, but that's out of scope for the
-	 mechanical edit.
-	 
+     both street segments and E911 addresses. The street name should
+     probably be changed in OSM, but that's out of scope for the
+     mechanical edit.
+     
  - `addr:street=South Ferry Road` (1 building)
  - `addr:street=Sunshine Road` (1 building)
  - `addr:street=Cove Drive` (1 building)
@@ -349,7 +349,7 @@ A detailed summary of what has been uploaded so far:
  
      Changeset alters the street name of corner lots. All changes make
      the housenumber run in correct sequence on the cross street, so
-	 appear correct.
+     appear correct.
 
  - `addr:street=Bay View Drive East` (21 buildings)
  
@@ -361,19 +361,19 @@ A detailed summary of what has been uploaded so far:
   - `addr:city=Shelter Island` (59 buildings)
   
     OSM had had 'Greenport' for the city name. These address points
-	are easily identified as being on Shelter Island, which 
+    are easily identified as being on Shelter Island, which 
     matches the `addr:postcode`.
-	
+    
   - `addr:city=Shelter Island Heights` (196 buildings)
   
     These address points are in Shelter Island Heights, with the
-	correct ZIP code. Previous OSM data had had the adjacent
-	community, `Shelter Island`.
-	
+    correct ZIP code. Previous OSM data had had the adjacent
+    community, `Shelter Island`.
+    
   - `addr:street=Wiggins Street` (14 buildings)
   
     Assigns the correct cross street to a corner lot.
-	
+    
 _Note_: The OSM data for the buildings at the north end of Shelter
 Island also bears the tag `addr:place=Dering Harbor`.  This tag is not
 present in the later NYSGIS import. It is the name of a nearby
@@ -386,51 +386,51 @@ the mechanical edit.
   - `addr:city=Lake Grove` (329 buildings)
   
      Clusters of addresses in the neighbouring communities of Centereach,
-	 Lake Ronkonkoma, and Saint James that are served from the Lake Grove
-	 post office. Here, I have local knowledge that 'Lake Grove'
-	 is the correct postal city.
-	
+     Lake Ronkonkoma, and Saint James that are served from the Lake Grove
+     post office. Here, I have local knowledge that 'Lake Grove'
+     is the correct postal city.
+    
   - `addr:street=Coates Avenue North` (84 buildings)
  
      Change spells out the 'North' suffix, which previously
-	 appeared as just 'N' in the OSM data.
-	 
+     appeared as just 'N' in the OSM data.
+     
    - `addr:city=Holbrook` + `addr:street=All Points Terrace` (19 buildings)
    
      Change unabbreviates 'All Points Ter' to 'All Points Terrace'
-	 and assignes the correct city of 'Holtsville' in place of
-	 'Holbrook'.
-	 
+     and assignes the correct city of 'Holtsville' in place of
+     'Holbrook'.
+     
    - `addr:city-Holbrook + addr:street=Expressway Drive North` (1 building)
-	 
+     
      Change unabbrviates 'Expressway Drive N' and assigns the postal
-	 city of Holbrook in place of Holtsville. The postal city and
-	 ZIP code match the adjacent buildings.
+     city of Holbrook in place of Holtsville. The postal city and
+     ZIP code match the adjacent buildings.
 
 #### [Changeset 119036136](https://www.openstreetmap.org/changeset/119036136)
 
    - `addr:city=Greenlawn` (206 buildings)
    
       Clusters of buildings in adacent communities of Huntington, Elwood
-	  and East Northport served from the Greenlawn post office.
-	  Postal city and ZIP code appear correct.
-	  
+      and East Northport served from the Greenlawn post office.
+      Postal city and ZIP code appear correct.
+      
 #### [Changeset 119037200](https://www.openstreetmap.org/changeset/119037200)
 
   - `addr:street=Main Street` (64 buildings)
    
      63 buildings had previously been just 'Main' and one had been '28'.
-	 'Main Street' appears correct.
-	 
+     'Main Street' appears correct.
+     
   - `addr:street=Park Avenue` (13 buildings)
   
     Previously had been just 'Park'. Change appears correct
-	
+    
   - `addr:street=State Route 28` (23 buildings)
 
-	Previously, 22 buildings had been just '28' and one, peculiarly,
-	was 'West Canada Valley Central School'. Change appears correct.
-	
+    Previously, 22 buildings had been just '28' and one, peculiarly,
+    was 'West Canada Valley Central School'. Change appears correct.
+    
 I begin to abberviate here, since all the changes in the changeset 
 follow the same pattern. All the names match facing streets in
 OSM, except for the one exception noted
@@ -477,7 +477,7 @@ some sort of normalization process for these.
   - `addr:city=Southampton` (500 buildings) 
   
      Buildings in the communities of Hampton Bays, Shinnecock Hills, 
-	 and Tuckahoe that are served from the Southampton post office.
+     and Tuckahoe that are served from the Southampton post office.
 
 Among these 500 buildings are the following street name corrections, all
 of which match the facing street:
@@ -491,14 +491,14 @@ of which match the facing street:
 | Parrish Pond Court E    | Parrish Pond Court East | 6     | |
 | Inlet Road W            | Inlet Road West         | 2     | |
 | North Highway           | Old North Highway       | 1     | |
-	 
+     
 #### [Changeset 119038042](https://www.openstreetmap.org/changeset/119038042)
 
   - `addr:city=Sagaponack` (253 buildings)
   
     Cluster of buildings in Bridgehampton served from the Sagaponack
-	post office. Postal city matches the ZIP code.
-	 
+    post office. Postal city matches the ZIP code.
+     
 plus the following street name corrections, all of which match
 facing streets in OSM:
 
