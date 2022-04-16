@@ -136,7 +136,18 @@ message would be a good start toward that documentation) on the
 Wiki. Following that, I'll pull the trigger only if it appears that I
 have community buy-in.
 
-## Current status 2022-03-31
+## Current status: 2022-04-16
+
+The last of about 130,000 buildings have had their addresses altered
+by this mechanical process. All of the 700 or so changesets (including one
+tranche that was mistakenly uploaded as user `ke9tv` rather than
+`ke9tv_NYbuildings_repair`) were subjected to at least a cursory
+'sanity check' inspection.
+
+Until and unless additional alias users are identified, this project may be
+considered closed.
+
+## Current status: 2022-03-31
 
 Beyond the 2,631 building addresses that have been repaired by the
 sample changesets, 127,559 remain. They are not distributed
